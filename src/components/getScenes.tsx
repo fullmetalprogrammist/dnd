@@ -3,8 +3,11 @@ export async function getScenes() {
     ? "https://ваш-домен.com" 
     : "http://localhost:3000";
   
-  const data = await fetch(`${baseUrl}/dnd/text.json`);
-  const arr = await data.json();
-
-  return arr;
+  try {
+    const data = await fetch(`${baseUrl}/dnd/text.json`);
+    const arr = await data.json();
+    return arr;
+  } catch {
+    return [];
+  }  
 }
