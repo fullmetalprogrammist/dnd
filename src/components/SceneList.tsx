@@ -6,7 +6,7 @@ type SceneListProps = {
 
 export function SceneList({ scenes }: SceneListProps) {
   const baseUrl = process.env.NODE_ENV === "production" 
-    ? "https://ваш-домен.com" 
+    ? "https://indamovie.vercel.app/" 
     : "http://localhost:3000";
 
   return (

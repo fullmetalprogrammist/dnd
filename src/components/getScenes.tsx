@@ -1,6 +1,6 @@
 export async function getScenes() {
   const baseUrl = process.env.NODE_ENV === "production" 
-    ? "https://ваш-домен.com" 
+    ? "https://indamovie.vercel.app/" 
     : "http://localhost:3000";
   
   try {
