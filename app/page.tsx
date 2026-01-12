@@ -1,12 +1,12 @@
-import { getScenes } from "@/src/components/getScenes";
-import { SceneList } from "@/src/components/SceneList";
+import { getScreenplay } from "@/src/components/getScreenplay";
+import { Screenplay } from "@/src/components/Screenplay";
 
 export default async function Home() {
-  const scenes = await getScenes();
+  const { scenes, lines } = await getScreenplay();
 
   return (
     <div>
-      <SceneList scenes={scenes} />
+      <Screenplay scenes={scenes} lines={lines} />
     </div>
   );
 }

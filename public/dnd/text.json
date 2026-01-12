@@ -1,434 +1,6204 @@
-[
-    {
-        "id": 1,
-        "text": "- Excuse me. Could you tell me how to get to the medical school? I'm supposed to be doing a lecture in about 20 minutes, and my driver's a bit lost.\n- You go straight ahead, and you make a left over the bridge."
-    },
-    {
-        "id": 2,
-        "text": "- That's a lovely accent you have. New Jersey?\n- Austria.\n- Austria! Ha ha! Well, then… G'day, mate. Let's put another shrimp on the barbie.\n- Let's not."
-    },
-    {
-        "id": 3,
-        "text": "- Now, who's got the wiener schnitzel?\n- Beautiful. There you go, Dolf. There you go, buddy. Yeah."
-    },
-    {
-        "id": 4,
-        "text": "- Let's see. Next, we got roast beef au jus.\n- Who's got the roast beef au jus?\n- Stella, beautiful. Bon appetit, Stella. Oui oui, yeah. Walk away. Go on. Go on."
-    },
-    {
-        "id": 5,
-        "text": "- Last but not least foot-long! Who's got the foot-long?\n- There you… Very funny, rascal. Very funny. In your dreams."
-    },
-    {
-        "id": 6,
-        "text": "- Harry, why haven't you dropped those dogs off at the show yet?\n- Uh, sir, I didn't want to send them to a performance on an empty stomach, sir.\n- Get a move on it!\n- Yes, sir."
-    },
-    {
-        "id": 7,
-        "text": "- Whew. Suck me sideways.\n- Hello. How are you? I'll be out in one minute."
-    },
-    {
-        "id": 8,
-        "text": "- Why are you going to the airport? Flying somewhere? \n- How'd you guess?\n- I saw your luggage. Then when I noticed the airline ticket, I put two and two together."
-    },
-    {
-        "id": 9,
-        "text": "- So where're you headed?\n- Aspen.\n- Mmm... California. Beautiful."
-    },
-    {
-        "id": 10,
-        "text": "- Name's Christmas, Lloyd Christmas.\n- I'm Mary Swanson."
-    },
-    {
-        "id": 11,
-        "text": "- This isn't my real job,you know.\n- No?\n- Nope, my friend Harry and I are saving up our money to open our own pet store.\n- That's nice."
-    },
-    {
-        "id": 12,
-        "text": "- I got worms.\n- I beg your pardon?\n- That's what we're going to call it - I Got Worms.\n- We're going to specialize in selling worm farms, you know, like ant farms."
-    },
-    {
-        "id": 13,
-        "text": "- What's the matter?\n- A little tense about the flight?\n- Something like that."
-    },
-    {
-        "id": 14,
-        "text": "- There's really nothing to worry about, Mary.\n- Statistically, they say you're more likely to get killed on the way to the airport, you know, like in a head-on crash or flying off a cliff or getting trapped under a gas truck.\n- That's the worst. I have this cousin… Well, I had this cousin…"
-    },
-    {
-        "id": 15,
-        "text": "- Lloyd, could you keep your eyes on the road, please?\n- Oh. Yeah. Good thinking.\n- Can't be too careful. A lot of bad drivers out there."
-    },
-    {
-        "id": 16,
-        "text": "- Hey, watch it!\n- Okay, gang, you know the rules - no humping, no pushing, no sniffing heinies."
-    },
-    {
-        "id": 17,
-        "text": "- Where have you been? My dogs were supposed to be here 40 minutes ago!\n- Now I hardly have any time to primp them."
-    },
-    {
-        "id": 18,
-        "text": "- Don't worry about a thing, Mrs. Neugy-burger.\n- Neugeboren!"
-    },
-    {
-        "id": 19,
-        "text": "- These pooches aren't going to need any primping.\n- You know why? I'll tell you why.\n- Because I bathed them and I clipped them myself.\n- And I stand by my performance."
-    },
-    {
-        "id": 20,
-        "text": "- You know, on second thought, you might just want to run a comb through 'em."
-    },
-    {
-        "id": 21,
-        "text": "Male voice: The white zone is for the immediate loading and unloading of passengers only. No parking.\n- Thanks. Here you go.\n- Oh no, Mary. I couldn't possibly accept that, not after all we've been through.\n- Thank you, Lloyd. Uh, good luck with your worms."
-    },
-    {
-        "id": 22,
-        "text": "- Hey. How about a hug?\n- Oh. I hate goodbyes.\n- Uh, Lloyd…\n- Shh! Just go.\nDan Mitchell, please pick up the white courtesy phone…"
-    },
-    {
-        "id": 23,
-        "text": "- She's gonna leave the briefcase near the escalator.\n- You make the pickup.\n- Piece of cake.\nPassenger Maura Tadge, please pick up the white courtesy phone. You have a message.\n- There 's our payday. She left it. Let's go."
-    },
-    {
-        "id": 24,
-        "text": "- Excuse me! Coming through! Move it or lose it, sister!\n- Eenie… Meenie... Minie… Mo!"
-    },
-    {
-        "id": 25,
-        "text": "- Hold that plane!\n- Sir, you can't go in there!\n- It's okay! I'm a limo driver!"
-    },
-    {
-        "id": 26,
-        "text": "- Hi, Lloyd.\n- Hi, Harry.\n- How was your day?\n- Not bad. Fell off the jetway again."
-    },
-    {
-        "id": 27,
-        "text": "- Who the hell you figure this guy's working for, anyway?\n- I don't know. We sure as hell better find out.\n- The ulcer?\n- I'll live."
-    },
-    {
-        "id": 28,
-        "text": "- So you got fired again, huh?\n- Oh, yeah. They always freak out when you leave the scene of an accident, you know?"
-    },
-    {
-        "id": 29,
-        "text": "- Yeah, well, I lost my job too.\n- Man! You are one pathetic loser. No offense.\n- No. None taken."
-    },
-    {
-        "id": 30,
-        "text": "- You know what really chaffs my ass, though?\n- I spent my life's savings turning my van into a dog.\n- The alarm alone cost me 200.\n- Hey! Chicks love it. It's a shaggin' wagon."
-    },
-    {
-        "id": 31,
-        "text": "- What's with the briefcase?\n- It's a love memento. The most beautiful woman alive."
-    },
-    {
-        "id": 32,
-        "text": "- I drove her to the airport. Sparks flew, emotions ran high.\n- She actually talked to me, man."
-    },
-    {
-        "id": 33,
-        "text": "- Get outta here!\n- Oh, yeah yeah. Tractor beam sucked me right in."
-    },
-    {
-        "id": 34,
-        "text": "- Anyway…\n- She left this in the terminal and flew to Aspen and out of my life."
-    },
-    {
-        "id": 35,
-        "text": "- What's in it?\n- Man, I would have to be a lowlife to go rootin' around in somebody else's private property.\n- Is it locked?\n- Yeah, really well."
-    },
-    {
-        "id": 36,
-        "text": "- There's two of them. One of them's got a gun.\n- Did you pay the gas bill?\n- Do you realize what you've done?\n- I'm sorry. I say we bail.\n- Okay."
-    },
-    {
-        "id": 37,
-        "text": "- Briefcase ain't here.\n- They must have taken it with them."
-    },
-    {
-        "id": 38,
-        "text": "- Well, he's got to come home sometime.\n- Maybe we should trash the place, send him a little message."
-    },
-    {
-        "id": 39,
-        "text": "- I don't think he's going to get that message, Joe.\n- I mean, the guy's got worms in his living room."
-    },
-    {
-        "id": 40,
-        "text": "- Well. Oh, I got a better idea.\n- I thought I taw a puddy cat. I did. I did."
-    },
-    {
-        "id": 41,
-        "text": "- I can't believe. We drove around all day and there's not a single job in this town. There is nothing, nada, zip!\n- Yeah, unless you want to work 40 hours a week."
-    },
-    {
-        "id": 42,
-        "text": "- Here. I'm going to go to the store.\n- Okay, just get the bare essentials. This is the last of our dough.\n- Hey. What do l look like?"
-    },
-    {
-        "id": 43,
-        "text": "- Cripes!"
-    },
-    {
-        "id": 44,
-        "text": "- Excuse me, little old lady.\n- Uh, do you have change for a dollar?\n- Change? No, I'm sorry. I don't.\n- Oh... well, uh, could you do me a favor and watch my stuff here while I go break a dollar?\n- Of course."
-    },
-    {
-        "id": 45,
-        "text": "- Thanks. Hey. I guess they're right. \n- Senior citizens, although slow and dangerous behind the wheel, can still serve a purpose.\n- I'll be right back. Don't you go dying on me!"
-    },
-    {
-        "id": 46,
-        "text": "- Where's the booze?\n- I got robbed by a sweet old lady on a motorized cart.\n- I didn't even see it coming."
-    },
-    {
-        "id": 47,
-        "text": "- No…\n- Harry. Come on, Harry. Cheer up."
-    },
-    {
-        "id": 48,
-        "text": "- It gets worse, Lloyd. My parakeet Petey… He's dead.\n- Oh, man. I'm sorry, Harry. What happened?\n- His head fell off.\n- His head fell off?\n- Yeah, he was pretty old."
-    },
-    {
-        "id": 49,
-        "text": "- That's it. I've had it with this dump!\n- We got no food. We got no jobs.\n- Our pets' heads are falling off!\n- Okay, just calm down!"
-    },
-    {
-        "id": 50,
-        "text": "- What the hell are we doing here, Harry?\n- We gotta get out of this town!"
-    },
-    {
-        "id": 51,
-        "text": "- Yeah? And go where? Where are we gonna go?\n- I'll tell you where, someplace warm… \n- A place where the beer flows like wine, where beautiful women instinctively flock like the salmon of Capistrano.\n- I'm talking about a little place called… Aspen."
-    },
-    {
-        "id": 52,
-        "text": "- I don't know, Lloyd. The French are assholes.\n- Wait a minute! I know what you're up to, mister."
-    },
-    {
-        "id": 53,
-        "text": "- Yeah! You just wanna go to Aspen and find that girl who lost her briefcase, and you need me to drive you there!\n- Right? Am I right? Am I right?"
-    },
-    {
-        "id": 54,
-        "text": "- Yeah! So? So I wanna go someplace where we know somebody who can plug us into the social pipeline.\n- No, Lloyd! No! I say we stay here, we hunt for jobs, and we keep saving our money for the worm store!\n- I don't know about you, but I am getting sick and tired\nof running from creditors!"
-    },
-    {
-        "id": 55,
-        "text": "- You know what I'm sick and tired of, Harry?\n- I'm sick and tired of having to eke my way through life.\n- I'm sick and tired of being a nobody.\n- But most of all… I'm sick and tired of having nobody."
-    },
-    {
-        "id": 56,
-        "text": "- Okay, Lloyd. Aspen it is.\n- You'd better not be foolin'. "
-    },
-    {
-        "id": 57,
-        "text": "- Okay okay, just let it out.\n- Have a good cry.\n- Come on. Okay. Okay, that's enough."
-    },
-    {
-        "id": 58,
-        "text": "- Lloyd, what are you doing?\n- It feels like you're running at an incredible rate, Harry.\n- Would you quit it?\n- We're not even through Connecticut yet, and already you're annoying me."
-    },
-    {
-        "id": 59,
-        "text": "- We're really doing it, aren't we?\n- Yeah."
-    },
-    {
-        "id": 60,
-        "text": "- Hey, where'd you get those?\n- I bought them when we filled up."
-    },
-    {
-        "id": 61,
-        "text": "- Well, we're supposed to talk about all expenditures, Lloyd.\n- We're on a very tight budget."
-    },
-    {
-        "id": 62,
-        "text": "- This didn't come out of our travel fund.\n- I was able to raise 25 extra bucks before we left."
-    },
-    {
-        "id": 63,
-        "text": "- Where did you get 25 extra bucks?\n- I sold some stuff to Billy in 4C.\n- The blind kid?\n- Yeah!"
-    },
-    {
-        "id": 64,
-        "text": "- What did you sell him, Lloyd?\n- Stuff.\n- What kind of stuff?\n- I don't know. A few baseball cards, a sack of marbles… Petey."
-    },
-    {
-        "id": 65,
-        "text": "- Petey? You sold my dead bird to a blind kid?\n- Lloyd, that… That… What are you… Petey didn't even have a head!\n- Harry, I took care of it."
-    },
-    {
-        "id": 66,
-        "text": "- Pretty bird. Yeah. Can you say, pretty bird?\n- Pretty bird. Yes, pretty bird. Pretty bird.\n- Polly want a cracker?"
-    },
-    {
-        "id": 67,
-        "text": "- Those rat bastards. They're rubbing it right in our faces.\n- Man, Andre'll have a goddamn hemorrhage if we don't get that briefcase back."
-    },
-    {
-        "id": 68,
-        "text": "- They must have been following us for weeks.\n- Why you say?\n- \"Gas Man.\" How the hell do they know that I got gas?\n- They gotta be pros."
-    },
-    {
-        "id": 69,
-        "text": "- Don't worry. We're going to get that money back.\n- And I'll tell you something else, they ain't never getting to Aspen.\n- I'm going to see to that."
-    },
-    {
-        "id": 70,
-        "text": "- They got The Monkees. They were a major influence on The Beatles.\n- Yeah, I know."
-    },
-    {
-        "id": 71,
-        "text": "- Excuse me, Flo? Flo, like the TV show.\n- Uh... what is the soup du jour?\n- It's the soup of the day.\n- That sounds good. I'll have that."
-    },
-    {
-        "id": 72,
-        "text": "- Anything else before I leave the area?\n- Yes yes, my soda's flat. It doesn't have any bubbles.\n- Happy now?"
-    },
-    {
-        "id": 73,
-        "text": "- Feels good to mingle with these laid-back country folk, don't it, Harr? I like it a lot."
-    },
-    {
-        "id": 74,
-        "text": "- Uh-oh.\n- What? What's the matter?\n- You spilled the salt, that's what's the matter."
-    },
-    {
-        "id": 75,
-        "text": "- Spilling the salt is very bad luck.\n- We're driving across the country.\n- The last thing we need is bad luck."
-    },
-    {
-        "id": 76,
-        "text": "- Quick. Toss some salt over your right shoulder.\n- Uh-oh, too little too late, Harry."
-    },
-    {
-        "id": 77,
-        "text": "- Who's the dead man that hit me with the salt shaker?\n- Well... uh… it was a terrible mistake, sir."
-    },
-    {
-        "id": 78,
-        "text": "- Please, believe me. I would never do anything to offend a man of your size.\n- Kick his ass, Sea Bass!"
-    },
-    {
-        "id": 79,
-        "text": "- You gonna eat that?\n- What? That? No, yes, no. Well... no, it crossed my mind. Yeah.\n- Still want it?\n- Nah, you go ahead."
-    },
-    {
-        "id": 80,
-        "text": "- You really wimped out, man.\n- What are you talking about, wimped out?"
-    },
-    {
-        "id": 81,
-        "text": "- Well-well, did you... The guy hawked on my burger!\n- Hey, wait a second. I think I just…\n- Yeah… I just had an idea."
-    },
-    {
-        "id": 82,
-        "text": "- Excuse me. Guys?\n- What the hell do you want?"
-    },
-    {
-        "id": 83,
-        "text": "- Uh... I just want to apologize for that unpleasant scene a little earlier.\n- My friend Harry and l would like to buy you guys a round of beers. Just to bury the hatchet."
-    },
-    {
-        "id": 84,
-        "text": "- Make it four boilermakers.\n- Whatever you want, sir.\n- I'll have the waitress bring it over immediately."
-    },
-    {
-        "id": 85,
-        "text": "- Lloyd, what are you doing?\n- We can't afford to buy them drinks."
-    },
-    {
-        "id": 86,
-        "text": "- Excuse me. Sea Bass and the fellas offered to pick up our check.\n- They said just put it on their tab. They're very nice."
-    },
-    {
-        "id": 87,
-        "text": "- Sea Bass said that?\n- Well, if that guy at the table over there is Sea Bass."
-    },
-    {
-        "id": 88,
-        "text": "- Ah! Uh. All right, if that's what he wants.\n- Put these on there too, okay?"
-    },
-    {
-        "id": 89,
-        "text": "- I'm gonna kill those sons of bitches!"
-    },
-    {
-        "id": 90,
-        "text": "- That was genius, Lloyd, sheer genius!\n- I mean, where did you come up with a scam like that?\n- Saw it in a movie once."
-    },
-    {
-        "id": 91,
-        "text": "- That was incredible!\n- So what happened? So the guy tricks some sucker into picking up his tab, then gets away with it scot-free?\n- No, in the movie, they catch up to him a half-mile down the road and slit his throat. It was a good one!"
-    },
-    {
-        "id": 92,
-        "text": "- Wow. Harry?\n- What?\n- I know this isn't the best time, but when you get a chance to pull over...\n- I gotta pee."
-    },
-    {
-        "id": 93,
-        "text": "- What, are you crazy? I'm not pulling over now.\n- But I gotta go! What am I supposed to do?"
-    },
-    {
-        "id": 94,
-        "text": "- Well, whiz in one of the empty beer bottles in the back.\n- They're on the floor. Just get one of..."
-    },
-    {
-        "id": 95,
-        "text": "- Jeez, Lloyd!\n- Quit moving around!"
-    },
-    {
-        "id": 96,
-        "text": "- Watch the seat! Watch the seat!\n- Okay! All right!"
-    },
-    {
-        "id": 97,
-        "text": "- What? What's wrong?\n- The bottle's almost full and I'm still going.\n- So stop going.\n- I can't stop going once I've started. It stings."
-    },
-    {
-        "id": 98,
-        "text": "- Quick! Get me another bottle.\n- Come on. Hurry hurry hurry!\n- Okay okay, here here here. Hold it!"
-    },
-    {
-        "id": 99,
-        "text": "- Hold that.\n- Jesus.\n- Hold that one. Hurry. I'm pinching it.\n- What are you, a camel?"
-    },
-    {
-        "id": 100,
-        "text": "- Pull over!\n- Huh?\n- Pull over!\n- No, it's a cardigan, but thanks for noticing.\n- Yeah. Killer boots, man!"
-    },
-    {
-        "id": 101,
-        "text": "- Pull your vehicle to the side of the road!\n- License and registration, please."
-    },
-    {
-        "id": 102,
-        "text": "- You fellas were going a little fast back there, wouldn't you say?"
-    },
-    {
-        "id": 103,
-        "text": "- You fellas been doing a bit of boozing, have you?\n- Sucking back on Grandpa's old cough medicine?"
-    },
-    {
-        "id": 104,
-        "text": "- No. Oh no, sir.\n- Yeah, well, what's that?\n- That's nothing, sir."
-    },
-    {
-        "id": 105,
-        "text": "- Yeah well, you aware that it's against the law to have an open alcohol container here in the State of Pennsylvania?"
-    },
-    {
-        "id": 106,
-        "text": "- Come on, give me that booze, you little pumpkin-pie-haircutted freak!"
-    },
-    {
-        "id": 107,
-        "text": "- No, sir, don't. Don't drink...\n- You'd keep your mouth shut if you knew what was good for you, buddy."
-    },
-    {
-        "id": 108,
-        "text": "- Tic Tac, sir?\n- Get the hell outta here!"
+{
+  "characters": {
+    "lloyd": {
+      "name": "Lloyd Christmas",
+      "portrait": null
     }
-]
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Way to the airport",
+      "cards": [1, 2, 3]
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "lines": [0, 5, 10, 15, 20, 25],
+      "pic": "0010.jpg"
+    },
+    {
+      "id": 10,
+      "lines": [30, 35, 40, 45, 50, 55, 60],
+      "pic": "0038.jpg"
+    },
+    {
+      "id": 15,
+      "lines": [65, 70, 75, 80],
+      "pic": "0041.jpg"
+    },
+    {
+      "id": 20,
+      "lines": [85],
+      "pic": "0224.jpg"
+    },
+    {
+      "id": 25,
+      "lines": [90],
+      "pic": "0242.jpg"
+    },
+    {
+      "id": 30,
+      "lines": [95, 100, 105, 110, 115, 120],
+      "pic": "0282.jpg"
+    },
+    {
+      "id": 35,
+      "lines": [125, 130, 135, 140, 145, 150],
+      "pic": "0299.jpg"
+    },
+    {
+      "id": 40,
+      "lines": [155, 160, 165, 170],
+      "pic": "0322.jpg"
+    },
+    {
+      "id": 45,
+      "lines": [175, 180, 185],
+      "pic": "0332.jpg"
+    },
+    {
+      "id": 50,
+      "lines": [190, 195],
+      "pic": "0345.jpg"
+    },
+    {
+      "id": 55,
+      "lines": [205, 210, 215],
+      "pic": "0357.jpg"
+    },
+    {
+      "id": 60,
+      "lines": [220],
+      "pic": "0373.jpg"
+    },
+    {
+      "id": 65,
+      "lines": [225],
+      "pic": "0386.jpg"
+    },
+    {
+      "id": 70,
+      "lines": [230, 235],
+      "pic": "0398.jpg"
+    },
+    {
+      "id": 75,
+      "lines": [240, 245, 250, 255, 260, 265],
+      "pic": "0416.jpg"
+    },
+    {
+      "id": 80,
+      "lines": [270],
+      "pic": "0419.jpg"
+    },
+    {
+      "id": 85,
+      "lines": [275, 280, 285],
+      "pic": "0434.jpg"
+    },
+    {
+      "id": 90,
+      "lines": [290, 295],
+      "pic": "0470.jpg"
+    },
+    {
+      "id": 95,
+      "lines": [300, 305],
+      "pic": "0489.jpg"
+    },
+    {
+      "id": 100,
+      "lines": [310, 315, 320],
+      "pic": "0532.jpg"
+    },
+    {
+      "id": 105,
+      "lines": [323],
+      "pic": "0548.jpg"
+    },
+    {
+      "id": 110,
+      "lines": [325],
+      "pic": "0581.jpg"
+    },
+    {
+      "id": 115,
+      "lines": [330],
+      "pic": "0590.jpg"
+    },
+    {
+      "id": 120,
+      "lines": [335, 340],
+      "pic": "0615.jpg"
+    },
+    {
+      "id": 125,
+      "lines": [345, 350],
+      "pic": "0620.jpg"
+    },
+    {
+      "id": 130,
+      "lines": [355, 360, 365, 370],
+      "pic": "0651.jpg"
+    },
+    {
+      "id": 135,
+      "lines": [375, 380],
+      "pic": "0664.jpg"
+    },
+    {
+      "id": 140,
+      "lines": [385, 390],
+      "pic": "0675.jpg"
+    },
+    {
+      "id": 145,
+      "lines": [395, 400, 405, 410, 415],
+      "pic": "0691.jpg"
+    },
+    {
+      "id": 150,
+      "lines": [420, 425, 430, 435, 440],
+      "pic": "0721.jpg"
+    },
+    {
+      "id": 155,
+      "lines": [445, 450, 455, 460, 465, 470],
+      "pic": "0738.jpg"
+    },
+    {
+      "id": 160,
+      "lines": [475, 480, 485, 490, 495, 500],
+      "pic": "0765.jpg"
+    },
+    {
+      "id": 165,
+      "lines": [505],
+      "pic": "0788.jpg"
+    },
+    {
+      "id": 170,
+      "lines": [510, 515, 520, 525],
+      "pic": "0798.jpg"
+    },
+  {
+    "id": 175,
+    "lines": [530, 535, 540],
+    "pic": "0813.jpg"
+  },
+  {
+    "id": 180,
+    "lines": [545, 550, 555],
+    "pic": "0825.jpg"
+  },
+  {
+    "id": 185,
+    "lines": [560, 565],
+    "pic": "0836.jpg"
+  },
+  {
+    "id": 190,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 195,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 200,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 205,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 210,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 215,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 220,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 225,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 230,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 235,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 240,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 245,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 250,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 255,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 260,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 265,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 270,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 275,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 280,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 285,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 290,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 295,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 300,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 305,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 310,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 315,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 320,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 325,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 330,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 335,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 340,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 345,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 350,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 355,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 360,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 365,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 370,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 375,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 380,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 385,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 390,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 395,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 400,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 405,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 410,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 415,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 420,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 425,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 430,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 435,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 440,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 445,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 450,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 455,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 460,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 465,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 470,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 475,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 480,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 485,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 490,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 495,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 500,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 505,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 510,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 515,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 520,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 525,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 530,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 535,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 540,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 545,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 550,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 555,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 560,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 565,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 570,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 575,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 580,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 585,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 590,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 595,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 600,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 605,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 610,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 615,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 620,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 625,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 630,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 635,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 640,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 645,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 650,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 655,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 660,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 665,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 670,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 675,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 680,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 685,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 690,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 695,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 700,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 705,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 710,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 715,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 720,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 725,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 730,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 735,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 740,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 745,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 750,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 755,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 760,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 765,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 770,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 775,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 780,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 785,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 790,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 795,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 800,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 805,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 810,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 815,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 820,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 825,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 830,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 835,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 840,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 845,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 850,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 855,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 860,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 865,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 870,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 875,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 880,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 885,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 890,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 895,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 900,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 905,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 910,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 915,
+    "lines": [],
+    "pic": null
+  },
+  {
+    "id": 920,
+    "lines": [],
+    "pic": null
+  }
+  ],
+  "lines": [
+    {
+      "id": 0,
+      "text": "Excuse me. Could you tell me how to get to the medical school? I'm supposed to be doing a lecture in about 20 minutes, and my driver's a bit lost.",
+      "character": null
+    },
+    {
+      "id": 5,
+      "text": "You go straight ahead, and you make a left over the bridge.",
+      "character": null
+    },
+    {
+      "id": 10,
+      "text": "That's a lovely accent you have. New Jersey?",
+      "character": null
+    },
+    {
+      "id": 15,
+      "text": "Austria.",
+      "character": null
+    },
+    {
+      "id": 20,
+      "text": "Austria! Ha ha! Well, then... G'day, mate. Let's put another shrimp on the barbie.",
+      "character": null
+    },
+    {
+      "id": 25,
+      "text": "Let's not.",
+      "character": null
+    },
+    {
+      "id": 30,
+      "text": "Now, who's got the wiener schnitzel?",
+      "character": null
+    },
+    {
+      "id": 35,
+      "text": "Beautiful. There you go, Dolf. There you go, buddy. Yeah.",
+      "character": null
+    },
+    {
+      "id": 40,
+      "text": "Let's see. Next, we got roast beef au jus.",
+      "character": null
+    },
+    {
+      "id": 45,
+      "text": "Who's got the roast beef au jus?",
+      "character": null
+    },
+    {
+      "id": 50,
+      "text": "Stella, beautiful. Bon appetit, Stella. Oui oui, yeah. Walk away. Go on. Go on.",
+      "character": null
+    },
+    {
+      "id": 55,
+      "text": "Last but not least foot-long! Who's got the foot-long?",
+      "character": null
+    },
+    {
+      "id": 60,
+      "text": "There you... Very funny, rascal. Very funny. In your dreams.",
+      "character": null
+    },
+    {
+      "id": 65,
+      "text": "Harry, why haven't you dropped those dogs off at the show yet?",
+      "character": null
+    },
+    {
+      "id": 70,
+      "text": "Uh, sir, I didn't want to send them to a performance on an empty stomach, sir.",
+      "character": null
+    },
+    {
+      "id": 75,
+      "text": "Get a move on it!",
+      "character": null
+    },
+    {
+      "id": 80,
+      "text": "Yes, sir.",
+      "character": null
+    },
+    {
+      "id": 85,
+      "text": "Whew. Suck me sideways.",
+      "character": null
+    },
+    {
+      "id": 90,
+      "text": "Hello. How are you? I'll be out in one minute.",
+      "character": null
+    },
+    {
+      "id": 95,
+      "text": "Why are you going to the airport? Flying somewhere?",
+      "character": null
+    },
+    {
+      "id": 100,
+      "text": "How'd you guess?",
+      "character": null
+    },
+    {
+      "id": 105,
+      "text": "I saw your luggage. Then when I noticed the airline ticket, I put two and two together.",
+      "character": null
+    },
+    {
+      "id": 110,
+      "text": "So where're you headed?",
+      "character": null
+    },
+    {
+      "id": 115,
+      "text": "Aspen.",
+      "character": null
+    },
+    {
+      "id": 120,
+      "text": "Mmm... California. Beautiful.",
+      "character": null
+    },
+    {
+      "id": 125,
+      "text": "Name's Christmas, Lloyd Christmas.",
+      "character": null
+    },
+    {
+      "id": 130,
+      "text": "I'm Mary Swanson.",
+      "character": null
+    },
+    {
+      "id": 135,
+      "text": "This isn't my real job, you know.",
+      "character": null
+    },
+    {
+      "id": 140,
+      "text": "No?",
+      "character": null
+    },
+    {
+      "id": 145,
+      "text": "Nope, my friend Harry and I are saving up our money to open our own pet store.",
+      "character": null
+    },
+    {
+      "id": 150,
+      "text": "That's nice.",
+      "character": null
+    },
+    {
+      "id": 155,
+      "text": "I got worms.",
+      "character": null
+    },
+    {
+      "id": 160,
+      "text": "I beg your pardon?",
+      "character": null
+    },
+    {
+      "id": 165,
+      "text": "That's what we're going to call it - «I Got Worms».",
+      "character": null
+    },
+    {
+      "id": 170,
+      "text": "We're going to specialize in selling worm farms, you know, like ant farms.",
+      "character": null
+    },
+    {
+      "id": 175,
+      "text": "What's the matter?",
+      "character": null
+    },
+    {
+      "id": 180,
+      "text": "A little tense about the flight?",
+      "character": null
+    },
+    {
+      "id": 185,
+      "text": "Something like that.",
+      "character": null
+    },
+    {
+      "id": 190,
+      "text": "There's really nothing to worry about, Mary.",
+      "character": null
+    },
+    {
+      "id": 195,
+      "text": "Statistically, they say you're more likely to get killed on the way to the airport, you know, like in a head-on crash or flying off a cliff or getting trapped under a gas truck.",
+      "character": null
+    },
+    {
+      "id": 200,
+      "text": "That's the worst. I have this cousin... Well, I had this cousin...",
+      "character": null
+    },
+    {
+      "id": 205,
+      "text": "Lloyd, could you keep your eyes on the road, please?",
+      "character": null
+    },
+    {
+      "id": 210,
+      "text": "Oh. Yeah. Good thinking.",
+      "character": null
+    },
+    {
+      "id": 215,
+      "text": "Can't be too careful. A lot of bad drivers out there.",
+      "character": null
+    },
+    {
+      "id": 220,
+      "text": "Hey, watch it!",
+      "character": null
+    },
+    {
+      "id": 225,
+      "text": "Okay, gang, you know the rules - no humping, no pushing, no sniffing heinies.",
+      "character": null
+    },
+    {
+      "id": 230,
+      "text": "Where have you been? My dogs were supposed to be here 40 minutes ago!",
+      "character": null
+    },
+    {
+      "id": 235,
+      "text": "Now I hardly have any time to primp them.",
+      "character": null
+    },
+    {
+      "id": 240,
+      "text": "Don't worry about a thing, Mrs. Neugy-burger.",
+      "character": null
+    },
+    {
+      "id": 245,
+      "text": "Neugeboren!",
+      "character": null
+    },
+    {
+      "id": 250,
+      "text": "These pooches aren't going to need any primping.",
+      "character": null
+    },
+    {
+      "id": 255,
+      "text": "You know why? I'll tell you why.",
+      "character": null
+    },
+    {
+      "id": 260,
+      "text": "Because I bathed them and I clipped them myself.",
+      "character": null
+    },
+    {
+      "id": 265,
+      "text": "And I stand by my performance.",
+      "character": null
+    },
+    {
+      "id": 270,
+      "text": "You know, on second thought, you might just want to run a comb through 'em.",
+      "character": null
+    },
+    {
+      "id": 275,
+      "text": "Thanks. Here you go.",
+      "character": null
+    },
+    {
+      "id": 280,
+      "text": "Oh no, Mary. I couldn't possibly accept that, not after all we've been through.",
+      "character": null
+    },
+    {
+      "id": 285,
+      "text": "Thank you, Lloyd. Uh, good luck with your worms.",
+      "character": null
+    },
+    {
+      "id": 290,
+      "text": "Hey. How about a hug?",
+      "character": null
+    },
+    {
+      "id": 295,
+      "text": "Oh. I hate goodbyes.",
+      "character": null
+    },
+    {
+      "id": 300,
+      "text": "Uh, Lloyd...",
+      "character": null
+    },
+    {
+      "id": 305,
+      "text": "Shh! Just go.",
+      "character": null
+    },
+    {
+      "id": 310,
+      "text": "She's gonna leave the briefcase near the escalator.",
+      "character": null
+    },
+    {
+      "id": 315,
+      "text": "You make the pickup.",
+      "character": null
+    },
+    {
+      "id": 320,
+      "text": "Piece of cake.",
+      "character": null
+    },
+    {
+      "id": 323,
+      "text": "Good bye, my love!",
+      "character": null
+    },
+    {
+      "id": 325,
+      "text": "There 's our payday. She left it. Let's go.",
+      "character": null
+    },
+    {
+      "id": 330,
+      "text": "Excuse me! Coming through! Move it or lose it, sister!",
+      "character": null
+    },
+    {
+      "id": 335,
+      "text": "Eenie... Meenie... Minie... Mo!",
+      "character": null
+    },
+    {
+      "id": 340,
+      "text": "Hold that plane!",
+      "character": null
+    },
+    {
+      "id": 345,
+      "text": "Sir, you can't go in there!",
+      "character": null
+    },
+    {
+      "id": 350,
+      "text": "It's okay! I'm a limo driver!",
+      "character": null
+    },
+    {
+      "id": 355,
+      "text": "Hi, Lloyd.",
+      "character": null
+    },
+    {
+      "id": 360,
+      "text": "Hi, Harry.",
+      "character": null
+    },
+    {
+      "id": 365,
+      "text": "How was your day?",
+      "character": null
+    },
+    {
+      "id": 370,
+      "text": "Not bad. Fell off the jetway again.",
+      "character": null
+    },
+    {
+      "id": 375,
+      "text": "Who the hell you figure this guy's working for, anyway?",
+      "character": null
+    },
+    {
+      "id": 380,
+      "text": "I don't know. We sure as hell better find out.",
+      "character": null
+    },
+    {
+      "id": 385,
+      "text": "The ulcer?",
+      "character": null
+    },
+    {
+      "id": 390,
+      "text": "I'll live.",
+      "character": null
+    },
+    {
+      "id": 395,
+      "text": "So you got fired again, huh?",
+      "character": null
+    },
+    {
+      "id": 400,
+      "text": "Oh, yeah. They always freak out when you leave the scene of an accident, you know?",
+      "character": null
+    },
+    {
+      "id": 405,
+      "text": "Yeah, well, I lost my job too.",
+      "character": null
+    },
+    {
+      "id": 410,
+      "text": "Man! You are one pathetic loser. No offense.",
+      "character": null
+    },
+    {
+      "id": 415,
+      "text": "No. None taken.",
+      "character": null
+    },
+    {
+      "id": 420,
+      "text": "You know what really chaffs my ass, though?",
+      "character": null
+    },
+    {
+      "id": 425,
+      "text": "I spent my life's savings turning my van into a dog.",
+      "character": null
+    },
+    {
+      "id": 430,
+      "text": "Hi, Petey!",
+      "character": null
+    },
+    {
+      "id": 435,
+      "text": "The alarm alone cost me 200.",
+      "character": null
+    },
+    {
+      "id": 440,
+      "text": "Hey! Chicks love it. It's a shaggin' wagon.",
+      "character": null
+    },
+    {
+      "id": 445,
+      "text": "What's with the briefcase?",
+      "character": null
+    },
+    {
+      "id": 450,
+      "text": "It's a love memento. The most beautiful woman alive.",
+      "character": null
+    },
+    {
+      "id": 455,
+      "text": "I drove her to the airport. Sparks flew, emotions ran high.",
+      "character": null
+    },
+    {
+      "id": 460,
+      "text": "She actually talked to me, man.",
+      "character": null
+    },
+    {
+      "id": 465,
+      "text": "Get outta here!",
+      "character": null
+    },
+    {
+      "id": 470,
+      "text": "Oh, yeah yeah. Tractor beam sucked me right in.",
+      "character": null
+    },
+    {
+      "id": 475,
+      "text": "Anyway...",
+      "character": null
+    },
+    {
+      "id": 480,
+      "text": "She left this in the terminal and flew to Aspen and out of my life.",
+      "character": null
+    },
+    {
+      "id": 485,
+      "text": "What's in it?",
+      "character": null
+    },
+    {
+      "id": 490,
+      "text": "Man, I would have to be a lowlife to go rootin' around in somebody else's private property.",
+      "character": null
+    },
+    {
+      "id": 495,
+      "text": "Is it locked?",
+      "character": null
+    },
+    {
+      "id": 500,
+      "text": "Yeah, really well.",
+      "character": null
+    },
+    {
+      "id": 505,
+      "text": "There's two of them. One of them's got a gun.",
+      "character": null
+    },
+    {
+      "id": 510,
+      "text": "Did you pay the gas bill?",
+      "character": null
+    },
+    {
+      "id": 515,
+      "text": "Do you realize what you've done?",
+      "character": null
+    },
+    {
+      "id": 520,
+      "text": "I'm sorry. I say we bail.",
+      "character": null
+    },
+    {
+      "id": 525,
+      "text": "Okay.",
+      "character": null
+    },
+    {
+      "id": 530,
+      "text": "Briefcase ain't here.",
+      "character": null
+    },
+    {
+      "id": 535,
+      "text": "They must have taken it with them.",
+      "character": null
+    },
+    {
+      "id": 540,
+      "text": "Well, he's got to come home sometime.",
+      "character": null
+    },
+    {
+      "id": 545,
+      "text": "Maybe we should trash the place, send him a little message.",
+      "character": null
+    },
+    {
+      "id": 550,
+      "text": "I don't think he's going to get that message, Joe.",
+      "character": null
+    },
+    {
+      "id": 555,
+      "text": "I mean, the guy's got worms in his living room.",
+      "character": null
+    },
+    {
+      "id": 560,
+      "text": "Well. Oh, I got a better idea.",
+      "character": null
+    },
+    {
+      "id": 565,
+      "text": "I thought I taw a puddy cat. I did. I did.",
+      "character": null
+    },
+    {
+      "id": 570,
+      "text": "I can't believe. We drove around all day and there's not a single job in this town. There is nothing, nada, zip!",
+      "character": null
+    },
+    {
+      "id": 575,
+      "text": "Yeah, unless you want to work 40 hours a week.",
+      "character": null
+    },
+    {
+      "id": 580,
+      "text": "Here. I'm going to go to the store.",
+      "character": null
+    },
+    {
+      "id": 585,
+      "text": "Okay, just get the bare essentials. This is the last of our dough.",
+      "character": null
+    },
+    {
+      "id": 590,
+      "text": "Hey. What do l look like?",
+      "character": null
+    },
+    {
+      "id": 595,
+      "text": "Cripes!",
+      "character": null
+    },
+    {
+      "id": 600,
+      "text": "Excuse me, little old lady.",
+      "character": null
+    },
+    {
+      "id": 605,
+      "text": "Uh, do you have change for a dollar?",
+      "character": null
+    },
+    {
+      "id": 610,
+      "text": "Change? No, I'm sorry. I don't.",
+      "character": null
+    },
+    {
+      "id": 615,
+      "text": "Oh... well, uh, could you do me a favor and watch my stuff here while I go break a dollar?",
+      "character": null
+    },
+    {
+      "id": 620,
+      "text": "Of course.",
+      "character": null
+    },
+    {
+      "id": 625,
+      "text": "Thanks. Hey. I guess they're right.",
+      "character": null
+    },
+    {
+      "id": 630,
+      "text": "Senior citizens, although slow and dangerous behind the wheel, can still serve a purpose.",
+      "character": null
+    },
+    {
+      "id": 635,
+      "text": "I'll be right back. Don't you go dying on me!",
+      "character": null
+    },
+    {
+      "id": 640,
+      "text": "Where's the booze?",
+      "character": null
+    },
+    {
+      "id": 645,
+      "text": "I got robbed by a sweet old lady on a motorized cart.",
+      "character": null
+    },
+    {
+      "id": 650,
+      "text": "I didn't even see it coming.",
+      "character": null
+    },
+    {
+      "id": 655,
+      "text": "No...",
+      "character": null
+    },
+    {
+      "id": 660,
+      "text": "Harry. Come on, Harry. Cheer up.",
+      "character": null
+    },
+    {
+      "id": 665,
+      "text": "It gets worse, Lloyd. My parakeet Petey... He's dead.",
+      "character": null
+    },
+    {
+      "id": 670,
+      "text": "Oh, man. I'm sorry, Harry. What happened?",
+      "character": null
+    },
+    {
+      "id": 675,
+      "text": "His head fell off.",
+      "character": null
+    },
+    {
+      "id": 680,
+      "text": "His head fell off?",
+      "character": null
+    },
+    {
+      "id": 685,
+      "text": "Yeah, he was pretty old.",
+      "character": null
+    },
+    {
+      "id": 690,
+      "text": "That's it. I've had it with this dump!",
+      "character": null
+    },
+    {
+      "id": 695,
+      "text": "We got no food. We got no jobs.",
+      "character": null
+    },
+    {
+      "id": 700,
+      "text": "Our pets' heads are falling off!",
+      "character": null
+    },
+    {
+      "id": 705,
+      "text": "Okay, just calm down!",
+      "character": null
+    },
+    {
+      "id": 710,
+      "text": "What the hell are we doing here, Harry?",
+      "character": null
+    },
+    {
+      "id": 715,
+      "text": "We gotta get out of this town!",
+      "character": null
+    },
+    {
+      "id": 720,
+      "text": "Yeah? And go where? Where are we gonna go?",
+      "character": null
+    },
+    {
+      "id": 725,
+      "text": "I'll tell you where, someplace warm...",
+      "character": null
+    },
+    {
+      "id": 730,
+      "text": "A place where the beer flows like wine, where beautiful women instinctively flock like the salmon of Capistrano.",
+      "character": null
+    },
+    {
+      "id": 735,
+      "text": "I'm talking about a little place called... Aspen.",
+      "character": null
+    },
+    {
+      "id": 740,
+      "text": "I don't know, Lloyd. The French are assholes.",
+      "character": null
+    },
+    {
+      "id": 745,
+      "text": "Wait a minute! I know what you're up to, mister.",
+      "character": null
+    },
+    {
+      "id": 750,
+      "text": "Yeah! You just wanna go to Aspen and find that girl who lost her briefcase, and you need me to drive you there!",
+      "character": null
+    },
+    {
+      "id": 755,
+      "text": "Right? Am I right? Am I right?",
+      "character": null
+    },
+    {
+      "id": 760,
+      "text": "Yeah! So? So I wanna go someplace where we know somebody who can plug us into the social pipeline.",
+      "character": null
+    },
+    {
+      "id": 765,
+      "text": "No, Lloyd! No! I say we stay here, we hunt for jobs, and we keep saving our money for the worm store!",
+      "character": null
+    },
+    {
+      "id": 770,
+      "text": "I don't know about you, but I am getting sick and tired of running from creditors!",
+      "character": null
+    },
+    {
+      "id": 775,
+      "text": "You know what I'm sick and tired of, Harry?",
+      "character": null
+    },
+    {
+      "id": 780,
+      "text": "I'm sick and tired of having to eke my way through life.",
+      "character": null
+    },
+    {
+      "id": 785,
+      "text": "I'm sick and tired of being a nobody.",
+      "character": null
+    },
+    {
+      "id": 790,
+      "text": "But most of all... I'm sick and tired of having nobody.",
+      "character": null
+    },
+    {
+      "id": 795,
+      "text": "Okay, Lloyd. Aspen it is.",
+      "character": null
+    },
+    {
+      "id": 800,
+      "text": "You'd better not be foolin'.",
+      "character": null
+    },
+    {
+      "id": 805,
+      "text": "Okay okay, just let it out.",
+      "character": null
+    },
+    {
+      "id": 810,
+      "text": "Have a good cry.",
+      "character": null
+    },
+    {
+      "id": 815,
+      "text": "Come on. Okay. Okay, that's enough.",
+      "character": null
+    },
+    {
+      "id": 820,
+      "text": "Lloyd, what are you doing?",
+      "character": null
+    },
+    {
+      "id": 825,
+      "text": "It feels like you're running at an incredible rate, Harry.",
+      "character": null
+    },
+    {
+      "id": 830,
+      "text": "Would you quit it?",
+      "character": null
+    },
+    {
+      "id": 835,
+      "text": "We're not even through Connecticut yet, and already you're annoying me.",
+      "character": null
+    },
+    {
+      "id": 840,
+      "text": "We're really doing it, aren't we?",
+      "character": null
+    },
+    {
+      "id": 845,
+      "text": "Yeah.",
+      "character": null
+    },
+    {
+      "id": 850,
+      "text": "Hey, where'd you get those?",
+      "character": null
+    },
+    {
+      "id": 855,
+      "text": "I bought them when we filled up.",
+      "character": null
+    },
+    {
+      "id": 860,
+      "text": "Well we're supposed to talk about all expenditures, Lloyd.",
+      "character": null
+    },
+    {
+      "id": 865,
+      "text": "We're on a very tight budget.",
+      "character": null
+    },
+    {
+      "id": 870,
+      "text": "This didn't come out of our travel fund.",
+      "character": null
+    },
+    {
+      "id": 875,
+      "text": "I was able to raise 25 extra bucks before we left.",
+      "character": null
+    },
+    {
+      "id": 880,
+      "text": "Where did you get 25 extra bucks?",
+      "character": null
+    },
+    {
+      "id": 885,
+      "text": "I sold some stuff to Billy in 4C.",
+      "character": null
+    },
+    {
+      "id": 890,
+      "text": "The blind kid?",
+      "character": null
+    },
+    {
+      "id": 895,
+      "text": "Yeah!",
+      "character": null
+    },
+    {
+      "id": 900,
+      "text": "What did you sell him, Lloyd?",
+      "character": null
+    },
+    {
+      "id": 905,
+      "text": "Stuff.",
+      "character": null
+    },
+    {
+      "id": 910,
+      "text": "What kind of stuff?",
+      "character": null
+    },
+    {
+      "id": 915,
+      "text": "I don't know. A few baseball cards, a sack of marbles... Petey.",
+      "character": null
+    },
+    {
+      "id": 920,
+      "text": "Petey? You sold my dead bird to a blind kid?",
+      "character": null
+    },
+    {
+      "id": 925,
+      "text": "Lloyd, that... That... What are you... Petey didn't even have a head!",
+      "character": null
+    },
+    {
+      "id": 930,
+      "text": "Harry, I took care of it.",
+      "character": null
+    },
+    {
+      "id": 935,
+      "text": "Pretty bird. Yeah. Can you say, \"pretty bird\"?",
+      "character": null
+    },
+    {
+      "id": 940,
+      "text": "Pretty bird. Yes, pretty bird. Pretty bird.",
+      "character": null
+    },
+    {
+      "id": 945,
+      "text": "Polly want a cracker?",
+      "character": null
+    },
+    {
+      "id": 950,
+      "text": "Those rat bastards. They're rubbing it right in our faces.",
+      "character": null
+    },
+    {
+      "id": 955,
+      "text": "Man, Andre'll have a goddamn hemorrhage if we don't get that briefcase back.",
+      "character": null
+    },
+    {
+      "id": 960,
+      "text": "They must have been following us for weeks.",
+      "character": null
+    },
+    {
+      "id": 965,
+      "text": "Why you say?",
+      "character": null
+    },
+    {
+      "id": 970,
+      "text": "\"Gas Man.\" How the hell do they know that I got gas?",
+      "character": null
+    },
+    {
+      "id": 975,
+      "text": "They gotta be pros.",
+      "character": null
+    },
+    {
+      "id": 980,
+      "text": "Don't worry. We're going to get that money back.",
+      "character": null
+    },
+    {
+      "id": 985,
+      "text": "And I'll tell you something else, they ain't never getting to Aspen.",
+      "character": null
+    },
+    {
+      "id": 990,
+      "text": "I'm going to see to that.",
+      "character": null
+    },
+    {
+      "id": 995,
+      "text": "They got The Monkees. They were a major influence on The Beatles.",
+      "character": null
+    },
+    {
+      "id": 1000,
+      "text": "Yeah, I know.",
+      "character": null
+    },
+    {
+      "id": 1005,
+      "text": "Excuse me, Flo? Flo, like the TV show.",
+      "character": null
+    },
+    {
+      "id": 1010,
+      "text": "Uh... what is the \"soup du jour\"?",
+      "character": null
+    },
+    {
+      "id": 1015,
+      "text": "It's the soup of the day.",
+      "character": null
+    },
+    {
+      "id": 1020,
+      "text": "That sounds good. I'll have that.",
+      "character": null
+    },
+    {
+      "id": 1025,
+      "text": "Anything else before I leave the area?",
+      "character": null
+    },
+    {
+      "id": 1030,
+      "text": "Yes yes, my soda's flat. It doesn't have any bubbles.",
+      "character": null
+    },
+    {
+      "id": 1035,
+      "text": "Happy now?",
+      "character": null
+    },
+    {
+      "id": 1040,
+      "text": "Feels good to mingle with these laid-back country folk, don't it, Harr? I like it a lot.",
+      "character": null
+    },
+    {
+      "id": 1045,
+      "text": "Uh-oh.",
+      "character": null
+    },
+    {
+      "id": 1050,
+      "text": "What? What's the matter?",
+      "character": null
+    },
+    {
+      "id": 1055,
+      "text": "You spilled the salt, that's what's the matter.",
+      "character": null
+    },
+    {
+      "id": 1060,
+      "text": "Spilling the salt is very bad luck.",
+      "character": null
+    },
+    {
+      "id": 1065,
+      "text": "We're driving across the country.",
+      "character": null
+    },
+    {
+      "id": 1070,
+      "text": "The last thing we need is bad luck.",
+      "character": null
+    },
+    {
+      "id": 1075,
+      "text": "Quick. Toss some salt over your right shoulder.",
+      "character": null
+    },
+    {
+      "id": 1080,
+      "text": "Uh-oh, too little too late, Harry.",
+      "character": null
+    },
+    {
+      "id": 1085,
+      "text": "Who's the dead man that hit me with the salt shaker?",
+      "character": null
+    },
+    {
+      "id": 1090,
+      "text": "Well... uh... it was a terrible mistake, sir.",
+      "character": null
+    },
+    {
+      "id": 1095,
+      "text": "Please, believe me. I would never do anything to offend a man of your size.",
+      "character": null
+    },
+    {
+      "id": 1100,
+      "text": "Kick his ass, Sea Bass!",
+      "character": null
+    },
+    {
+      "id": 1105,
+      "text": "You gonna eat that?",
+      "character": null
+    },
+    {
+      "id": 1110,
+      "text": "What? That? No, yes, no. Well... no, it crossed my mind. Yeah.",
+      "character": null
+    },
+    {
+      "id": 1115,
+      "text": "Still want it?",
+      "character": null
+    },
+    {
+      "id": 1120,
+      "text": "Nah, you go ahead.",
+      "character": null
+    },
+    {
+      "id": 1125,
+      "text": "You really wimped out, man.",
+      "character": null
+    },
+    {
+      "id": 1130,
+      "text": "What are you talking about, wimped out?",
+      "character": null
+    },
+    {
+      "id": 1135,
+      "text": "Well-well, did you... The guy hawked on my burger!",
+      "character": null
+    },
+    {
+      "id": 1140,
+      "text": "Hey, wait a second. I think I just...",
+      "character": null
+    },
+    {
+      "id": 1145,
+      "text": "Yeah... I just had an idea.",
+      "character": null
+    },
+    {
+      "id": 1150,
+      "text": "Excuse me. Guys?",
+      "character": null
+    },
+    {
+      "id": 1155,
+      "text": "What the hell do you want?",
+      "character": null
+    },
+    {
+      "id": 1160,
+      "text": "Uh... I just want to apologize for that unpleasant scene a little earlier.",
+      "character": null
+    },
+    {
+      "id": 1165,
+      "text": "My friend Harry and l would like to buy you guys a round of beers. Just to bury the hatchet.",
+      "character": null
+    },
+    {
+      "id": 1170,
+      "text": "Make it four boilermakers.",
+      "character": null
+    },
+    {
+      "id": 1175,
+      "text": "Whatever you want, sir.",
+      "character": null
+    },
+    {
+      "id": 1180,
+      "text": "I'll have the waitress bring it over immediately.",
+      "character": null
+    },
+    {
+      "id": 1185,
+      "text": "Lloyd, what are you doing?",
+      "character": null
+    },
+    {
+      "id": 1190,
+      "text": "We can't afford to buy them drinks.",
+      "character": null
+    },
+    {
+      "id": 1195,
+      "text": "Excuse me. Sea Bass and the fellas offered to pick up our check.",
+      "character": null
+    },
+    {
+      "id": 1200,
+      "text": "They said just put it on their tab. They're very nice.",
+      "character": null
+    },
+    {
+      "id": 1205,
+      "text": "Sea Bass said that?",
+      "character": null
+    },
+    {
+      "id": 1210,
+      "text": "Well, if that guy at the table over there is Sea Bass.",
+      "character": null
+    },
+    {
+      "id": 1215,
+      "text": "Ah! Uh. All right, if that's what he wants.",
+      "character": null
+    },
+    {
+      "id": 1220,
+      "text": "Put these on there too, okay?",
+      "character": null
+    },
+    {
+      "id": 1225,
+      "text": "I'm gonna kill those sons of bitches!",
+      "character": null
+    },
+    {
+      "id": 1230,
+      "text": "That was genius, Lloyd, sheer genius!",
+      "character": null
+    },
+    {
+      "id": 1235,
+      "text": "I mean, where did you come up with a scam like that?",
+      "character": null
+    },
+    {
+      "id": 1240,
+      "text": "Saw it in a movie once.",
+      "character": null
+    },
+    {
+      "id": 1245,
+      "text": "That was incredible!",
+      "character": null
+    },
+    {
+      "id": 1250,
+      "text": "So what happened? So the guy tricks some sucker into picking up his tab, then gets away with it scot-free?",
+      "character": null
+    },
+    {
+      "id": 1255,
+      "text": "No, in the movie, they catch up to him a half-mile down the road and slit his throat. It was a good one!",
+      "character": null
+    },
+    {
+      "id": 1260,
+      "text": "Wow. Harry?",
+      "character": null
+    },
+    {
+      "id": 1265,
+      "text": "What?",
+      "character": null
+    },
+    {
+      "id": 1270,
+      "text": "I know this isn't the best time, but when you get a chance to pull over...",
+      "character": null
+    },
+    {
+      "id": 1275,
+      "text": "I gotta pee.",
+      "character": null
+    },
+    {
+      "id": 1280,
+      "text": "What, are you crazy? I'm not pulling over now.",
+      "character": null
+    },
+    {
+      "id": 1285,
+      "text": "But I gotta go! What am I supposed to do?",
+      "character": null
+    },
+    {
+      "id": 1290,
+      "text": "Well, whiz in one of the empty beer bottles in the back.",
+      "character": null
+    },
+    {
+      "id": 1295,
+      "text": "They're on the floor. Just get one of...",
+      "character": null
+    },
+    {
+      "id": 1300,
+      "text": "Jeez, Lloyd!",
+      "character": null
+    },
+    {
+      "id": 1305,
+      "text": "Quit moving around!",
+      "character": null
+    },
+    {
+      "id": 1310,
+      "text": "Watch the seat! Watch the seat!",
+      "character": null
+    },
+    {
+      "id": 1315,
+      "text": "Okay! All right!",
+      "character": null
+    },
+    {
+      "id": 1320,
+      "text": "What? What's wrong?",
+      "character": null
+    },
+    {
+      "id": 1325,
+      "text": "The bottle's almost full and I'm still going.",
+      "character": null
+    },
+    {
+      "id": 1330,
+      "text": "So stop going.",
+      "character": null
+    },
+    {
+      "id": 1335,
+      "text": "I can't stop going once I've started. It stings.",
+      "character": null
+    },
+    {
+      "id": 1340,
+      "text": "Quick! Get me another bottle.",
+      "character": null
+    },
+    {
+      "id": 1345,
+      "text": "Come on. Hurry hurry hurry !",
+      "character": null
+    },
+    {
+      "id": 1350,
+      "text": "Okay okay, here here here. Hold it!",
+      "character": null
+    },
+    {
+      "id": 1355,
+      "text": "Hold that.",
+      "character": null
+    },
+    {
+      "id": 1360,
+      "text": "Jesus.",
+      "character": null
+    },
+    {
+      "id": 1365,
+      "text": "Hold that one. Hurry. I'm pinching it.",
+      "character": null
+    },
+    {
+      "id": 1370,
+      "text": "What are you, a camel?",
+      "character": null
+    },
+    {
+      "id": 1375,
+      "text": "Pull over!",
+      "character": null
+    },
+    {
+      "id": 1380,
+      "text": "Huh?",
+      "character": null
+    },
+    {
+      "id": 1385,
+      "text": "Pull over!",
+      "character": null
+    },
+    {
+      "id": 1390,
+      "text": "No, it's a cardigan, but thanks for noticing.",
+      "character": null
+    },
+    {
+      "id": 1395,
+      "text": "Yeah. Killer boots, man!",
+      "character": null
+    },
+    {
+      "id": 1400,
+      "text": "Pull your vehicle to the side of the road!",
+      "character": null
+    },
+    {
+      "id": 1405,
+      "text": "License and registration, please.",
+      "character": null
+    },
+    {
+      "id": 1410,
+      "text": "You fellas were going a little fast back there, wouldn't you say?",
+      "character": null
+    },
+    {
+      "id": 1415,
+      "text": "You fellas been doing a bit of boozing, have you?",
+      "character": null
+    },
+    {
+      "id": 1420,
+      "text": "Sucking back on Grandpa's old cough medicine?",
+      "character": null
+    },
+    {
+      "id": 1425,
+      "text": "No. Oh no, sir.",
+      "character": null
+    },
+    {
+      "id": 1430,
+      "text": "Yeah, well, what's that?",
+      "character": null
+    },
+    {
+      "id": 1435,
+      "text": "That's nothing, sir.",
+      "character": null
+    },
+    {
+      "id": 1440,
+      "text": "Yeah well, you aware that it's against the law to have an open alcohol container here in the State of Pennsylvania?",
+      "character": null
+    },
+    {
+      "id": 1445,
+      "text": "Come on, give me that booze, you little pumpkin-pie-haircutted freak!",
+      "character": null
+    },
+    {
+      "id": 1450,
+      "text": "No, sir, don 't. Don 't drink...",
+      "character": null
+    },
+    {
+      "id": 1455,
+      "text": "You'd keep your mouth shut if you knew what was good for you, buddy.",
+      "character": null
+    },
+    {
+      "id": 1460,
+      "text": "Tic Tac, sir?",
+      "character": null
+    },
+    {
+      "id": 1465,
+      "text": "Get the hell outta here!",
+      "character": null
+    },
+    {
+      "id": 1470,
+      "text": "How could they not have gotten the ransom? It just doesn't make sense.",
+      "character": null
+    },
+    {
+      "id": 1475,
+      "text": "I left the money exactly where they instructed me to.",
+      "character": null
+    },
+    {
+      "id": 1480,
+      "text": "Oh, it makes perfect sense, Mary.",
+      "character": null
+    },
+    {
+      "id": 1485,
+      "text": "We should have called the authorities the minute we knew that Bobby was kidnapped.",
+      "character": null
+    },
+    {
+      "id": 1490,
+      "text": "Now, Helen, we've been through this already.",
+      "character": null
+    },
+    {
+      "id": 1495,
+      "text": "Mr. Andre. Nicholas.",
+      "character": null
+    },
+    {
+      "id": 1500,
+      "text": "Any word yet, sir?",
+      "character": null
+    },
+    {
+      "id": 1505,
+      "text": "No, nothing yet, Nicholas.",
+      "character": null
+    },
+    {
+      "id": 1510,
+      "text": "I've been giving this a lot of thought.",
+      "character": null
+    },
+    {
+      "id": 1515,
+      "text": "Maybe we should cancel the preservation benefit this weekend.",
+      "character": null
+    },
+    {
+      "id": 1520,
+      "text": "It would be so easy to reschedule it.",
+      "character": null
+    },
+    {
+      "id": 1525,
+      "text": "No, I don't think we should do anything out of the ordinary.",
+      "character": null
+    },
+    {
+      "id": 1530,
+      "text": "Yeah, she's right. It's imperative that we carry on as usual... Especially you, Mary.",
+      "character": null
+    },
+    {
+      "id": 1535,
+      "text": "What am l supposed to do, just go about my life like everything is fine?",
+      "character": null
+    },
+    {
+      "id": 1540,
+      "text": "That's exactly what you should do.",
+      "character": null
+    },
+    {
+      "id": 1545,
+      "text": "Yes, go skiing, go to parties, act normally, you know.",
+      "character": null
+    },
+    {
+      "id": 1550,
+      "text": "Yeah, don't you see, honey?",
+      "character": null
+    },
+    {
+      "id": 1555,
+      "text": "We can't let on that anything's wrong.",
+      "character": null
+    },
+    {
+      "id": 1560,
+      "text": "If the press or the authorities get wind of this, the kidnappers may panic.",
+      "character": null
+    },
+    {
+      "id": 1565,
+      "text": "I mean, you never know what they might do to him then.",
+      "character": null
+    },
+    {
+      "id": 1570,
+      "text": "Whoa!",
+      "character": null
+    },
+    {
+      "id": 1575,
+      "text": "You want me to drive?",
+      "character": null
+    },
+    {
+      "id": 1580,
+      "text": "No, I'm cool.",
+      "character": null
+    },
+    {
+      "id": 1585,
+      "text": "Yeah! Get her!",
+      "character": null
+    },
+    {
+      "id": 1590,
+      "text": "This is the life: cold beer, a hot tub and paper-thin walls.",
+      "character": null
+    },
+    {
+      "id": 1595,
+      "text": "There's only one thing that could make this moment any better.",
+      "character": null
+    },
+    {
+      "id": 1600,
+      "text": "What's that?",
+      "character": null
+    },
+    {
+      "id": 1605,
+      "text": "If you had a nice set of knockers.",
+      "character": null
+    },
+    {
+      "id": 1610,
+      "text": "That's two things, Lloyd.",
+      "character": null
+    },
+    {
+      "id": 1615,
+      "text": "Yeah, well, it's a good thing you're not stacked, Harry, or I'd be banging you right now.",
+      "character": null
+    },
+    {
+      "id": 1620,
+      "text": "I'd show you what a real man can do.",
+      "character": null
+    },
+    {
+      "id": 1625,
+      "text": "Split you like an old piece of firewood.",
+      "character": null
+    },
+    {
+      "id": 1630,
+      "text": "You'd probably like it too, you big homo.",
+      "character": null
+    },
+    {
+      "id": 1635,
+      "text": "Shut up.",
+      "character": null
+    },
+    {
+      "id": 1640,
+      "text": "Don't tell me to shut up, woman.",
+      "character": null
+    },
+    {
+      "id": 1645,
+      "text": "I don't know, Lloyd. You know, this place doesn't really do it for me.",
+      "character": null
+    },
+    {
+      "id": 1650,
+      "text": "It brings back a lot of memories.",
+      "character": null
+    },
+    {
+      "id": 1655,
+      "text": "Pour quoi?",
+      "character": null
+    },
+    {
+      "id": 1660,
+      "text": "It was a few years ago.",
+      "character": null
+    },
+    {
+      "id": 1665,
+      "text": "What happened, Harry? Some little filly break your heart?",
+      "character": null
+    },
+    {
+      "id": 1670,
+      "text": "No, it was a girl. Fraida Felcher.",
+      "character": null
+    },
+    {
+      "id": 1675,
+      "text": "Yeah, we stayed in a place just like this.",
+      "character": null
+    },
+    {
+      "id": 1680,
+      "text": "Wasn't this classy, but, you know, nice.",
+      "character": null
+    },
+    {
+      "id": 1685,
+      "text": "Felcher? From Cranston?",
+      "character": null
+    },
+    {
+      "id": 1690,
+      "text": "Yeah. You know her?",
+      "character": null
+    },
+    {
+      "id": 1695,
+      "text": "Oh, yeah! I mean, I remember you... talking about her.",
+      "character": null
+    },
+    {
+      "id": 1700,
+      "text": "We had the most incredibly romantic time.",
+      "character": null
+    },
+    {
+      "id": 1705,
+      "text": "I thought we were gonna be together forever.",
+      "character": null
+    },
+    {
+      "id": 1710,
+      "text": "And then about a week later, right out of the blue, she sends me a John Deere letter.",
+      "character": null
+    },
+    {
+      "id": 1715,
+      "text": "She give you any reason?",
+      "character": null
+    },
+    {
+      "id": 1720,
+      "text": "Yeah, I called her up. She gave me a bunch of crap about me not listening to her enough or something.",
+      "character": null
+    },
+    {
+      "id": 1725,
+      "text": "I don't know. I wasn't really paying attention.",
+      "character": null
+    },
+    {
+      "id": 1730,
+      "text": "But the thing that hurt the most is I think she was seeing another guy.",
+      "character": null
+    },
+    {
+      "id": 1735,
+      "text": "Never did find out who.",
+      "character": null
+    },
+    {
+      "id": 1740,
+      "text": "Mr. Andre, guess who we just happened upon?",
+      "character": null
+    },
+    {
+      "id": 1745,
+      "text": "I had plans. Things I wanted to do. This is where it all ends - at a phone booth.",
+      "character": null
+    },
+    {
+      "id": 1750,
+      "text": "The boys are holed up in a little love-nest for the night.",
+      "character": null
+    },
+    {
+      "id": 1755,
+      "text": "I think they're a little bit strange.",
+      "character": null
+    },
+    {
+      "id": 1760,
+      "text": "I think they're a little bit strange.",
+      "character": null
+    },
+    {
+      "id": 1765,
+      "text": "What the hell are these guys up to?",
+      "character": null
+    },
+    {
+      "id": 1770,
+      "text": "I mean, is it possible that they could be feds?",
+      "character": null
+    },
+    {
+      "id": 1775,
+      "text": "Highly unlikely from what I've seen.",
+      "character": null
+    },
+    {
+      "id": 1780,
+      "text": "Sir, did you ever hear of the concept of other people?",
+      "character": null
+    },
+    {
+      "id": 1785,
+      "text": "Um... me being that for the phone, sir.",
+      "character": null
+    },
+    {
+      "id": 1790,
+      "text": "Oh, you turned your back on me. Ho ho ho! He got me mad. I almost like it.",
+      "character": null
+    },
+    {
+      "id": 1795,
+      "text": "You and Shay were supposed to grab that bag so we could end this shit!",
+      "character": null
+    },
+    {
+      "id": 1800,
+      "text": "Here's your drink, baby.",
+      "character": null
+    },
+    {
+      "id": 1805,
+      "text": "Do you know the damage I could do to you?",
+      "character": null
+    },
+    {
+      "id": 1810,
+      "text": "Hold on a minute.",
+      "character": null
+    },
+    {
+      "id": 1815,
+      "text": "But that's not your problem. You didn't know.",
+      "character": null
+    },
+    {
+      "id": 1820,
+      "text": "Get off the phone. Get off the pho...",
+      "character": null
+    },
+    {
+      "id": 1825,
+      "text": "I'm sorry, Mr. Andre. You were saying?",
+      "character": null
+    },
+    {
+      "id": 1830,
+      "text": "Look, Mental, these jokers have got a lot of money and it belongs to me!",
+      "character": null
+    },
+    {
+      "id": 1835,
+      "text": "Now, I want to know who they are and what they're doing with it!",
+      "character": null
+    },
+    {
+      "id": 1840,
+      "text": "Hey hey hey, I told you already. I'm on it. All right?",
+      "character": null
+    },
+    {
+      "id": 1845,
+      "text": "Good.",
+      "character": null
+    },
+    {
+      "id": 1850,
+      "text": "According to the map, we've only gone about four inches.",
+      "character": null
+    },
+    {
+      "id": 1855,
+      "text": "You know, I don't think we have enough gas money.",
+      "character": null
+    },
+    {
+      "id": 1860,
+      "text": "Relax. We have more than enough.",
+      "character": null
+    },
+    {
+      "id": 1865,
+      "text": "I think you're wrong, Lloyd.",
+      "character": null
+    },
+    {
+      "id": 1870,
+      "text": "How much you wanna bet?",
+      "character": null
+    },
+    {
+      "id": 1875,
+      "text": "I don't bet.",
+      "character": null
+    },
+    {
+      "id": 1880,
+      "text": "What do you mean, you don't bet?",
+      "character": null
+    },
+    {
+      "id": 1885,
+      "text": "I mean I don't bet. I don't gamble.",
+      "character": null
+    },
+    {
+      "id": 1890,
+      "text": "Pussy pussy pussy!",
+      "character": null
+    },
+    {
+      "id": 1895,
+      "text": "I never have, and I never will.",
+      "character": null
+    },
+    {
+      "id": 1900,
+      "text": "I'll bet you 20 bucks I can get you gambling before the end of the day.",
+      "character": null
+    },
+    {
+      "id": 1905,
+      "text": "No way.",
+      "character": null
+    },
+    {
+      "id": 1910,
+      "text": "I'll give you 3-to-1 odds.",
+      "character": null
+    },
+    {
+      "id": 1915,
+      "text": "Nope.",
+      "character": null
+    },
+    {
+      "id": 1920,
+      "text": "5-to-1? 10-to-1?",
+      "character": null
+    },
+    {
+      "id": 1925,
+      "text": "You're on.",
+      "character": null
+    },
+    {
+      "id": 1930,
+      "text": "I'm going to get you.",
+      "character": null
+    },
+    {
+      "id": 1935,
+      "text": "Huh-uh.",
+      "character": null
+    },
+    {
+      "id": 1940,
+      "text": "Oh, yeah.",
+      "character": null
+    },
+    {
+      "id": 1945,
+      "text": "I don't know how, but I'm going to get you.",
+      "character": null
+    },
+    {
+      "id": 1950,
+      "text": "Come on, Joe. Let me do them. Let me do both of them.",
+      "character": null
+    },
+    {
+      "id": 1955,
+      "text": "You wouldn't even have to worry about it.",
+      "character": null
+    },
+    {
+      "id": 1960,
+      "text": "Just shut up! Now, we don't even know who the hell they are.",
+      "character": null
+    },
+    {
+      "id": 1965,
+      "text": "You don't kill people you don't know.",
+      "character": null
+    },
+    {
+      "id": 1970,
+      "text": "That's a rule.",
+      "character": null
+    },
+    {
+      "id": 1975,
+      "text": "Now, I want you to get up here,",
+      "character": null
+    },
+    {
+      "id": 1980,
+      "text": "Lie down on the front seat.",
+      "character": null
+    },
+    {
+      "id": 1985,
+      "text": "When they pick me up, you follow us. You got that?",
+      "character": null
+    },
+    {
+      "id": 1990,
+      "text": "Keep your shirt on. I gotta squeeze a lemon.",
+      "character": null
+    },
+    {
+      "id": 1995,
+      "text": "Hey, hey, hey. Here they come. Stay down, stay down!",
+      "character": null
+    },
+    {
+      "id": 2000,
+      "text": "Say, uh, are you guys going to Davenport?",
+      "character": null
+    },
+    {
+      "id": 2005,
+      "text": "My car died, and I'm late for a luncheon.",
+      "character": null
+    },
+    {
+      "id": 2010,
+      "text": "We usually don't pick up hitchhikers, but I'm going to go with my instinct on this one.",
+      "character": null
+    },
+    {
+      "id": 2015,
+      "text": "Saddle up, partner.",
+      "character": null
+    },
+    {
+      "id": 2020,
+      "text": "You're it.",
+      "character": null
+    },
+    {
+      "id": 2025,
+      "text": "You're it! Quitsies!",
+      "character": null
+    },
+    {
+      "id": 2030,
+      "text": "Anti-quitsies.",
+      "character": null
+    },
+    {
+      "id": 2035,
+      "text": "You're it. Quitsies. No anti-quitsies.",
+      "character": null
+    },
+    {
+      "id": 2040,
+      "text": "No startsies.",
+      "character": null
+    },
+    {
+      "id": 2045,
+      "text": "You can't do that.",
+      "character": null
+    },
+    {
+      "id": 2050,
+      "text": "Can too.",
+      "character": null
+    },
+    {
+      "id": 2055,
+      "text": "Cannot. Stamped it.",
+      "character": null
+    },
+    {
+      "id": 2060,
+      "text": "Can too. Double-stamped it. No erasies.",
+      "character": null
+    },
+    {
+      "id": 2065,
+      "text": "Cannot. Triple-stamped it. No erasies.",
+      "character": null
+    },
+    {
+      "id": 2070,
+      "text": "You can't triple-stamp a double-stamp!",
+      "character": null
+    },
+    {
+      "id": 2075,
+      "text": "You can't triple-stamp a double-stamp, Lloyd!",
+      "character": null
+    },
+    {
+      "id": 2080,
+      "text": "Guys! Enough!",
+      "character": null
+    },
+    {
+      "id": 2085,
+      "text": "Hey, you wanna hear the most annoying sound in the world?",
+      "character": null
+    },
+    {
+      "id": 2090,
+      "text": "Guys! Guys! Guys!",
+      "character": null
+    },
+    {
+      "id": 2095,
+      "text": "Fellas, you think we could listen to the radio or something?",
+      "character": null
+    },
+    {
+      "id": 2100,
+      "text": "Radio? Who needs a radio? Ready, Harry?",
+      "character": null
+    },
+    {
+      "id": 2105,
+      "text": "Hey, Lloyd, look! There's some people who want a ride too.",
+      "character": null
+    },
+    {
+      "id": 2110,
+      "text": "Pick 'em up!",
+      "character": null
+    },
+    {
+      "id": 2115,
+      "text": "You want an atomicpepper, Mr. Mentaliano?",
+      "character": null
+    },
+    {
+      "id": 2120,
+      "text": "Nah, you guys go ahead.",
+      "character": null
+    },
+    {
+      "id": 2125,
+      "text": "I'll do it if you will, Lloyd.",
+      "character": null
+    },
+    {
+      "id": 2130,
+      "text": "Okay. You go first.",
+      "character": null
+    },
+    {
+      "id": 2135,
+      "text": "No, huh-uh, no, you go first.",
+      "character": null
+    },
+    {
+      "id": 2140,
+      "text": "I always go first!",
+      "character": null
+    },
+    {
+      "id": 2145,
+      "text": "Why don't you guys both stop acting like a couple of pussies and go at the same time, huh?",
+      "character": null
+    },
+    {
+      "id": 2150,
+      "text": "That sounds like a dare, Harry.",
+      "character": null
+    },
+    {
+      "id": 2155,
+      "text": "It's a double-dare.",
+      "character": null
+    },
+    {
+      "id": 2160,
+      "text": "Yeah, okay, you're on.",
+      "character": null
+    },
+    {
+      "id": 2165,
+      "text": "Huh. It's not so bad.",
+      "character": null
+    },
+    {
+      "id": 2170,
+      "text": "Yeah. It's more tingly than hot.",
+      "character": null
+    },
+    {
+      "id": 2175,
+      "text": "Yeah",
+      "character": null
+    },
+    {
+      "id": 2180,
+      "text": "Uh, if you fellas would excuse me, I've got to use the phone.",
+      "character": null
+    },
+    {
+      "id": 2185,
+      "text": "Enjoy your meal, guys.",
+      "character": null
+    },
+    {
+      "id": 2190,
+      "text": "Here, Lloyd, this helps.",
+      "character": null
+    },
+    {
+      "id": 2195,
+      "text": "Yeah, it's Mental. I'm just sitting down to a nice meal with our boys.",
+      "character": null
+    },
+    {
+      "id": 2200,
+      "text": "Well, how nice for you. Don't forget that your bread plate is on the left!",
+      "character": null
+    },
+    {
+      "id": 2205,
+      "text": "Look, I can't have these guys running around Aspen.",
+      "character": null
+    },
+    {
+      "id": 2210,
+      "text": "Don't worry. They ain't gonna be runnin' around nowhere after I dump a little rat poison in their Shirley Temple.",
+      "character": null
+    },
+    {
+      "id": 2215,
+      "text": "Okay, that's good. Here he comes.",
+      "character": null
+    },
+    {
+      "id": 2220,
+      "text": "Feeling better, girls?",
+      "character": null
+    },
+    {
+      "id": 2225,
+      "text": "Yes, much better. Thank you for asking.",
+      "character": null
+    },
+    {
+      "id": 2230,
+      "text": "So why are you going to Aspen? Vacation?",
+      "character": null
+    },
+    {
+      "id": 2235,
+      "text": "Why don't you eat up and we'll tell you?",
+      "character": null
+    },
+    {
+      "id": 2240,
+      "text": "It just doesn't seem like you packed much.",
+      "character": null
+    },
+    {
+      "id": 2245,
+      "text": "All I saw was one bag and that briefcase.",
+      "character": null
+    },
+    {
+      "id": 2250,
+      "text": "Well, no no, the briefcase isn't even ours.",
+      "character": null
+    },
+    {
+      "id": 2255,
+      "text": "Some lady left it at the airport.",
+      "character": null
+    },
+    {
+      "id": 2260,
+      "text": "We're just bringing it back to her.",
+      "character": null
+    },
+    {
+      "id": 2265,
+      "text": "How's your burger?",
+      "character": null
+    },
+    {
+      "id": 2270,
+      "text": "You mean, you don't even know her?",
+      "character": null
+    },
+    {
+      "id": 2275,
+      "text": "I mean, talk about being in the wrong place at the wrong time.",
+      "character": null
+    },
+    {
+      "id": 2280,
+      "text": "Are you okay, man? It was just a goof.",
+      "character": null
+    },
+    {
+      "id": 2285,
+      "text": "Oh, my ulcer! Quick! My pills!",
+      "character": null
+    },
+    {
+      "id": 2290,
+      "text": "Maybe somebody should call an ambulance?",
+      "character": null
+    },
+    {
+      "id": 2295,
+      "text": "Look, uh, you get the pills.",
+      "character": null
+    },
+    {
+      "id": 2300,
+      "text": "Don't worry. I know CPR.",
+      "character": null
+    },
+    {
+      "id": 2305,
+      "text": "I'll get the pills.",
+      "character": null
+    },
+    {
+      "id": 2310,
+      "text": "Out with the bad air, in with the good.",
+      "character": null
+    },
+    {
+      "id": 2315,
+      "text": "Get off! Don't don't! Back back!",
+      "character": null
+    },
+    {
+      "id": 2320,
+      "text": "This is a lot easier if you just lay back.",
+      "character": null
+    },
+    {
+      "id": 2325,
+      "text": "He's resisting me!",
+      "character": null
+    },
+    {
+      "id": 2330,
+      "text": "Here. Here we go, here we go.",
+      "character": null
+    },
+    {
+      "id": 2335,
+      "text": "Pills! There you go! There you go.",
+      "character": null
+    },
+    {
+      "id": 2340,
+      "text": "Pills are good! Take 'em down.",
+      "character": null
+    },
+    {
+      "id": 2345,
+      "text": "Pills are good! Drink 'em down.",
+      "character": null
+    },
+    {
+      "id": 2350,
+      "text": "There you go, big guy. That's better!",
+      "character": null
+    },
+    {
+      "id": 2355,
+      "text": "You want some ketchup and mustard? That helped us.",
+      "character": null
+    },
+    {
+      "id": 2360,
+      "text": "Son of a bitch!",
+      "character": null
+    },
+    {
+      "id": 2365,
+      "text": "Check, please.",
+      "character": null
+    },
+    {
+      "id": 2370,
+      "text": "I can't believe it.",
+      "character": null
+    },
+    {
+      "id": 2375,
+      "text": "Life's a fragile thing, Harr. One minute you're chewing on a burger, the next minute you're dead meat.",
+      "character": null
+    },
+    {
+      "id": 2380,
+      "text": "But he blamed me. You heard him. Those were his last words.",
+      "character": null
+    },
+    {
+      "id": 2385,
+      "text": "Not if you count the gurgling sound.",
+      "character": null
+    },
+    {
+      "id": 2390,
+      "text": "You mean he was poisoned?",
+      "character": null
+    },
+    {
+      "id": 2395,
+      "text": "No doubt about it.",
+      "character": null
+    },
+    {
+      "id": 2400,
+      "text": "We found these next to the body.",
+      "character": null
+    },
+    {
+      "id": 2405,
+      "text": "Waitress says he came in with a couple of younger guys.",
+      "character": null
+    },
+    {
+      "id": 2410,
+      "text": "Now they're the ones who called the ambulance, and then they hit the road.",
+      "character": null
+    },
+    {
+      "id": 2415,
+      "text": "Get any idea where they were going?",
+      "character": null
+    },
+    {
+      "id": 2420,
+      "text": "We just received a report that they were seen headed west on l- towards Colorado.",
+      "character": null
+    },
+    {
+      "id": 2425,
+      "text": "Did you get a make on the vehicle?",
+      "character": null
+    },
+    {
+      "id": 2430,
+      "text": "Uh, yes, sir. They're driving an '84... sheepdog.",
+      "character": null
+    },
+    {
+      "id": 2435,
+      "text": "Skis, huh?",
+      "character": null
+    },
+    {
+      "id": 2440,
+      "text": "That's right.",
+      "character": null
+    },
+    {
+      "id": 2445,
+      "text": "Great. They yours?",
+      "character": null
+    },
+    {
+      "id": 2450,
+      "text": "Uh-huh.",
+      "character": null
+    },
+    {
+      "id": 2455,
+      "text": "Both of 'em? Cool.",
+      "character": null
+    },
+    {
+      "id": 2460,
+      "text": "Um, excuse me, but you're spraying everywhere.",
+      "character": null
+    },
+    {
+      "id": 2465,
+      "text": "Oh, man, you gotta be shitting me.",
+      "character": null
+    },
+    {
+      "id": 2470,
+      "text": "If it ain't my old friend! And right on time.",
+      "character": null
+    },
+    {
+      "id": 2475,
+      "text": "That's a lot of luggage for a little vacation.",
+      "character": null
+    },
+    {
+      "id": 2480,
+      "text": "I'm moving to Aspen.",
+      "character": null
+    },
+    {
+      "id": 2485,
+      "text": "I've got to get away from my boyfriend. He's such a klutz.",
+      "character": null
+    },
+    {
+      "id": 2490,
+      "text": "Plus, my astrologer told me that I really should stay away from accident-prone guys, so, you know.",
+      "character": null
+    },
+    {
+      "id": 2495,
+      "text": "Oh, well, you know.",
+      "character": null
+    },
+    {
+      "id": 2500,
+      "text": "Here. It's a little loose. You might want to...",
+      "character": null
+    },
+    {
+      "id": 2505,
+      "text": "Mm. Thank you.",
+      "character": null
+    },
+    {
+      "id": 2510,
+      "text": "Oh, no. Hey, no, allow me.",
+      "character": null
+    },
+    {
+      "id": 2515,
+      "text": "I've got a thing of... here. Got 'em right here. Right here.",
+      "character": null
+    },
+    {
+      "id": 2520,
+      "text": "Thank you.",
+      "character": null
+    },
+    {
+      "id": 2525,
+      "text": "Sure. You know, I'm heading up to Aspen myself.",
+      "character": null
+    },
+    {
+      "id": 2530,
+      "text": "Maybe we could, you know, meet up, have some hot chocolate or something.",
+      "character": null
+    },
+    {
+      "id": 2535,
+      "text": "Sure, why not? You seem harmless.",
+      "character": null
+    },
+    {
+      "id": 2540,
+      "text": "I'm going to give you my number.",
+      "character": null
+    },
+    {
+      "id": 2545,
+      "text": "Let me find a pen though.",
+      "character": null
+    },
+    {
+      "id": 2550,
+      "text": "Great!",
+      "character": null
+    },
+    {
+      "id": 2555,
+      "text": "Let's see.",
+      "character": null
+    },
+    {
+      "id": 2560,
+      "text": "I know I have one in here somewhere.",
+      "character": null
+    },
+    {
+      "id": 2565,
+      "text": "Look, why don't you just tell it to me? I got a really good memory.",
+      "character": null
+    },
+    {
+      "id": 2570,
+      "text": "Well, the number's 555... 905... wait a minute. That's my old number.",
+      "character": null
+    },
+    {
+      "id": 2575,
+      "text": "That is so weird how your mind just goes blank.",
+      "character": null
+    },
+    {
+      "id": 2580,
+      "text": "For God's sakes, just give me the damn number!",
+      "character": null
+    },
+    {
+      "id": 2585,
+      "text": "Okay, look, uh, you gonna get pushy, forget about it.",
+      "character": null
+    },
+    {
+      "id": 2590,
+      "text": "Find a happy place. Find a happy place.",
+      "character": null
+    },
+    {
+      "id": 2595,
+      "text": "I'll show you a happy place.",
+      "character": null
+    },
+    {
+      "id": 2600,
+      "text": "Here's your happy place.",
+      "character": null
+    },
+    {
+      "id": 2605,
+      "text": "More flags over here!",
+      "character": null
+    },
+    {
+      "id": 2610,
+      "text": "All right, any sign of them yet?",
+      "character": null
+    },
+    {
+      "id": 2615,
+      "text": "No, sir, but we're expecting them shortly.",
+      "character": null
+    },
+    {
+      "id": 2620,
+      "text": "A motorist saw a pooch about 30 miles back headed this way.",
+      "character": null
+    },
+    {
+      "id": 2625,
+      "text": "Look, I told you what happened, okay? So just drop it.",
+      "character": null
+    },
+    {
+      "id": 2630,
+      "text": "Yeah, okay. Sure thing, Lloyd. Sure thing.",
+      "character": null
+    },
+    {
+      "id": 2635,
+      "text": "I promise not to mention another word about you being in a bathroom with a 6-4 trucker with his pants down.",
+      "character": null
+    },
+    {
+      "id": 2640,
+      "text": "Hey, look. We're almost in Colorado.",
+      "character": null
+    },
+    {
+      "id": 2645,
+      "text": "What do you say we change seats?",
+      "character": null
+    },
+    {
+      "id": 2650,
+      "text": "I've been driving for nine straight hours.",
+      "character": null
+    },
+    {
+      "id": 2655,
+      "text": "I don't have the energy to start a new state.",
+      "character": null
+    },
+    {
+      "id": 2660,
+      "text": "Why should I do you any favors?",
+      "character": null
+    },
+    {
+      "id": 2665,
+      "text": "I'll let you kiss me.",
+      "character": null
+    },
+    {
+      "id": 2670,
+      "text": "I swear... I'm gonna... I will take your...",
+      "character": null
+    },
+    {
+      "id": 2675,
+      "text": "I swear to God I'm gonna take your...",
+      "character": null
+    },
+    {
+      "id": 2680,
+      "text": "Aw, come on.",
+      "character": null
+    },
+    {
+      "id": 2685,
+      "text": "Don't touch me.",
+      "character": null
+    },
+    {
+      "id": 2690,
+      "text": "I'm done. Okay, enough.",
+      "character": null
+    },
+    {
+      "id": 2695,
+      "text": "Hey, guys. Whoa, Big Gulps, huh?",
+      "character": null
+    },
+    {
+      "id": 2700,
+      "text": "All right. Well, see you later.",
+      "character": null
+    },
+    {
+      "id": 2705,
+      "text": "Hey, Harry.",
+      "character": null
+    },
+    {
+      "id": 2710,
+      "text": "I got some beef jerk...",
+      "character": null
+    },
+    {
+      "id": 2715,
+      "text": "Some people just weren't cut out for life on the road.",
+      "character": null
+    },
+    {
+      "id": 2720,
+      "text": "Hey! I was wondering when you were gonna get up.",
+      "character": null
+    },
+    {
+      "id": 2725,
+      "text": "Ha! Well, how long have I been out?",
+      "character": null
+    },
+    {
+      "id": 2730,
+      "text": "I'd say a good five hours.",
+      "character": null
+    },
+    {
+      "id": 2735,
+      "text": "Huh! I expected the Rocky Mountains to be a little rockier than this.",
+      "character": null
+    },
+    {
+      "id": 2740,
+      "text": "I was thinking the same thing. That John Denver's full of shit, man.",
+      "character": null
+    },
+    {
+      "id": 2745,
+      "text": "I'm only human, Harry! Anybody can make a mistake.",
+      "character": null
+    },
+    {
+      "id": 2750,
+      "text": "Come on, stop being a baby!",
+      "character": null
+    },
+    {
+      "id": 2755,
+      "text": "So we backtracked a tad!",
+      "character": null
+    },
+    {
+      "id": 2760,
+      "text": "A tad?! A tad, Lloyd?",
+      "character": null
+    },
+    {
+      "id": 2765,
+      "text": "You drove almost 1/6 of the way across the country in the wrong direction!",
+      "character": null
+    },
+    {
+      "id": 2770,
+      "text": "Now we don't have enough money to get to Aspen!",
+      "character": null
+    },
+    {
+      "id": 2775,
+      "text": "We don't have enough money to get home!",
+      "character": null
+    },
+    {
+      "id": 2780,
+      "text": "We don't have enough money to eat!",
+      "character": null
+    },
+    {
+      "id": 2785,
+      "text": "We don't have enough money to sleep!",
+      "character": null
+    },
+    {
+      "id": 2790,
+      "text": "Well, it's not gonna do us any good to sit here whining about it.",
+      "character": null
+    },
+    {
+      "id": 2795,
+      "text": "We're in a hole. We're just going to have to dig ourselves out.",
+      "character": null
+    },
+    {
+      "id": 2800,
+      "text": "Okay, all right. You're right. You're absolutely right.",
+      "character": null
+    },
+    {
+      "id": 2805,
+      "text": "Where're you going?",
+      "character": null
+    },
+    {
+      "id": 2810,
+      "text": "Home. I'm walking home.",
+      "character": null
+    },
+    {
+      "id": 2815,
+      "text": "Oh, well, pardon me, Mr. Perfect!",
+      "character": null
+    },
+    {
+      "id": 2820,
+      "text": "I guess I forgot that you never, ever make a mistake!",
+      "character": null
+    },
+    {
+      "id": 2825,
+      "text": "Harry! Harry! Wait up!",
+      "character": null
+    },
+    {
+      "id": 2830,
+      "text": "Got room for one more if you still want to go to Aspen.",
+      "character": null
+    },
+    {
+      "id": 2835,
+      "text": "Where did you find that?",
+      "character": null
+    },
+    {
+      "id": 2840,
+      "text": "Some kid back in town. Traded the van for it straight up.",
+      "character": null
+    },
+    {
+      "id": 2845,
+      "text": "I can get 70 miles to the gallon on this hog.",
+      "character": null
+    },
+    {
+      "id": 2850,
+      "text": "You know, Lloyd, just when I think you couldn't possibly be any dumber, you go and do something like this... and totally redeem yourself!",
+      "character": null
+    },
+    {
+      "id": 2855,
+      "text": "Still wanna go to Aspen?",
+      "character": null
+    },
+    {
+      "id": 2860,
+      "text": "Okay, let's go, buddy!",
+      "character": null
+    },
+    {
+      "id": 2865,
+      "text": "Lloyd, no! West! Go west, Lloyd!",
+      "character": null
+    },
+    {
+      "id": 2870,
+      "text": "I've got to stop to go to the bathroom.",
+      "character": null
+    },
+    {
+      "id": 2875,
+      "text": "Just go, man.",
+      "character": null
+    },
+    {
+      "id": 2880,
+      "text": "Oh! That sure is warm.",
+      "character": null
+    },
+    {
+      "id": 2885,
+      "text": "We're there.",
+      "character": null
+    },
+    {
+      "id": 2890,
+      "text": "Got a little nippy going through the pass back there.",
+      "character": null
+    },
+    {
+      "id": 2895,
+      "text": "Isn't this incredible?",
+      "character": null
+    },
+    {
+      "id": 2900,
+      "text": "What more could two single guys want?",
+      "character": null
+    },
+    {
+      "id": 2905,
+      "text": "How about some food?",
+      "character": null
+    },
+    {
+      "id": 2910,
+      "text": "I swallowed a big June bug when we were driving.",
+      "character": null
+    },
+    {
+      "id": 2915,
+      "text": "I'm not really hungry.",
+      "character": null
+    },
+    {
+      "id": 2920,
+      "text": "Well, I'm starving.",
+      "character": null
+    },
+    {
+      "id": 2925,
+      "text": "Jeez, look at the butt on that.",
+      "character": null
+    },
+    {
+      "id": 2930,
+      "text": "Yeah. He must work out.",
+      "character": null
+    },
+    {
+      "id": 2935,
+      "text": "Hey! Why don't we get busy and deliver the briefcase to Mary?",
+      "character": null
+    },
+    {
+      "id": 2940,
+      "text": "If I know her as well as I think I do she'll invite us right in for tea and strumpets.",
+      "character": null
+    },
+    {
+      "id": 2945,
+      "text": "Good plan. Where does she live?",
+      "character": null
+    },
+    {
+      "id": 2950,
+      "text": "I don't know.",
+      "character": null
+    },
+    {
+      "id": 2955,
+      "text": "What's her last name? I'll look it up.",
+      "character": null
+    },
+    {
+      "id": 2960,
+      "text": "You know, I don't really recall. Starts with an \"S.\"",
+      "character": null
+    },
+    {
+      "id": 2965,
+      "text": "S-swim, Swamie, S-slippy, Slappy, Slimin, Solmon,Simin, Sal, Swenson, Swanson?",
+      "character": null
+    },
+    {
+      "id": 2970,
+      "text": "Maybe it's on the briefcase.",
+      "character": null
+    },
+    {
+      "id": 2975,
+      "text": "Oh, yeah! It's right here. Samsonite!",
+      "character": null
+    },
+    {
+      "id": 2980,
+      "text": "I was way off. I knew it started with an \"S\" though.",
+      "character": null
+    },
+    {
+      "id": 2985,
+      "text": "I'm not seeing it here, Lloyd.",
+      "character": null
+    },
+    {
+      "id": 2990,
+      "text": "She must be unlisted.",
+      "character": null
+    },
+    {
+      "id": 2995,
+      "text": "Great. So what are we supposed to do now?",
+      "character": null
+    },
+    {
+      "id": 3000,
+      "text": "I can't feel my fi-fingers anymore. They're numb.",
+      "character": null
+    },
+    {
+      "id": 3005,
+      "text": "Ooh. Maybe you should wear these extra gloves.",
+      "character": null
+    },
+    {
+      "id": 3010,
+      "text": "My hands are starting to get sweaty.",
+      "character": null
+    },
+    {
+      "id": 3015,
+      "text": "Extra gloves? You've had this pair of extra gloves this whole time?",
+      "character": null
+    },
+    {
+      "id": 3020,
+      "text": "Yeah. We're in the Rockies.",
+      "character": null
+    },
+    {
+      "id": 3025,
+      "text": "I'm going to kill you.",
+      "character": null
+    },
+    {
+      "id": 3030,
+      "text": "What?",
+      "character": null
+    },
+    {
+      "id": 3035,
+      "text": "I'm gonna kill you, Lloyd!",
+      "character": null
+    },
+    {
+      "id": 3040,
+      "text": "Calm down!",
+      "character": null
+    },
+    {
+      "id": 3045,
+      "text": "Right now, I'm gonna kill you!",
+      "character": null
+    },
+    {
+      "id": 3050,
+      "text": "Harry, you got that crazy look in your eye!",
+      "character": null
+    },
+    {
+      "id": 3055,
+      "text": "I know what I'm going to do.",
+      "character": null
+    },
+    {
+      "id": 3060,
+      "text": "What are you doing?",
+      "character": null
+    },
+    {
+      "id": 3065,
+      "text": "Don't do anything foolish, Harry!",
+      "character": null
+    },
+    {
+      "id": 3070,
+      "text": "What? Foolish? This isn't foolish!",
+      "character": null
+    },
+    {
+      "id": 3075,
+      "text": "I'm going to toss this damn curse right into that damn pond!",
+      "character": null
+    },
+    {
+      "id": 3080,
+      "text": "I'm going to do it!",
+      "character": null
+    },
+    {
+      "id": 3085,
+      "text": "No, Harry! Your hands are freezing!",
+      "character": null
+    },
+    {
+      "id": 3090,
+      "text": "Harry, look! Look! Look!",
+      "character": null
+    },
+    {
+      "id": 3095,
+      "text": "Okay, here's the plan: We borrow a few bucks, just a small loan from the briefcase.",
+      "character": null
+    },
+    {
+      "id": 3100,
+      "text": "And we find some reasonable lodgings.",
+      "character": null
+    },
+    {
+      "id": 3105,
+      "text": "And we'll keep track of all the money we spend with loans.",
+      "character": null
+    },
+    {
+      "id": 3110,
+      "text": "We'll be meticulous, right down to the last penny.",
+      "character": null
+    },
+    {
+      "id": 3115,
+      "text": "Whatever we borrow, we pay back.",
+      "character": null
+    },
+    {
+      "id": 3120,
+      "text": "Absolutely. We're good for it.",
+      "character": null
+    },
+    {
+      "id": 3125,
+      "text": "Our word is our bond.",
+      "character": null
+    },
+    {
+      "id": 3130,
+      "text": "This is the Hotel Danbury, Presidential Suite, gentlemen, normally reserved for royalty, visiting dignitaries, illustrious stars of stage and screen.",
+      "character": null
+    },
+    {
+      "id": 3135,
+      "text": "We have shortly coming the Emperor and Empress of Japan, and of course, Princess Charles and Di when they were together used to frequent the hotel constantly.",
+      "character": null
+    },
+    {
+      "id": 3140,
+      "text": "We'll take it!",
+      "character": null
+    },
+    {
+      "id": 3145,
+      "text": "There you go.",
+      "character": null
+    },
+    {
+      "id": 3150,
+      "text": "Thank you, sir.",
+      "character": null
+    },
+    {
+      "id": 3155,
+      "text": "Wow! Boy, this is livin', huh? What's on next?",
+      "character": null
+    },
+    {
+      "id": 3160,
+      "text": "I don't know. Let me look it up.",
+      "character": null
+    },
+    {
+      "id": 3165,
+      "text": "Lloyd, you okay?",
+      "character": null
+    },
+    {
+      "id": 3170,
+      "text": "Harry, it's Mary!",
+      "character": null
+    },
+    {
+      "id": 3175,
+      "text": "It's who?",
+      "character": null
+    },
+    {
+      "id": 3180,
+      "text": "Mary with the briefcase.",
+      "character": null
+    },
+    {
+      "id": 3185,
+      "text": "Mary Swanson.",
+      "character": null
+    },
+    {
+      "id": 3190,
+      "text": "Wool hast anool...",
+      "character": null
+    },
+    {
+      "id": 3195,
+      "text": "\"Annual meeting of... lnternational Preservation Society tomorrow night.\"",
+      "character": null
+    },
+    {
+      "id": 3200,
+      "text": "Yeah. It's a big one.",
+      "character": null
+    },
+    {
+      "id": 3205,
+      "text": "Well, come on, Cinderella.",
+      "character": null
+    },
+    {
+      "id": 3210,
+      "text": "We've got to get you ready for the ball!",
+      "character": null
+    },
+    {
+      "id": 3215,
+      "text": "Thanks, Barn. There you go.",
+      "character": null
+    },
+    {
+      "id": 3220,
+      "text": "Excuse me. Gentlemen, this is a $500-a-plate dinner.",
+      "character": null
+    },
+    {
+      "id": 3225,
+      "text": "Good night.",
+      "character": null
+    },
+    {
+      "id": 3230,
+      "text": "Oh, 500 oh, okay. No problem. Here. Put us down for... put us down for four.",
+      "character": null
+    },
+    {
+      "id": 3235,
+      "text": "In case we want seconds.",
+      "character": null
+    },
+    {
+      "id": 3240,
+      "text": "Jesus Christ. It's them.",
+      "character": null
+    },
+    {
+      "id": 3245,
+      "text": "Them who?",
+      "character": null
+    },
+    {
+      "id": 3250,
+      "text": "Them, the guys who whacked Mental.",
+      "character": null
+    },
+    {
+      "id": 3255,
+      "text": "Can't you just feel it, Harry?",
+      "character": null
+    },
+    {
+      "id": 3260,
+      "text": "This is our big chance, man.",
+      "character": null
+    },
+    {
+      "id": 3265,
+      "text": "All we gotta do is show a little class, a little sophistication, and we're in like a dirty shirt.",
+      "character": null
+    },
+    {
+      "id": 3270,
+      "text": "That's no problem, Lloyd. We can be classy and sophistic...",
+      "character": null
+    },
+    {
+      "id": 3275,
+      "text": "Oh, look at the funbags on that hosehound.",
+      "character": null
+    },
+    {
+      "id": 3280,
+      "text": "I'd like to eat her liver with some fava beans and a nice bottle of Chianti.",
+      "character": null
+    },
+    {
+      "id": 3285,
+      "text": "Come on, let's go get a couple bowlsof loudmouth soup.",
+      "character": null
+    },
+    {
+      "id": 3290,
+      "text": "Hey, bartender, two martinis, please.",
+      "character": null
+    },
+    {
+      "id": 3295,
+      "text": "Yes, sir. Right away.",
+      "character": null
+    },
+    {
+      "id": 3300,
+      "text": "Ladies and gentlemen, can I have your attention, please?",
+      "character": null
+    },
+    {
+      "id": 3305,
+      "text": "The Aspen Preservation Society is the world's foremost defender of 23 endangered species.",
+      "character": null
+    },
+    {
+      "id": 3310,
+      "text": "And it is with tremendous honor that we're able to bring Mr. Swanson forward to introduce us to the 24th.",
+      "character": null
+    },
+    {
+      "id": 3315,
+      "text": "Ladies and gentlemen, I give you the lcelandic snow owl.",
+      "character": null
+    },
+    {
+      "id": 3320,
+      "text": "These magnificent specimens constitute one seventh of the snow owl population left on the planet.",
+      "character": null
+    },
+    {
+      "id": 3325,
+      "text": "And God willing,with your help and that of the Society's, these wonderful creatures will flourish once more.",
+      "character": null
+    },
+    {
+      "id": 3330,
+      "text": "Thank you again and enjoy your evening.",
+      "character": null
+    },
+    {
+      "id": 3335,
+      "text": "Can I have some pistachios, please? And another one of those.",
+      "character": null
+    },
+    {
+      "id": 3340,
+      "text": "Lloyd, what are you doing? Would you calm down?",
+      "character": null
+    },
+    {
+      "id": 3345,
+      "text": "I've never seen you so nervous.",
+      "character": null
+    },
+    {
+      "id": 3350,
+      "text": "Keep an eye on 'em, Shay. Keep a close eye.",
+      "character": null
+    },
+    {
+      "id": 3355,
+      "text": "I'm ready for a commitment, Harry.",
+      "character": null
+    },
+    {
+      "id": 3360,
+      "text": "The first time I set eyes on Mary Swanson, I just got that old-fashioned romantic feeling where I'd do anything to bone her.",
+      "character": null
+    },
+    {
+      "id": 3365,
+      "text": "That's a special feeling, Lloyd.",
+      "character": null
+    },
+    {
+      "id": 3370,
+      "text": "Yeah.",
+      "character": null
+    },
+    {
+      "id": 3375,
+      "text": "Oh my, there she is.",
+      "character": null
+    },
+    {
+      "id": 3380,
+      "text": "Wow! You weren't kidding, Lloyd. She's an angel!",
+      "character": null
+    },
+    {
+      "id": 3385,
+      "text": "Well, what are you waiting for? Get over there and talk to her.",
+      "character": null
+    },
+    {
+      "id": 3390,
+      "text": "She's just going to think I'm some kind of a psycho when she finds out how far I came just to see her!",
+      "character": null
+    },
+    {
+      "id": 3395,
+      "text": "You know what you have?! Her briefcase!",
+      "character": null
+    },
+    {
+      "id": 3400,
+      "text": "She's gonna be thrilled to see you.",
+      "character": null
+    },
+    {
+      "id": 3405,
+      "text": "Wait. I have an idea.",
+      "character": null
+    },
+    {
+      "id": 3410,
+      "text": "Why don't you go over and introduce yourself?",
+      "character": null
+    },
+    {
+      "id": 3415,
+      "text": "And that way, you can build me up so I won't have to brag about myself later.",
+      "character": null
+    },
+    {
+      "id": 3420,
+      "text": "Tell her I'm rich and, uh, I'm good-looking and, uh, I have a rapist wit.",
+      "character": null
+    },
+    {
+      "id": 3425,
+      "text": "No, I don't know. I don't think I could... No.",
+      "character": null
+    },
+    {
+      "id": 3430,
+      "text": "Come on, please.",
+      "character": null
+    },
+    {
+      "id": 3435,
+      "text": "Okay okay okay. Stop.",
+      "character": null
+    },
+    {
+      "id": 3440,
+      "text": "What are you gonna do?",
+      "character": null
+    },
+    {
+      "id": 3445,
+      "text": "I'm going to hang by the bar, put out the vibe.",
+      "character": null
+    },
+    {
+      "id": 3450,
+      "text": "Nice set of hooters you got there.",
+      "character": null
+    },
+    {
+      "id": 3455,
+      "text": "I beg your pardon?",
+      "character": null
+    },
+    {
+      "id": 3460,
+      "text": "The owls, they're beautiful.",
+      "character": null
+    },
+    {
+      "id": 3465,
+      "text": "Oh. Yeah. Are you a bird lover?",
+      "character": null
+    },
+    {
+      "id": 3470,
+      "text": "Me? Oh, no. Well, I used to have a parakeet.",
+      "character": null
+    },
+    {
+      "id": 3475,
+      "text": "But now my main area of expertise is, uh, canines. \"Dogs\" to the layperson.",
+      "character": null
+    },
+    {
+      "id": 3480,
+      "text": "I love dogs too. So how are you involved with them?",
+      "character": null
+    },
+    {
+      "id": 3485,
+      "text": "Oh, you know, I've trained them, bathed them, clipped them.",
+      "character": null
+    },
+    {
+      "id": 3490,
+      "text": "I've even bred them.",
+      "character": null
+    },
+    {
+      "id": 3495,
+      "text": "Oh, really? Any unusual breeding?",
+      "character": null
+    },
+    {
+      "id": 3500,
+      "text": "No. Mostly just doggy-style.",
+      "character": null
+    },
+    {
+      "id": 3505,
+      "text": "One time, we successfully mated a bulldog with a shih-tzu.",
+      "character": null
+    },
+    {
+      "id": 3510,
+      "text": "Really? That's weird.",
+      "character": null
+    },
+    {
+      "id": 3515,
+      "text": "Yeah. We, we called it a bullshit.",
+      "character": null
+    },
+    {
+      "id": 3520,
+      "text": "Oh, I'm... Anyway, the real reason I came over here was to...",
+      "character": null
+    },
+    {
+      "id": 3525,
+      "text": "I've got to introduce you to a buddy of mine.",
+      "character": null
+    },
+    {
+      "id": 3530,
+      "text": "I don't believe I've met your friend.",
+      "character": null
+    },
+    {
+      "id": 3535,
+      "text": "Well, actually, we haven't been properly introduced.",
+      "character": null
+    },
+    {
+      "id": 3540,
+      "text": "My name is Mary Swanson.",
+      "character": null
+    },
+    {
+      "id": 3545,
+      "text": "Hi, Harry Dunne.",
+      "character": null
+    },
+    {
+      "id": 3550,
+      "text": "Hi. Nice to meet you. This is my stepmother Helen.",
+      "character": null
+    },
+    {
+      "id": 3555,
+      "text": "Hi. Harry Dunne. Pleasure to meet you both.",
+      "character": null
+    },
+    {
+      "id": 3560,
+      "text": "Mm-hmm. Well, I saw you come in. I was hoping I'd get a chance to meet you.",
+      "character": null
+    },
+    {
+      "id": 3565,
+      "text": "You were? Really?",
+      "character": null
+    },
+    {
+      "id": 3570,
+      "text": "Yes! That tuxedo, it's fabulous!",
+      "character": null
+    },
+    {
+      "id": 3575,
+      "text": "Really. I love a man with a sense of humor, and so does Mary. It's hysterical!",
+      "character": null
+    },
+    {
+      "id": 3580,
+      "text": "Really? Oh. Anyway, um, about my friend...",
+      "character": null
+    },
+    {
+      "id": 3585,
+      "text": "What are you doing tomorrow?",
+      "character": null
+    },
+    {
+      "id": 3590,
+      "text": "I believe that Mary is looking for someone to hit the slopes with.",
+      "character": null
+    },
+    {
+      "id": 3595,
+      "text": "She... what? Huh?",
+      "character": null
+    },
+    {
+      "id": 3600,
+      "text": "Helen, you're embarrassing me.",
+      "character": null
+    },
+    {
+      "id": 3605,
+      "text": "Well, you are.",
+      "character": null
+    },
+    {
+      "id": 3610,
+      "text": "I mean, after all, the snow's going to be gone in a couple of weeks.",
+      "character": null
+    },
+    {
+      "id": 3615,
+      "text": "And, well, this may be your last chance.",
+      "character": null
+    },
+    {
+      "id": 3620,
+      "text": "Poor thing, she never gets a chance to get out.",
+      "character": null
+    },
+    {
+      "id": 3625,
+      "text": "Well, what do you say, Mr. Dunne? Are you available?",
+      "character": null
+    },
+    {
+      "id": 3630,
+      "text": "Well, I don't know. See, my friend...",
+      "character": null
+    },
+    {
+      "id": 3635,
+      "text": "Oh, forget your friend for one day.",
+      "character": null
+    },
+    {
+      "id": 3640,
+      "text": "I think you kids'll have a wonderful time. What do you say?",
+      "character": null
+    },
+    {
+      "id": 3645,
+      "text": "Well, you know, I don't know, you know. You know, the thing... part of... sure. What time?",
+      "character": null
+    },
+    {
+      "id": 3650,
+      "text": "How come you didn't bring her over?",
+      "character": null
+    },
+    {
+      "id": 3655,
+      "text": "Relax. You're golden.",
+      "character": null
+    },
+    {
+      "id": 3660,
+      "text": "I got you a date with her tomorrow.",
+      "character": null
+    },
+    {
+      "id": 3665,
+      "text": "I love you, man.",
+      "character": null
+    },
+    {
+      "id": 3670,
+      "text": "Okay okay. You're kissing me.",
+      "character": null
+    },
+    {
+      "id": 3675,
+      "text": "This calls for a little of the bubbly!",
+      "character": null
+    },
+    {
+      "id": 3680,
+      "text": "You're going to be my best man, Harr. I promise.",
+      "character": null
+    },
+    {
+      "id": 3685,
+      "text": "You have just earned yourself a seat at the head table, pal. And we already got the tuxes.",
+      "character": null
+    },
+    {
+      "id": 3690,
+      "text": "Boy, this party really died.",
+      "character": null
+    },
+    {
+      "id": 3695,
+      "text": "Hey, maybe it was a coincidence.",
+      "character": null
+    },
+    {
+      "id": 3700,
+      "text": "It was a message, Shay, pure and simple.",
+      "character": null
+    },
+    {
+      "id": 3705,
+      "text": "I mean, we killed their bird. Now they killed one of ours.",
+      "character": null
+    },
+    {
+      "id": 3710,
+      "text": "How could anybody whack a bird with a cork?",
+      "character": null
+    },
+    {
+      "id": 3715,
+      "text": "These guys aren't just anybody. They're good.",
+      "character": null
+    },
+    {
+      "id": 3720,
+      "text": "Mrs. Mary Christmas. Kinda catchy, huh, Harr?",
+      "character": null
+    },
+    {
+      "id": 3725,
+      "text": "Yeah yeah, that sounds nice.",
+      "character": null
+    },
+    {
+      "id": 3730,
+      "text": "But, Lloyd, don't you think you might be jumping the gun a little bit?",
+      "character": null
+    },
+    {
+      "id": 3735,
+      "text": "I mean, you know, who knows? Maybe, once you get to know her you'll find out that she's not your type.",
+      "character": null
+    },
+    {
+      "id": 3740,
+      "text": "Hey! Don't you ever say that again!",
+      "character": null
+    },
+    {
+      "id": 3745,
+      "text": "She is the love of my life! The blood in my veins!",
+      "character": null
+    },
+    {
+      "id": 3750,
+      "text": "We belong together... Till the mountains fall into the sea, till the heavens collide!",
+      "character": null
+    },
+    {
+      "id": 3755,
+      "text": "Or until I get sick of her and need to move on. You hear me?",
+      "character": null
+    },
+    {
+      "id": 3760,
+      "text": "Okay okay okay okay. Just calm down.",
+      "character": null
+    },
+    {
+      "id": 3765,
+      "text": "Now... Let me get this straight. Lobby bar in the lobby?",
+      "character": null
+    },
+    {
+      "id": 3770,
+      "text": "Yeah, and that's what she said. She'll meet you there at 10:00 sharp.",
+      "character": null
+    },
+    {
+      "id": 3775,
+      "text": "Okay. Where're you going in that get-up?",
+      "character": null
+    },
+    {
+      "id": 3780,
+      "text": "You know, I just thought, when you'd be off making your love connection I'd be out trying my luck on the slopes.",
+      "character": null
+    },
+    {
+      "id": 3785,
+      "text": "You mean you're gonna go out in public dressed in tights?",
+      "character": null
+    },
+    {
+      "id": 3790,
+      "text": "Oh no, these aren't tights, Lloyd.",
+      "character": null
+    },
+    {
+      "id": 3795,
+      "text": "These are fashionable Euro-trash ski trousers.",
+      "character": null
+    },
+    {
+      "id": 3800,
+      "text": "Pretty revealing.",
+      "character": null
+    },
+    {
+      "id": 3805,
+      "text": "Really?",
+      "character": null
+    },
+    {
+      "id": 3810,
+      "text": "Yeah, but it's just a tiny lump. No one'll notice.",
+      "character": null
+    },
+    {
+      "id": 3815,
+      "text": "You're right. I can't go out dressed like this.",
+      "character": null
+    },
+    {
+      "id": 3820,
+      "text": "Beautiful outfit, sir.",
+      "character": null
+    },
+    {
+      "id": 3825,
+      "text": "There you go.",
+      "character": null
+    },
+    {
+      "id": 3830,
+      "text": "Hey. How you doin'?",
+      "character": null
+    },
+    {
+      "id": 3835,
+      "text": "You're a little early. We don't open for about 45 minutes.",
+      "character": null
+    },
+    {
+      "id": 3840,
+      "text": "I'm meeting someone here. Mind if I wait at the bar?",
+      "character": null
+    },
+    {
+      "id": 3845,
+      "text": "No. Come on in.",
+      "character": null
+    },
+    {
+      "id": 3850,
+      "text": "It's a beautiful day, huh, Harry?",
+      "character": null
+    },
+    {
+      "id": 3855,
+      "text": "Yes yes, I've had a wonderful time so far. Thank you.",
+      "character": null
+    },
+    {
+      "id": 3860,
+      "text": "God, it feels so good to get up here.",
+      "character": null
+    },
+    {
+      "id": 3865,
+      "text": "I haven't been outside that much in the last couple weeks.",
+      "character": null
+    },
+    {
+      "id": 3870,
+      "text": "Oh, yeah? Why not?",
+      "character": null
+    },
+    {
+      "id": 3875,
+      "text": "Um, there's been some family problems.",
+      "character": null
+    },
+    {
+      "id": 3880,
+      "text": "But I don't want to bore you with those.",
+      "character": null
+    },
+    {
+      "id": 3885,
+      "text": "Thanks. Oh, look. Frost.",
+      "character": null
+    },
+    {
+      "id": 3890,
+      "text": "Harry? Are you okay?",
+      "character": null
+    },
+    {
+      "id": 3895,
+      "text": "Oh, yeah, I do this all the time.",
+      "character": null
+    },
+    {
+      "id": 3900,
+      "text": "Let's go to the top this time.",
+      "character": null
+    },
+    {
+      "id": 3905,
+      "text": "Hi, there.",
+      "character": null
+    },
+    {
+      "id": 3910,
+      "text": "Say, kids, you wouldn't happen to have a cup of warm water, would you?",
+      "character": null
+    },
+    {
+      "id": 3915,
+      "text": "Excuse me. Is it 10:00 A.M. yet?",
+      "character": null
+    },
+    {
+      "id": 3920,
+      "text": "It's 1:00.",
+      "character": null
+    },
+    {
+      "id": 3925,
+      "text": "That's what I have too. Thought maybe it was fast.",
+      "character": null
+    },
+    {
+      "id": 3930,
+      "text": "She's running late, huh?",
+      "character": null
+    },
+    {
+      "id": 3935,
+      "text": "Just a couple hours. You know girls.",
+      "character": null
+    },
+    {
+      "id": 3940,
+      "text": "When they're excited about something, everything has to be perfect.",
+      "character": null
+    },
+    {
+      "id": 3945,
+      "text": "This one's on me.",
+      "character": null
+    },
+    {
+      "id": 3950,
+      "text": "Yippee.",
+      "character": null
+    },
+    {
+      "id": 3955,
+      "text": "Chablis, please. Hello.",
+      "character": null
+    },
+    {
+      "id": 3960,
+      "text": "Bad day, huh? Me too.",
+      "character": null
+    },
+    {
+      "id": 3965,
+      "text": "'Course everything's been bad since I broke up with my boyfriend.",
+      "character": null
+    },
+    {
+      "id": 3970,
+      "text": "My God! You poor guy. Does it hurt?",
+      "character": null
+    },
+    {
+      "id": 3975,
+      "text": "I'm fine. I saved a seat for you.",
+      "character": null
+    },
+    {
+      "id": 3980,
+      "text": "Oh no, listen. This is silly. Let me help you.",
+      "character": null
+    },
+    {
+      "id": 3985,
+      "text": "Yes. It'll only hurt for a moment, like a Band-Aid.",
+      "character": null
+    },
+    {
+      "id": 3990,
+      "text": "Come on, ready?",
+      "character": null
+    },
+    {
+      "id": 3995,
+      "text": "I said to myself, \"Run, Beth. Run for your life before this man kills you both.\"",
+      "character": null
+    },
+    {
+      "id": 4000,
+      "text": "Then do you know what the klutz did?",
+      "character": null
+    },
+    {
+      "id": 4005,
+      "text": "No, and I don't care!",
+      "character": null
+    },
+    {
+      "id": 4010,
+      "text": "I'm going to tell you. He came home one night dead drunk and decided he wanted to fix the sink.",
+      "character": null
+    },
+    {
+      "id": 4015,
+      "text": "Couldn't believe him.",
+      "character": null
+    },
+    {
+      "id": 4020,
+      "text": "Anyway, enough about me. Let's talk about you.",
+      "character": null
+    },
+    {
+      "id": 4025,
+      "text": "How come you're here?",
+      "character": null
+    },
+    {
+      "id": 4030,
+      "text": "Bartender! You wouldn't happen to know a Mary Swanson, would you?",
+      "character": null
+    },
+    {
+      "id": 4035,
+      "text": "Mary Swanson? Yeah. She comes in here all the time.",
+      "character": null
+    },
+    {
+      "id": 4040,
+      "text": "What's that supposed to mean?",
+      "character": null
+    },
+    {
+      "id": 4045,
+      "text": "She has dinner.",
+      "character": null
+    },
+    {
+      "id": 4050,
+      "text": "Oh. I'm sorry. Uh... you know where she lives?",
+      "character": null
+    },
+    {
+      "id": 4055,
+      "text": "Yeah, her family has the big place up on Alpine Drive.",
+      "character": null
+    },
+    {
+      "id": 4060,
+      "text": "Alpine Drive? Big place?",
+      "character": null
+    },
+    {
+      "id": 4065,
+      "text": "No way!",
+      "character": null
+    },
+    {
+      "id": 4070,
+      "text": "That's great!",
+      "character": null
+    },
+    {
+      "id": 4075,
+      "text": "We landed on the moon!",
+      "character": null
+    },
+    {
+      "id": 4080,
+      "text": "I've gotta tell you, today was just what I needed. Thanks a lot, Harry.",
+      "character": null
+    },
+    {
+      "id": 4085,
+      "text": "It was my pleasure, Mary.",
+      "character": null
+    },
+    {
+      "id": 4090,
+      "text": "So you'll pick me up tonight at 7:45?",
+      "character": null
+    },
+    {
+      "id": 4095,
+      "text": "Well, no, I've got a few things to take care of first.",
+      "character": null
+    },
+    {
+      "id": 4100,
+      "text": "Why don't we make it quarter to 8:00?",
+      "character": null
+    },
+    {
+      "id": 4105,
+      "text": "Doesn't make any sense, Lloyd.",
+      "character": null
+    },
+    {
+      "id": 4110,
+      "text": "She told me 10:00 sharp!",
+      "character": null
+    },
+    {
+      "id": 4115,
+      "text": "Are you sure you went to the right bar?",
+      "character": null
+    },
+    {
+      "id": 4120,
+      "text": "Oh, yeah. Yep. I'm pretty sure.",
+      "character": null
+    },
+    {
+      "id": 4125,
+      "text": "Lobby bar. Right in the lobby.",
+      "character": null
+    },
+    {
+      "id": 4130,
+      "text": "Ahh... well... Maybe she just had a change of heart.",
+      "character": null
+    },
+    {
+      "id": 4135,
+      "text": "Oh, that pisses me off! That pisses me right off!",
+      "character": null
+    },
+    {
+      "id": 4140,
+      "text": "I hate when women do that, you know?",
+      "character": null
+    },
+    {
+      "id": 4145,
+      "text": "She wanted to see you again!",
+      "character": null
+    },
+    {
+      "id": 4150,
+      "text": "She told me that! And now no?",
+      "character": null
+    },
+    {
+      "id": 4155,
+      "text": "Wait a minute! She must have meant 10:00 at night.",
+      "character": null
+    },
+    {
+      "id": 4160,
+      "text": "Do you think?",
+      "character": null
+    },
+    {
+      "id": 4165,
+      "text": "Why would she have you meet her at a bar at 10:00 in the morning?",
+      "character": null
+    },
+    {
+      "id": 4170,
+      "text": "I just figured she was a raging alcoholic.",
+      "character": null
+    },
+    {
+      "id": 4175,
+      "text": "And all this time, I've been going through such pain and personal anguish.",
+      "character": null
+    },
+    {
+      "id": 4180,
+      "text": "Such hell! For nothing!",
+      "character": null
+    },
+    {
+      "id": 4185,
+      "text": "Oh, God. That's funny. Oh, that's good stuff. Oh, boy.",
+      "character": null
+    },
+    {
+      "id": 4190,
+      "text": "Well, listen, looks like you got your night planned, so I'm just going to head out and catch a flick.",
+      "character": null
+    },
+    {
+      "id": 4195,
+      "text": "Hey, Harry, old buddy, old pal!",
+      "character": null
+    },
+    {
+      "id": 4200,
+      "text": "Will you join me in a good-luck toast before you head out?",
+      "character": null
+    },
+    {
+      "id": 4205,
+      "text": "Oh, sure thing. Whatever you think will help your chances.",
+      "character": null
+    },
+    {
+      "id": 4210,
+      "text": "Yes, sirree. You know why I like you, Harry?",
+      "character": null
+    },
+    {
+      "id": 4215,
+      "text": "Because you're a regular guy.",
+      "character": null
+    },
+    {
+      "id": 4220,
+      "text": "Yep, that's why I want you to stay regular.",
+      "character": null
+    },
+    {
+      "id": 4225,
+      "text": "1/2 teaspoon for fast, effective relief.",
+      "character": null
+    },
+    {
+      "id": 4230,
+      "text": "To my friend Harry... the matchmaker.",
+      "character": null
+    },
+    {
+      "id": 4235,
+      "text": "Oh, get out of here.",
+      "character": null
+    },
+    {
+      "id": 4240,
+      "text": "Hi, the door's open. Come on upstairs.",
+      "character": null
+    },
+    {
+      "id": 4245,
+      "text": "Hi, make yourself at home, okay?",
+      "character": null
+    },
+    {
+      "id": 4250,
+      "text": "I'm almost ready. One minute?",
+      "character": null
+    },
+    {
+      "id": 4255,
+      "text": "Okay, sounds good.",
+      "character": null
+    },
+    {
+      "id": 4260,
+      "text": "Harry, are you in there?",
+      "character": null
+    },
+    {
+      "id": 4265,
+      "text": "Be right out!",
+      "character": null
+    },
+    {
+      "id": 4270,
+      "text": "I hope you're not using the toilet. It's broken.",
+      "character": null
+    },
+    {
+      "id": 4275,
+      "text": "The toilet doesn't flush.",
+      "character": null
+    },
+    {
+      "id": 4280,
+      "text": "No, I was just shaving.",
+      "character": null
+    },
+    {
+      "id": 4285,
+      "text": "Shaving?",
+      "character": null
+    },
+    {
+      "id": 4290,
+      "text": "Yeah, I was running a little late.",
+      "character": null
+    },
+    {
+      "id": 4295,
+      "text": "I thought this would save some time.",
+      "character": null
+    },
+    {
+      "id": 4300,
+      "text": "Okay well, I'll be in the kitchen whenever you're ready.",
+      "character": null
+    },
+    {
+      "id": 4305,
+      "text": "Oh, Jeez!",
+      "character": null
+    },
+    {
+      "id": 4310,
+      "text": "Tomorrow on \"A Current Affair,\" inside the home of the Menendez brothers' attorney.",
+      "character": null
+    },
+    {
+      "id": 4315,
+      "text": "And next, we'll be back in a minute with the heartbreaking story of the blind Rhode lsland boy who was duped into buying a dead parakeet.",
+      "character": null
+    },
+    {
+      "id": 4320,
+      "text": "I just thought he was real quiet.",
+      "character": null
+    },
+    {
+      "id": 4325,
+      "text": "Who are these sick people?",
+      "character": null
+    },
+    {
+      "id": 4330,
+      "text": "Hi. Remember me?",
+      "character": null
+    },
+    {
+      "id": 4335,
+      "text": "Uh... not really.",
+      "character": null
+    },
+    {
+      "id": 4340,
+      "text": "Providence. I drove you to the airport last week.",
+      "character": null
+    },
+    {
+      "id": 4345,
+      "text": "Oh my God! Uh... Lloyd, right?",
+      "character": null
+    },
+    {
+      "id": 4350,
+      "text": "You remembered my name.",
+      "character": null
+    },
+    {
+      "id": 4355,
+      "text": "What are you doing in Aspen?",
+      "character": null
+    },
+    {
+      "id": 4360,
+      "text": "I brought you your briefcase.",
+      "character": null
+    },
+    {
+      "id": 4365,
+      "text": "You left it at the airport, you big goof!",
+      "character": null
+    },
+    {
+      "id": 4370,
+      "text": "You have my briefcase?",
+      "character": null
+    },
+    {
+      "id": 4375,
+      "text": "Yeah. Hey, I have it at my hotel room.",
+      "character": null
+    },
+    {
+      "id": 4380,
+      "text": "You want to jump on the bike with me?",
+      "character": null
+    },
+    {
+      "id": 4385,
+      "text": "We can go get it unless... unless you're busy.",
+      "character": null
+    },
+    {
+      "id": 4390,
+      "text": "No no!",
+      "character": null
+    },
+    {
+      "id": 4395,
+      "text": "I don't wanna...",
+      "character": null
+    },
+    {
+      "id": 4400,
+      "text": "You just wait right here.",
+      "character": null
+    },
+    {
+      "id": 4405,
+      "text": "Okay.",
+      "character": null
+    },
+    {
+      "id": 4410,
+      "text": "Come on, flush, you bastard!",
+      "character": null
+    },
+    {
+      "id": 4415,
+      "text": "Harry, what are you doing in there?",
+      "character": null
+    },
+    {
+      "id": 4420,
+      "text": "I'm just... I'm cleaning my teeth! I'm gargling.",
+      "character": null
+    },
+    {
+      "id": 4425,
+      "text": "Just give me a minute, Mary. I'll be right with you.",
+      "character": null
+    },
+    {
+      "id": 4430,
+      "text": "Harry, I'm sorry, but something important's come up, and I've got to run out.",
+      "character": null
+    },
+    {
+      "id": 4435,
+      "text": "It's-it's sort of an emergency. I'll explain later.",
+      "character": null
+    },
+    {
+      "id": 4440,
+      "text": "But, Mary...",
+      "character": null
+    },
+    {
+      "id": 4445,
+      "text": "I'm sorry. I've really got to go.",
+      "character": null
+    },
+    {
+      "id": 4450,
+      "text": "I promise we'll do this again sometime.",
+      "character": null
+    },
+    {
+      "id": 4455,
+      "text": "Race you to the top.",
+      "character": null
+    },
+    {
+      "id": 4460,
+      "text": "Come here.",
+      "character": null
+    },
+    {
+      "id": 4465,
+      "text": "Yeah! Ha ha! I won!",
+      "character": null
+    },
+    {
+      "id": 4470,
+      "text": "Look familiar?",
+      "character": null
+    },
+    {
+      "id": 4475,
+      "text": "I don't believe it. You really have it.",
+      "character": null
+    },
+    {
+      "id": 4480,
+      "text": "Of course, I have it.",
+      "character": null
+    },
+    {
+      "id": 4485,
+      "text": "When Lloyd Christmas drives a woman to the airport, he makes sure she gets all her luggage.",
+      "character": null
+    },
+    {
+      "id": 4490,
+      "text": "That's my whole philosophy.",
+      "character": null
+    },
+    {
+      "id": 4495,
+      "text": "This is incredible.",
+      "character": null
+    },
+    {
+      "id": 4500,
+      "text": "You mean to say you drove 2,000 miles just for me?",
+      "character": null
+    },
+    {
+      "id": 4505,
+      "text": "Uh... I didn't really have a lot to do.",
+      "character": null
+    },
+    {
+      "id": 4510,
+      "text": "And I know how frustrating it can be to lose a bag.",
+      "character": null
+    },
+    {
+      "id": 4515,
+      "text": "That is so sweet, Lloyd.",
+      "character": null
+    },
+    {
+      "id": 4520,
+      "text": "Look, Mary, I know this may seem a little sudden, but I've given it a lot of thought.",
+      "character": null
+    },
+    {
+      "id": 4525,
+      "text": "You're the woman I've been waiting for my whole life, and I'm not ashamed to admit it.",
+      "character": null
+    },
+    {
+      "id": 4530,
+      "text": "Please... Let me finish.",
+      "character": null
+    },
+    {
+      "id": 4535,
+      "text": "I'm crazy about you.",
+      "character": null
+    },
+    {
+      "id": 4540,
+      "text": "I've never felt this way about anybody.",
+      "character": null
+    },
+    {
+      "id": 4545,
+      "text": "Listen to me. I feel like a schoolboy again.",
+      "character": null
+    },
+    {
+      "id": 4550,
+      "text": "A schoolboy who desperately wants to make sweet sweet love to you.",
+      "character": null
+    },
+    {
+      "id": 4555,
+      "text": "Oh, I thought I heard you talking to someone.",
+      "character": null
+    },
+    {
+      "id": 4560,
+      "text": "Mary, I desperately want to make love to a schoolboy.",
+      "character": null
+    },
+    {
+      "id": 4565,
+      "text": "Maybe I should be going.",
+      "character": null
+    },
+    {
+      "id": 4570,
+      "text": "No, that's not what I meant. What l meant was, um...",
+      "character": null
+    },
+    {
+      "id": 4575,
+      "text": "God. I like you, Mary. I like you a lot.",
+      "character": null
+    },
+    {
+      "id": 4580,
+      "text": "I want to ask you a question straight out, flat out, and I want you to give me an honest answer.",
+      "character": null
+    },
+    {
+      "id": 4585,
+      "text": "What do you think the chances are of a guy like you and a girl like me... ending up together?",
+      "character": null
+    },
+    {
+      "id": 4590,
+      "text": "Well, Lloyd, that's difficult to say. We really don't...",
+      "character": null
+    },
+    {
+      "id": 4595,
+      "text": "Hit me with it! Just give it to me straight!",
+      "character": null
+    },
+    {
+      "id": 4600,
+      "text": "I came a long way just to see you, Mary.",
+      "character": null
+    },
+    {
+      "id": 4605,
+      "text": "Just... The least you can do is level with me.",
+      "character": null
+    },
+    {
+      "id": 4610,
+      "text": "What are my chances?",
+      "character": null
+    },
+    {
+      "id": 4615,
+      "text": "Not good.",
+      "character": null
+    },
+    {
+      "id": 4620,
+      "text": "You mean not good, like one out of 100?",
+      "character": null
+    },
+    {
+      "id": 4625,
+      "text": "I'd say more like one out of a million.",
+      "character": null
+    },
+    {
+      "id": 4630,
+      "text": "So you're telling me there's a chance! Yeah!",
+      "character": null
+    },
+    {
+      "id": 4635,
+      "text": "I read you.",
+      "character": null
+    },
+    {
+      "id": 4640,
+      "text": "Hi. We have plenty of towels. Thanks.",
+      "character": null
+    },
+    {
+      "id": 4645,
+      "text": "Nicholas! What are you doing here?",
+      "character": null
+    },
+    {
+      "id": 4650,
+      "text": "I've been looking for you, Mary.",
+      "character": null
+    },
+    {
+      "id": 4655,
+      "text": "I have some news about your husband.",
+      "character": null
+    },
+    {
+      "id": 4660,
+      "text": "Husband?! Wait a minute!",
+      "character": null
+    },
+    {
+      "id": 4665,
+      "text": "What was all that one-in-a-million talk?",
+      "character": null
+    },
+    {
+      "id": 4670,
+      "text": "Aren't you going to invite me in?",
+      "character": null
+    },
+    {
+      "id": 4675,
+      "text": "Beth: Hey, Harry, you never called!",
+      "character": null
+    },
+    {
+      "id": 4680,
+      "text": "What are you doing here?",
+      "character": null
+    },
+    {
+      "id": 4685,
+      "text": "Excuse me, gunman, who are you?",
+      "character": null
+    },
+    {
+      "id": 4690,
+      "text": "Don't play dumb with me, asshole!",
+      "character": null
+    },
+    {
+      "id": 4695,
+      "text": "I'm the rightful owner of that briefcase you've been carrying around!",
+      "character": null
+    },
+    {
+      "id": 4700,
+      "text": "Oh. Well, then...",
+      "character": null
+    },
+    {
+      "id": 4705,
+      "text": "Nicholas, my family trusted you.",
+      "character": null
+    },
+    {
+      "id": 4710,
+      "text": "Shut up!",
+      "character": null
+    },
+    {
+      "id": 4715,
+      "text": "Listen, Mr. Samsonite, about the briefcase...",
+      "character": null
+    },
+    {
+      "id": 4720,
+      "text": "My friend Harry and l have every intention of fully reimbursing you.",
+      "character": null
+    },
+    {
+      "id": 4725,
+      "text": "What? You open it up. Open it up!",
+      "character": null
+    },
+    {
+      "id": 4730,
+      "text": "Go ahead, open it up. Do what he says.",
+      "character": null
+    },
+    {
+      "id": 4735,
+      "text": "Hurry!",
+      "character": null
+    },
+    {
+      "id": 4740,
+      "text": "What is this? Where's all the money?",
+      "character": null
+    },
+    {
+      "id": 4745,
+      "text": "That's as good as money, sir.",
+      "character": null
+    },
+    {
+      "id": 4750,
+      "text": "Those are IOUs. Go ahead and add it up. (I owe you)",
+      "character": null
+    },
+    {
+      "id": 4755,
+      "text": "Every cent's accounted for.",
+      "character": null
+    },
+    {
+      "id": 4760,
+      "text": "Look. See this?",
+      "character": null
+    },
+    {
+      "id": 4765,
+      "text": "That's a car. 275 thou.",
+      "character": null
+    },
+    {
+      "id": 4770,
+      "text": "Might want to hang on to that one.",
+      "character": null
+    },
+    {
+      "id": 4775,
+      "text": "You're a dead man!",
+      "character": null
+    },
+    {
+      "id": 4780,
+      "text": "Lloyd, I'm home!",
+      "character": null
+    },
+    {
+      "id": 4785,
+      "text": "Look, we've got to have a serious talk.",
+      "character": null
+    },
+    {
+      "id": 4790,
+      "text": "I got a confession to make.",
+      "character": null
+    },
+    {
+      "id": 4795,
+      "text": "Oh, good. You found her. I'll leave you two alone.",
+      "character": null
+    },
+    {
+      "id": 4800,
+      "text": "No. Stay.",
+      "character": null
+    },
+    {
+      "id": 4805,
+      "text": "Yes, I'd like a one-way ticket to Amsterdam departing as soon as possible, please.",
+      "character": null
+    },
+    {
+      "id": 4810,
+      "text": "How do you guys know each other?",
+      "character": null
+    },
+    {
+      "id": 4815,
+      "text": "We used to be best friends.",
+      "character": null
+    },
+    {
+      "id": 4820,
+      "text": "Yeah, until he turned into a backstabber.",
+      "character": null
+    },
+    {
+      "id": 4825,
+      "text": "Me a backstabber? You got a lot of nerve.",
+      "character": null
+    },
+    {
+      "id": 4830,
+      "text": "You knew I was crazy about her!",
+      "character": null
+    },
+    {
+      "id": 4835,
+      "text": "And you knew I was crazy about Fraida Felcher, and that didn't stop you, did it?",
+      "character": null
+    },
+    {
+      "id": 4840,
+      "text": "What do you mean?",
+      "character": null
+    },
+    {
+      "id": 4845,
+      "text": "What do you mean? Don't deny it, Lloyd.",
+      "character": null
+    },
+    {
+      "id": 4850,
+      "text": "Fraida told me the whole sleazy story, Mr. French Tickler.",
+      "character": null
+    },
+    {
+      "id": 4855,
+      "text": "Okay, what time does it... What time does that leave?",
+      "character": null
+    },
+    {
+      "id": 4860,
+      "text": "Wait a second. Can I have a vegetarian meal?",
+      "character": null
+    },
+    {
+      "id": 4865,
+      "text": "I guess we both learned a little something about each other today, did n't we?",
+      "character": null
+    },
+    {
+      "id": 4870,
+      "text": "Yeah, you said it, pal.",
+      "character": null
+    },
+    {
+      "id": 4875,
+      "text": "Maybe we're not as good of friends as we thought we were.",
+      "character": null
+    },
+    {
+      "id": 4880,
+      "text": "I guess not. I mean, if one beautiful girl can rip us apart like this, then maybe our friendship isn't worth a damn.",
+      "character": null
+    },
+    {
+      "id": 4885,
+      "text": "Maybe we should call it quits right now.",
+      "character": null
+    },
+    {
+      "id": 4890,
+      "text": "You just tell me where to sign, bud.",
+      "character": null
+    },
+    {
+      "id": 4895,
+      "text": "Right on my ass after you kiss it!",
+      "character": null
+    },
+    {
+      "id": 4900,
+      "text": "Kiss it?! You kiss mine!",
+      "character": null
+    },
+    {
+      "id": 4905,
+      "text": "Both cheeks, both lips, right here!",
+      "character": null
+    },
+    {
+      "id": 4910,
+      "text": "Shut up! Now, which one of you losers wants to get it first?",
+      "character": null
+    },
+    {
+      "id": 4915,
+      "text": "Over here... I was the one that got you into this whole mess.",
+      "character": null
+    },
+    {
+      "id": 4920,
+      "text": "Come on and shoot me.",
+      "character": null
+    },
+    {
+      "id": 4925,
+      "text": "No! Wait! Wait. No no, do me first.",
+      "character": null
+    },
+    {
+      "id": 4930,
+      "text": "I stole your girl, Lloyd. I deserve it.",
+      "character": null
+    },
+    {
+      "id": 4935,
+      "text": "No, you don't.",
+      "character": null
+    },
+    {
+      "id": 4940,
+      "text": "Yes, I do.",
+      "character": null
+    },
+    {
+      "id": 4945,
+      "text": "No, you don't.",
+      "character": null
+    },
+    {
+      "id": 4950,
+      "text": "Yesterday was one of the greatest days of my life.",
+      "character": null
+    },
+    {
+      "id": 4955,
+      "text": "Mary and I went skiing, we made a snowman, she touched my leg.",
+      "character": null
+    },
+    {
+      "id": 4960,
+      "text": "Okay, kill him!",
+      "character": null
+    },
+    {
+      "id": 4965,
+      "text": "You killed my best friend, you bastard!",
+      "character": null
+    },
+    {
+      "id": 4970,
+      "text": "If it's any consolation, you're about to be reunited.",
+      "character": null
+    },
+    {
+      "id": 4975,
+      "text": "Harry! You're alive!",
+      "character": null
+    },
+    {
+      "id": 4980,
+      "text": "And you're a horrible shot.",
+      "character": null
+    },
+    {
+      "id": 4985,
+      "text": "Lucky me.",
+      "character": null
+    },
+    {
+      "id": 4990,
+      "text": "Police! Open up! Nobody move!",
+      "character": null
+    },
+    {
+      "id": 4995,
+      "text": "Everybody freeze! Get those hands up!",
+      "character": null
+    },
+    {
+      "id": 5000,
+      "text": "Not you, dummy!",
+      "character": null
+    },
+    {
+      "id": 5005,
+      "text": "Get the gun. Special OfficerBeth Jordan, FBI.",
+      "character": null
+    },
+    {
+      "id": 5010,
+      "text": "Hey! Who? But... Huh?",
+      "character": null
+    },
+    {
+      "id": 5015,
+      "text": "Mr. Dunne, thank you very much.",
+      "character": null
+    },
+    {
+      "id": 5020,
+      "text": "We couldn't have done it without you.",
+      "character": null
+    },
+    {
+      "id": 5025,
+      "text": "We've been following you guys all the way from Providence.",
+      "character": null
+    },
+    {
+      "id": 5030,
+      "text": "What's going on, Harry? Your name is Harry, isn't it?",
+      "character": null
+    },
+    {
+      "id": 5035,
+      "text": "Yeah, she grabbed me down the lobby, explained what was up.",
+      "character": null
+    },
+    {
+      "id": 5040,
+      "text": "Then they slapped this bulletproof vest on me and gave me a gun.",
+      "character": null
+    },
+    {
+      "id": 5045,
+      "text": "But what if he shot you in the face?",
+      "character": null
+    },
+    {
+      "id": 5050,
+      "text": "What if he shot me in the face?",
+      "character": null
+    },
+    {
+      "id": 5055,
+      "text": "That's a risk we were willing to take.",
+      "character": null
+    },
+    {
+      "id": 5060,
+      "text": "How come I didn't get a gun?",
+      "character": null
+    },
+    {
+      "id": 5065,
+      "text": "Did you get a gun?",
+      "character": null
+    },
+    {
+      "id": 5070,
+      "text": "Honey!",
+      "character": null
+    },
+    {
+      "id": 5075,
+      "text": "Easy easy.",
+      "character": null
+    },
+    {
+      "id": 5080,
+      "text": "You're okay.",
+      "character": null
+    },
+    {
+      "id": 5085,
+      "text": "Okay, I'm just a little sore.",
+      "character": null
+    },
+    {
+      "id": 5090,
+      "text": "Oh, baby, I missed your loving.",
+      "character": null
+    },
+    {
+      "id": 5095,
+      "text": "Honey, there's someone I want to introduce you to.",
+      "character": null
+    },
+    {
+      "id": 5100,
+      "text": "He's the kindest, gentlest man I've ever met.",
+      "character": null
+    },
+    {
+      "id": 5105,
+      "text": "Will you meet him?",
+      "character": null
+    },
+    {
+      "id": 5110,
+      "text": "Sure.",
+      "character": null
+    },
+    {
+      "id": 5115,
+      "text": "He's got a gun!",
+      "character": null
+    },
+    {
+      "id": 5120,
+      "text": "Lloyd? Lloyd! I said this is my husband Bobby.",
+      "character": null
+    },
+    {
+      "id": 5125,
+      "text": "Oh. Hi, Bobby. I'm so happy for you.",
+      "character": null
+    },
+    {
+      "id": 5130,
+      "text": "Thank you. Thank you both very much.",
+      "character": null
+    },
+    {
+      "id": 5135,
+      "text": "I owe you both a debt of gratitude.",
+      "character": null
+    },
+    {
+      "id": 5140,
+      "text": "Thank you.",
+      "character": null
+    },
+    {
+      "id": 5145,
+      "text": "I can't believe this, Lloyd.",
+      "character": null
+    },
+    {
+      "id": 5150,
+      "text": "First Mary dumps us, then the cops take our nest egg.",
+      "character": null
+    },
+    {
+      "id": 5155,
+      "text": "Then our hog breaks down.",
+      "character": null
+    },
+    {
+      "id": 5160,
+      "text": "Yeah!",
+      "character": null
+    },
+    {
+      "id": 5165,
+      "text": "When are we ever gonna catch a break?",
+      "character": null
+    },
+    {
+      "id": 5170,
+      "text": "Hi, guys! We're going on a national bikini tour, and we're looking for two oil boys who can grease us up before each competition.",
+      "character": null
+    },
+    {
+      "id": 5175,
+      "text": "You are in luck!",
+      "character": null
+    },
+    {
+      "id": 5180,
+      "text": "There's a town about three miles that way.",
+      "character": null
+    },
+    {
+      "id": 5185,
+      "text": "I'm sure you'll find a couple guys there.",
+      "character": null
+    },
+    {
+      "id": 5190,
+      "text": "Okay. Thanks.",
+      "character": null
+    },
+    {
+      "id": 5195,
+      "text": "Do you realize what you've done?",
+      "character": null
+    },
+    {
+      "id": 5200,
+      "text": "You'll have to excuse my friend. He's a little slow.",
+      "character": null
+    },
+    {
+      "id": 5205,
+      "text": "The town is back that way.",
+      "character": null
+    },
+    {
+      "id": 5210,
+      "text": "Wow. Two lucky guys are gonna be driving around with those girls for the next couple of months.",
+      "character": null
+    },
+    {
+      "id": 5215,
+      "text": "Yeah, don't worry. We'll catch our break too.",
+      "character": null
+    },
+    {
+      "id": 5220,
+      "text": "Just gotta keep our eyes open.",
+      "character": null
+    },
+    {
+      "id": 5225,
+      "text": "Yeah.",
+      "character": null
+    },
+    {
+      "id": 5230,
+      "text": "You're it.",
+      "character": null
+    },
+    {
+      "id": 5235,
+      "text": "You're it. Quitsies.",
+      "character": null
+    },
+    {
+      "id": 5240,
+      "text": "You're it. Anti-quitsies, double-stamp.",
+      "character": null
+    },
+    {
+      "id": 5245,
+      "text": "You're it. Anti-quitsies, triple-stamp.",
+      "character": null
+    },
+    {
+      "id": 5250,
+      "text": "No erasies, none at all. You can't triple-stamp.",
+      "character": null
+    },
+    {
+      "id": 5255,
+      "text": "Yes, if you have a double-stamp, of course you can.",
+      "character": null
+    }
+  ]
+}
