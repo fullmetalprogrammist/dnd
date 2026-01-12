@@ -5,7 +5,7 @@ type ScreenplayProps = {
   lines: any[];
 }
 
-export function Screenplay({ scenes, lines }: ScreenplayProps) {
+export function Screenplay({ scenes = [], lines = [] }: ScreenplayProps) {
   const baseUrl = process.env.NODE_ENV === "production" 
     ? "https://indamovie.vercel.app/" 
     : "http://localhost:3000";
