@@ -8,6 +8,7 @@ export async function getScreenplay() {
     const arr = await data.json();
     return arr;
   } catch {
+    console.log(`Ошибка при fetch ${baseUrl}/dnd/text.json`);
     return {};
   }  
 }
