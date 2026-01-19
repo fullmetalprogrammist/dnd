@@ -7,7 +7,8 @@ import { CharacterDTO } from "./types/CharacterDTO";
 import { LineDTO } from "./types/LineDTO";
 import { SceneDTO } from "./types/SceneDTO";
 import { z } from "zod";
-import { IJsonDataSourceConfig } from "@/src/config/IJsonDataSourceConfig";
+import { IJsonDataSourceConfig } from "@/src/backend/config/IJsonDataSourceConfig";
+import { IDataSourceConfig } from "@/src/backend/config/IDataSourceConfig";
 
 const CharacterSchema = z.object({
   id: z.number(),
@@ -44,8 +45,9 @@ export class JsonSceneRepository implements ISceneRepository {
   private pictureService: IPictureStorageService;
   private projectCode: string | null = null;
 
-  constructor(dataSourceConfig: IJsonDataSourceConfig, pictureService: IPictureStorageService) {
-    this.config = dataSourceConfig;
+  constructor(dataSourceConfig: IDataSourceConfig, pictureService: IPictureStorageService) {
+    // TODO: есть ли практики как проводить такое преобразование безопасно или бросать исключение?
+    this.config = dataSourceConfig as IJsonDataSourceConfig;
     this.pictureService = pictureService;
   }
 

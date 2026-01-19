@@ -1,6 +1,6 @@
 import { IPictureStorageService } from "./IPictureStorageService";
 import * as Minio from "minio";
-import { minioConfig } from "@/src/config/minioConfig";
+import { minioConfig } from "@/src/backend/config/minioConfig";
 
 export class MinioPictureStorageService implements IPictureStorageService {
   private client: Minio.Client;

@@ -1,7 +1,9 @@
 import { Screenplay } from "@/src/components/Screenplay";
 import { MinioPictureStorageService } from "@/src/backend/MinioPictureStorageService";
 import { JsonSceneRepository } from "@/src/backend/context/viewer-room/repository/json/JsonSceneRepository";
-import { IJsonDataSourceConfig } from "@/src/config/IJsonDataSourceConfig";
+import { IJsonDataSourceConfig } from "@/src/backend/config/IJsonDataSourceConfig";
+import { dataSourceConfig } from "@/src/backend/config/dataSourceConfig";
+import { sceneRepository } from "@/src/backend/context/viewer-room/repository/sceneRepository";
 
 interface ViewerRoomProps {
   params: Promise<{
@@ -11,19 +13,8 @@ interface ViewerRoomProps {
 
 export default async function ViewerRoom({ params }: ViewerRoomProps) {
   const { id: projectCode } = await params;
-  const service = new MinioPictureStorageService("movies");
   
-  const dataSourceConfig: IJsonDataSourceConfig = {
-    dataFilePath: "text.json",
-    baseUrl: "http://localhost:3000",
-    picturesPath: {
-      scenes: "scenes",
-      characters: "characters"
-    }
-  }
-
-  const sceneRepo = new JsonSceneRepository(dataSourceConfig, service);
-  const scenes = await sceneRepo.getAllScenes(projectCode);
+  const scenes = await sceneRepository.getAllScenes(projectCode);
 
   return (
     <div>
