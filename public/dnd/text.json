@@ -1,15 +1,36 @@
 {
-  "characters": {
-    "lloyd": {
-      "name": "Lloyd Christmas",
-      "portrait": null
-    }
+  "project": {
+    "code": "dnd",
+    "title": "Dumb and dumber"
   },
+  "characters": [
+    {
+      "id": 1,
+      "code": "lloyd",
+      "name": "Lloyd Christmas",
+      "short": "Lloyd",
+      "portrait": "lloyd.jpg"
+    },
+    {
+      "id": 2,
+      "code": "harry",
+      "name": "Harry Dunne",
+      "short": "Harry",
+      "portrait": "harry.jpg"
+    },
+    {
+      "id": 3,
+      "code": "mary",
+      "name": "Mary Swanson",
+      "short": "Mary",
+      "portrait": "mary.jpg"
+    }
+  ],
   "chapters": [
     {
       "id": 1,
       "title": "Way to the airport",
-      "cards": [1, 2, 3]
+      "scenes": [1, 2, 3]
     }
   ],
   "scenes": [
@@ -183,27 +204,27 @@
       "lines": [510, 515, 520, 525],
       "pic": "0798.jpg"
     },
-  {
-    "id": 175,
-    "lines": [530, 535, 540],
-    "pic": "0813.jpg"
-  },
-  {
-    "id": 180,
-    "lines": [545, 550, 555],
-    "pic": "0825.jpg"
-  },
-  {
-    "id": 185,
-    "lines": [560, 565],
-    "pic": "0836.jpg"
-  }
+    {
+      "id": 175,
+      "lines": [530, 535, 540],
+      "pic": "0813.jpg"
+    },
+    {
+      "id": 180,
+      "lines": [545, 550, 555],
+      "pic": "0825.jpg"
+    },
+    {
+      "id": 185,
+      "lines": [560, 565],
+      "pic": "0836.jpg"
+    }
   ],
   "lines": [
     {
       "id": 0,
       "text": "Excuse me. Could you tell me how to get to the medical school? I'm supposed to be doing a lecture in about 20 minutes, and my driver's a bit lost.",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 5,
@@ -213,7 +234,7 @@
     {
       "id": 10,
       "text": "That's a lovely accent you have. New Jersey?",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 15,
@@ -223,7 +244,7 @@
     {
       "id": 20,
       "text": "Austria! Ha ha! Well, then... G'day, mate. Let's put another shrimp on the barbie.",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 25,
@@ -233,37 +254,37 @@
     {
       "id": 30,
       "text": "Now, who's got the wiener schnitzel?",
-      "character": null
+      "character": "harry"
     },
     {
       "id": 35,
       "text": "Beautiful. There you go, Dolf. There you go, buddy. Yeah.",
-      "character": null
+      "character": "harry"
     },
     {
       "id": 40,
       "text": "Let's see. Next, we got roast beef au jus.",
-      "character": null
+      "character": "harry"
     },
     {
       "id": 45,
       "text": "Who's got the roast beef au jus?",
-      "character": null
+      "character": "harry"
     },
     {
       "id": 50,
       "text": "Stella, beautiful. Bon appetit, Stella. Oui oui, yeah. Walk away. Go on. Go on.",
-      "character": null
+      "character": "harry"
     },
     {
       "id": 55,
       "text": "Last but not least foot-long! Who's got the foot-long?",
-      "character": null
+      "character": "harry"
     },
     {
       "id": 60,
       "text": "There you... Very funny, rascal. Very funny. In your dreams.",
-      "character": null
+      "character": "harry"
     },
     {
       "id": 65,
@@ -273,7 +294,7 @@
     {
       "id": 70,
       "text": "Uh, sir, I didn't want to send them to a performance on an empty stomach, sir.",
-      "character": null
+      "character": "harry"
     },
     {
       "id": 75,
@@ -283,142 +304,142 @@
     {
       "id": 80,
       "text": "Yes, sir.",
-      "character": null
+      "character": "harry"
     },
     {
       "id": 85,
       "text": "Whew. Suck me sideways.",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 90,
       "text": "Hello. How are you? I'll be out in one minute.",
-      "character": null
+      "character": "mary"
     },
     {
       "id": 95,
       "text": "Why are you going to the airport? Flying somewhere?",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 100,
       "text": "How'd you guess?",
-      "character": null
+      "character": "mary"
     },
     {
       "id": 105,
       "text": "I saw your luggage. Then when I noticed the airline ticket, I put two and two together.",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 110,
       "text": "So where're you headed?",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 115,
       "text": "Aspen.",
-      "character": null
+      "character": "mary"
     },
     {
       "id": 120,
       "text": "Mmm... California. Beautiful.",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 125,
       "text": "Name's Christmas, Lloyd Christmas.",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 130,
       "text": "I'm Mary Swanson.",
-      "character": null
+      "character": "mary"
     },
     {
       "id": 135,
       "text": "This isn't my real job, you know.",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 140,
       "text": "No?",
-      "character": null
+      "character": "mary"
     },
     {
       "id": 145,
       "text": "Nope, my friend Harry and I are saving up our money to open our own pet store.",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 150,
       "text": "That's nice.",
-      "character": null
+      "character": "mary"
     },
     {
       "id": 155,
       "text": "I got worms.",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 160,
       "text": "I beg your pardon?",
-      "character": null
+      "character": "mary"
     },
     {
       "id": 165,
       "text": "That's what we're going to call it - «I Got Worms».",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 170,
       "text": "We're going to specialize in selling worm farms, you know, like ant farms.",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 175,
       "text": "What's the matter?",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 180,
       "text": "A little tense about the flight?",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 185,
       "text": "Something like that.",
-      "character": null
+      "character": "mary"
     },
     {
       "id": 190,
       "text": "There's really nothing to worry about, Mary.",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 195,
       "text": "Statistically, they say you're more likely to get killed on the way to the airport, you know, like in a head-on crash or flying off a cliff or getting trapped under a gas truck.",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 200,
       "text": "That's the worst. I have this cousin... Well, I had this cousin...",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 205,
       "text": "Lloyd, could you keep your eyes on the road, please?",
-      "character": null
+      "character": "mary"
     },
     {
       "id": 210,
       "text": "Oh. Yeah. Good thinking.",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 215,
       "text": "Can't be too careful. A lot of bad drivers out there.",
-      "character": null
+      "character": "lloyd"
     },
     {
       "id": 220,

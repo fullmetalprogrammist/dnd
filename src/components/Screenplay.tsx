@@ -1,22 +1,14 @@
-import { Scene } from "./Scene";
+import { SceneView } from "./SceneView";
+import type { Scene } from "@/src/backend/context/viewer-room/entity/Scene";
 
 type ScreenplayProps = {
-  scenes: any[];
-  lines: any[];
+  scenes: Scene[];
 }
 
-export function Screenplay({ scenes = [], lines = [] }: ScreenplayProps) {
-  const baseUrl = process.env.NODE_ENV === "production" 
-    ? "https://indamovie.vercel.app/" 
-    : "http://localhost:3000";
-
+export function Screenplay({ scenes = [] }: ScreenplayProps) {
   return (
     <div className="flex flex-col items-center gap-10 my-0 mx-auto bg-stone-300">
-      {scenes.map(scene => {
-        const url = `${baseUrl}/dnd/pic/${scene.pic}`;
-        const sceneLines = lines.filter(line => scene.lines.includes(line.id));
-        return <Scene key={scene.id} url={url} lines={sceneLines} />
-      })}
+      { scenes.map(scene => <SceneView key={scene.id} url={scene.pictureUrl} lines={scene.lines} />) }
     </div>
   )
 }

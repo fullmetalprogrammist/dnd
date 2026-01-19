@@ -1,0 +1,51 @@
+name: indamovie
+services:
+  pgs:
+    image: postgres
+    #container_name: pgs
+    environment:
+      POSTGRES_PASSWORD: j123
+    volumes:
+      - indamovie_db_vol:/var/lib/postgresql
+    ports:
+      - "5432:5432"
+
+  pgadmin:
+    image: dpage/pgadmin4
+    #container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    volumes:
+      - pgadmin_vol:/var/lib/pgadmin
+    ports:
+      - "8080:80"
+
+  minio:
+    image: minio/minio:latest
+    #container_name: minio
+    restart: unless-stopped
+    ports:
+      - "9000:9000"  # API порт http://localhost:9000
+      - "9001:9001"  # Консоль управления http://localhost:9001
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    volumes:
+      - minio_data:/data
+    command: server /data --console-address ":9001"
+
+  mc:
+    image: minio/mc:latest
+    depends_on:
+      - minio
+    # Запускаем интерактивную оболочку
+    stdin_open: true
+    tty: true
+    entrypoint: /bin/sh
+    # docker-compose exec -it mc sh  # выполнить эту команду в cmd, чтобы открылась консоль, и там мы сможем выполнять mc-команды
+
+volumes:
+  indamovie_db_vol:
+  pgadmin_vol:
+  minio_data:

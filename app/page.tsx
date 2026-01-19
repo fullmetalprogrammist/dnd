@@ -1,12 +1,11 @@
-import { getScreenplay } from "@/src/components/getScreenplay";
 import { Screenplay } from "@/src/components/Screenplay";
+import { MinioPictureStorageService } from "@/src/backend/MinioPictureStorageService";
+import { JsonSceneRepository } from "@/src/backend/context/viewer-room/repository/json/JsonSceneRepository";
 
 export default async function Home() {
-  const { scenes, lines } = await getScreenplay();
-
   return (
     <div>
-      <Screenplay scenes={scenes} lines={lines} />
+      indamovie project - изучаем английский в контексте по репликам из фильмов
     </div>
   );
 }
