@@ -1,8 +1,8 @@
 import type { ISceneRepository } from "../ISceneRepository";
-import { Scene } from "../../entity/Scene";
-import { Line } from "../../entity/Line";
-import { Character } from "../../entity/Character";
-import { IPictureStorageService } from "@/src/backend/IPictureStorageService";
+import { Scene } from "@/src/backend/entity/Scene";
+import { Line } from "@/src/backend/entity/Line";
+import { Character } from "@/src/backend/entity/Character";
+import { IPictureStorageService } from "@/src/backend/service/IPictureStorageService";
 import { CharacterDTO } from "./types/CharacterDTO";
 import { LineDTO } from "./types/LineDTO";
 import { SceneDTO } from "./types/SceneDTO";

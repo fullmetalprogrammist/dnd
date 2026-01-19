@@ -1,4 +1,4 @@
-import type { Line } from "@/src/backend/context/viewer-room/entity/Line";
+import type { Line } from "@/src/backend/entity/Line";
 
 type SceneViewProps = {
   url: string;
