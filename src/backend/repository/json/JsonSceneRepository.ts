@@ -9,10 +9,7 @@ import { SceneDTO } from "./types/SceneDTO";
 import { z } from "zod";
 import { IJsonDataSourceConfig } from "@/src/backend/config/IJsonDataSourceConfig";
 import { IDataSourceConfig } from "@/src/backend/config/IDataSourceConfig";
-import { 
-  StorageObjectRequest, 
-  StorageObjectResponse
-} from "@/src/backend/service/PictureStorageService/IStorageService";
+import { StorageObjectResponse } from "@/src/backend/service/PictureStorageService/IStorageService";
 
 const CharacterSchema = z.object({
   id: z.number(),
@@ -50,7 +47,9 @@ export class JsonSceneRepository implements ISceneRepository {
   private projectCode: string | null = null;
 
   constructor(dataSourceConfig: IDataSourceConfig, storageService: IStorageService) {
-    // TODO: есть ли практики как проводить такое преобразование безопасно или бросать исключение?
+    if (dataSourceConfig.dataSourceType !== "json") {
+      throw new Error(`Ожидаемый источник данных: json. Передан: ${dataSourceConfig.dataSourceType}`);
+    }
     this.config = dataSourceConfig as IJsonDataSourceConfig;
     this.storage = storageService;
   }

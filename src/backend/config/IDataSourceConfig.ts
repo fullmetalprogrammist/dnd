@@ -1,6 +1,6 @@
-export interface IDataSourceConfig { 
-  baseUrl: string;
+export interface IDataSourceConfig {
   dataSourceType: string;
+  baseUrl: string;
   picturesPath: {
     scenes: string;
     characters: string;
