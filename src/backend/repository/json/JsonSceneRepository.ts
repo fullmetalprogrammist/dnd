@@ -68,27 +68,52 @@ export class JsonSceneRepository implements ISceneRepository {
         characters: charactersDTO
       }: ApiResponse = parsedData.data;
 
-      
-      const scenes: Scene[] = await Promise.all(
-        scenesDTO.map(async scene => await this.mapSceneDTOtoDomain(scene, linesDTO, charactersDTO))
+      const scenesPictures = await this.pictureService.getUrls(scenesDTO.map(scene => ({ 
+          id: scene.id, 
+          key: `${this.projectCode}/${this.config.picturesPath.scenes}/${scene.pic}`
+        })
+      ));
+      const charactersPictures = await this.pictureService.getUrls(charactersDTO
+        .map(character => ({
+          id: character.code,
+          key: `${this.projectCode}/${this.config.picturesPath.characters}/${character.portrait}`
+        }))
       );
 
-      return scenes;
+      const sceneMapper = new SceneDTOtoDomainMapper(
+        scenesDTO,
+        linesDTO,
+        charactersDTO,
+        scenesPictures,
+        charactersPictures
+      );
+
+      return sceneMapper.getScenes();
     } finally {
       this.projectCode = null;
     }
   }
+}
 
-  private async mapSceneDTOtoDomain(
-    sceneDTO: SceneDTO, 
-    linesDTO: LineDTO[], 
-    charactersDTO: CharacterDTO[]
-  ): Promise<Scene> {
-    const lines = await Promise.all(
-      sceneDTO.lines.map(async lineId => await this.mapLineDTOtoDomain(lineId, linesDTO, charactersDTO))
+
+class SceneDTOtoDomainMapper {
+  constructor(
+    private scenesDTO: SceneDTO[],
+    private linesDTO: LineDTO[],
+    private charactersDTO: CharacterDTO[],
+    private scenesPictures: { id: number | string, url: string }[],
+    private charactersPictures: { id: number | string, url: string}[]
+  ) { }
+
+  public getScenes(): Scene[] {
+    return this.scenesDTO.map(scene => this.mapSceneDTOtoDomain(scene));
+  }
+
+  private mapSceneDTOtoDomain(sceneDTO: SceneDTO): Scene {
+    const lines = sceneDTO.lines.map(
+      lineId => this.mapLineDTOtoDomain(lineId)
     );
-    const pictureUrl = await this.pictureService.getUrlAsync(`${this.projectCode}/${this.config.picturesPath.scenes}/${sceneDTO.pic}`);
-    // const pictureUrl = this.pictureService.getUrl(`${this.projectCode}/${this.config.picturesPath.scenes}/${sceneDTO.pic}`);
+    const pictureUrl = this.scenesPictures.find(sp => sp.id === sceneDTO.id)!.url;  // TODO: что делать, если не нашел?
 
     return {
       id: sceneDTO.id,
@@ -97,16 +122,12 @@ export class JsonSceneRepository implements ISceneRepository {
     }
   }
 
-  private async mapLineDTOtoDomain(
-    lineId: number,
-    linesDTO: LineDTO[],
-    charactersDTO: CharacterDTO[]
-  ): Promise<Line> {
-    const line = linesDTO.find(x => x.id === lineId);
+  private mapLineDTOtoDomain(lineId: number): Line {
+    const line = this.linesDTO.find(x => x.id === lineId);
     if (!line) throw new Error(`Реплика с id ${lineId} не найдена.`);
 
     const character = line.character
-      ? await this.mapCharacterDTOtoDomain(line.character, charactersDTO)
+      ? this.mapCharacterDTOtoDomain(line.character)
       : null;
 
     return {
@@ -116,16 +137,12 @@ export class JsonSceneRepository implements ISceneRepository {
     }
   }
 
-  private async mapCharacterDTOtoDomain(
-    characterCode: string, 
-    charactersDTO: CharacterDTO[]
-  ): Promise<Character> {
-    const char = charactersDTO.find(x => x.code === characterCode);
+  private mapCharacterDTOtoDomain(characterCode: string): Character {
+    const char = this.charactersDTO.find(c => c.code === characterCode);
     if (!char) throw new Error(`Персонаж с code ${characterCode} не найден.`);
 
     const portraitUrl = char.portrait
-      ? await this.pictureService.getUrlAsync(`${this.projectCode}/${this.config.picturesPath.characters}/${char.portrait}`)
-      // ? this.pictureService.getUrl(`${this.projectCode}/${this.config.picturesPath.characters}/${char.portrait}`)
+      ? this.charactersPictures.find(cp => cp.id === characterCode)!.url  // TODO: что если не нашел?
       : null;
 
     return {
@@ -137,5 +154,3 @@ export class JsonSceneRepository implements ISceneRepository {
     }
   }
 }
-
-

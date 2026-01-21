@@ -31,4 +31,16 @@ export class MinioPictureStorageService implements IPictureStorageService {
     console.log(publicUrl);
     return publicUrl;
   }
+
+  async getUrls(
+    items: { id: number | string, key: string }[]
+  ): Promise<{ id: number | string, url: string }[]> {
+    // TODO: обдумать это как следует
+    const promises = items.map(item => 
+      this.client.presignedGetObject(this.bucket, item.key, 86400)
+        .then(url => ({ id: item.id, url: url}))
+    )
+
+    return Promise.all(promises);
+  }
 }
