@@ -2,7 +2,7 @@ import type { ISceneRepository } from "../ISceneRepository";
 import { Scene } from "@/src/backend/entity/Scene";
 import { Line } from "@/src/backend/entity/Line";
 import { Character } from "@/src/backend/entity/Character";
-import { IPictureStorageService } from "@/src/backend/service/IPictureStorageService";
+import { IPictureStorageService } from "@/src/backend/service/PictureStorageService/IPictureStorageService";
 import { CharacterDTO } from "./types/CharacterDTO";
 import { LineDTO } from "./types/LineDTO";
 import { SceneDTO } from "./types/SceneDTO";
@@ -88,6 +88,7 @@ export class JsonSceneRepository implements ISceneRepository {
       sceneDTO.lines.map(async lineId => await this.mapLineDTOtoDomain(lineId, linesDTO, charactersDTO))
     );
     const pictureUrl = await this.pictureService.getUrlAsync(`${this.projectCode}/${this.config.picturesPath.scenes}/${sceneDTO.pic}`);
+    // const pictureUrl = this.pictureService.getUrl(`${this.projectCode}/${this.config.picturesPath.scenes}/${sceneDTO.pic}`);
 
     return {
       id: sceneDTO.id,
@@ -124,6 +125,7 @@ export class JsonSceneRepository implements ISceneRepository {
 
     const portraitUrl = char.portrait
       ? await this.pictureService.getUrlAsync(`${this.projectCode}/${this.config.picturesPath.characters}/${char.portrait}`)
+      // ? this.pictureService.getUrl(`${this.projectCode}/${this.config.picturesPath.characters}/${char.portrait}`)
       : null;
 
     return {

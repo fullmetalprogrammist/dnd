@@ -1,5 +1,5 @@
 import { dataSourceConfig } from "@/src/backend/config/dataSourceConfig";
-import { MinioPictureStorageService } from "@/src/backend/service/MinioPictureStorageService";
+import { MinioPictureStorageService } from "@/src/backend/service/PictureStorageService/MinioPictureStorageService";
 import { ISceneRepository } from "./ISceneRepository";
 import { JsonSceneRepository } from "./json/JsonSceneRepository";
 

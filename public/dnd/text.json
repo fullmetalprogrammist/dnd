@@ -24,6 +24,20 @@
       "name": "Mary Swanson",
       "short": "Mary",
       "portrait": "mary.jpg"
+    },
+    {
+      "id": 4,
+      "code": "mental",
+      "name": "Joe Mentalino",
+      "short": "mental",
+      "portrait": "mental.jpg"
+    },
+    {
+      "id": 5,
+      "code": "shay",
+      "name": "J.P. Shay",
+      "short": "shay",
+      "portrait": "shay.jpg"
     }
   ],
   "chapters": [
@@ -534,17 +548,17 @@
     {
       "id": 310,
       "text": "She's gonna leave the briefcase near the escalator.",
-      "character": null
+      "character": "mental"
     },
     {
       "id": 315,
       "text": "You make the pickup.",
-      "character": null
+      "character": "mental"
     },
     {
       "id": 320,
       "text": "Piece of cake.",
-      "character": null
+      "character": "shay"
     },
     {
       "id": 323,
@@ -554,7 +568,7 @@
     {
       "id": 325,
       "text": "There 's our payday. She left it. Let's go.",
-      "character": null
+      "character": "mental"
     },
     {
       "id": 330,
@@ -604,22 +618,22 @@
     {
       "id": 375,
       "text": "Who the hell you figure this guy's working for, anyway?",
-      "character": null
+      "character": "shay"
     },
     {
       "id": 380,
       "text": "I don't know. We sure as hell better find out.",
-      "character": null
+      "character": "mental"
     },
     {
       "id": 385,
       "text": "The ulcer?",
-      "character": null
+      "character": "shay"
     },
     {
       "id": 390,
       "text": "I'll live.",
-      "character": null
+      "character": "mental"
     },
     {
       "id": 395,
@@ -759,42 +773,42 @@
     {
       "id": 530,
       "text": "Briefcase ain't here.",
-      "character": null
+      "character": "mental"
     },
     {
       "id": 535,
       "text": "They must have taken it with them.",
-      "character": null
+      "character": "mental"
     },
     {
       "id": 540,
       "text": "Well, he's got to come home sometime.",
-      "character": null
+      "character": "shay"
     },
     {
       "id": 545,
       "text": "Maybe we should trash the place, send him a little message.",
-      "character": null
+      "character": "mental"
     },
     {
       "id": 550,
       "text": "I don't think he's going to get that message, Joe.",
-      "character": null
+      "character": "shay"
     },
     {
       "id": 555,
       "text": "I mean, the guy's got worms in his living room.",
-      "character": null
+      "character": "shay"
     },
     {
       "id": 560,
       "text": "Well. Oh, I got a better idea.",
-      "character": null
+      "character": "mental"
     },
     {
       "id": 565,
       "text": "I thought I taw a puddy cat. I did. I did.",
-      "character": null
+      "character": "mental"
     },
     {
       "id": 570,

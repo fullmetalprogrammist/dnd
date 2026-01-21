@@ -2,6 +2,8 @@ import { IPictureStorageService } from "./IPictureStorageService";
 import * as Minio from "minio";
 import { minioConfig } from "@/src/backend/config/minioConfig";
 
+// TODO: как сравнить производительность при закрытых и публичных бакетах? С и без асинхронки
+// TODO: может быть имеет смысл сделать бакет заменяемым? а не зашивать его в конструкторе наглухо
 export class MinioPictureStorageService implements IPictureStorageService {
   private client: Minio.Client;
   private bucket: string;
@@ -17,11 +19,16 @@ export class MinioPictureStorageService implements IPictureStorageService {
     this.bucket = bucket;
   }
 
+  // Для приватных бакетов
   async getUrlAsync(key: string): Promise<string> {
     return await this.client.presignedGetObject(this.bucket, key, 86400);
   }
 
-  // async getUrl(key: string): string {
-  //   return await this.client.presignedGetObject(this.bucket, key, 86400);
-  // }
+  // Для публичных бакетов
+  getUrl(key: string): string {
+    const protocol = minioConfig.useSSL ? "https" : "http";
+    const publicUrl = `${protocol}://${minioConfig.endPoint}:${minioConfig.port}/${this.bucket}/${key}`;
+    console.log(publicUrl);
+    return publicUrl;
+  }
 }
