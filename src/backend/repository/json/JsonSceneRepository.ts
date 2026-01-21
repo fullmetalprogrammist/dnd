@@ -2,13 +2,17 @@ import type { ISceneRepository } from "../ISceneRepository";
 import { Scene } from "@/src/backend/entity/Scene";
 import { Line } from "@/src/backend/entity/Line";
 import { Character } from "@/src/backend/entity/Character";
-import { IPictureStorageService } from "@/src/backend/service/PictureStorageService/IPictureStorageService";
+import { IStorageService } from "@/src/backend/service/PictureStorageService/IStorageService";
 import { CharacterDTO } from "./types/CharacterDTO";
 import { LineDTO } from "./types/LineDTO";
 import { SceneDTO } from "./types/SceneDTO";
 import { z } from "zod";
 import { IJsonDataSourceConfig } from "@/src/backend/config/IJsonDataSourceConfig";
 import { IDataSourceConfig } from "@/src/backend/config/IDataSourceConfig";
+import { 
+  StorageObjectRequest, 
+  StorageObjectResponse
+} from "@/src/backend/service/PictureStorageService/IStorageService";
 
 const CharacterSchema = z.object({
   id: z.number(),
@@ -42,13 +46,13 @@ type ApiResponse = z.infer<typeof ApiResponseSchema>;
 // * сделать поддержку пагинации для универсальности
 export class JsonSceneRepository implements ISceneRepository {
   private config: IJsonDataSourceConfig;
-  private pictureService: IPictureStorageService;
+  private storage: IStorageService;
   private projectCode: string | null = null;
 
-  constructor(dataSourceConfig: IDataSourceConfig, pictureService: IPictureStorageService) {
+  constructor(dataSourceConfig: IDataSourceConfig, storageService: IStorageService) {
     // TODO: есть ли практики как проводить такое преобразование безопасно или бросать исключение?
     this.config = dataSourceConfig as IJsonDataSourceConfig;
-    this.pictureService = pictureService;
+    this.storage = storageService;
   }
 
   async getAllScenes(projectCode: string): Promise<Scene[]> {
@@ -68,14 +72,14 @@ export class JsonSceneRepository implements ISceneRepository {
         characters: charactersDTO
       }: ApiResponse = parsedData.data;
 
-      const scenesPictures = await this.pictureService.getUrls(scenesDTO.map(scene => ({ 
+      const scenesPictures = await this.storage.getUrls(scenesDTO.map(scene => ({ 
           id: scene.id, 
           key: `${this.projectCode}/${this.config.picturesPath.scenes}/${scene.pic}`
         })
       ));
-      const charactersPictures = await this.pictureService.getUrls(charactersDTO
+      const charactersPictures = await this.storage.getUrls(charactersDTO
         .map(character => ({
-          id: character.code,
+          id: character.id,
           key: `${this.projectCode}/${this.config.picturesPath.characters}/${character.portrait}`
         }))
       );
@@ -101,8 +105,8 @@ class SceneDTOtoDomainMapper {
     private scenesDTO: SceneDTO[],
     private linesDTO: LineDTO[],
     private charactersDTO: CharacterDTO[],
-    private scenesPictures: { id: number | string, url: string }[],
-    private charactersPictures: { id: number | string, url: string}[]
+    private scenesPictures: StorageObjectResponse[],
+    private charactersPictures: StorageObjectResponse[]
   ) { }
 
   public getScenes(): Scene[] {
@@ -138,18 +142,18 @@ class SceneDTOtoDomainMapper {
   }
 
   private mapCharacterDTOtoDomain(characterCode: string): Character {
-    const char = this.charactersDTO.find(c => c.code === characterCode);
-    if (!char) throw new Error(`Персонаж с code ${characterCode} не найден.`);
+    const character = this.charactersDTO.find(c => c.code === characterCode);
+    if (!character) throw new Error(`Персонаж с code ${characterCode} не найден.`);
 
-    const portraitUrl = char.portrait
-      ? this.charactersPictures.find(cp => cp.id === characterCode)!.url  // TODO: что если не нашел?
+    const portraitUrl = character.portrait
+      ? this.charactersPictures.find(cp => cp.id === character.id)!.url  // TODO: что если не нашел?
       : null;
 
     return {
-      id: char.id,
-      code: char.code,
-      name: char.name,
-      short: char.short,
+      id: character.id,
+      code: character.code,
+      name: character.name,
+      short: character.short,
       portrait: portraitUrl
     }
   }

@@ -1,13 +1,13 @@
 import { dataSourceConfig } from "@/src/backend/config/dataSourceConfig";
-import { MinioPictureStorageService } from "@/src/backend/service/PictureStorageService/MinioPictureStorageService";
+import { MinioStorageService } from "@/src/backend/service/PictureStorageService/MinioStorageService";
 import { ISceneRepository } from "./ISceneRepository";
 import { JsonSceneRepository } from "./json/JsonSceneRepository";
 
-const pictureStorageService = new MinioPictureStorageService("movies");
+const storageService = new MinioStorageService("movies");
 
 function createSceneRepository(): ISceneRepository {
   if (dataSourceConfig.dataSourceType === "json") {
-    return new JsonSceneRepository(dataSourceConfig, pictureStorageService);
+    return new JsonSceneRepository(dataSourceConfig, storageService);
   } else if (dataSourceConfig.dataSourceType === "postgres") {
     throw new Error("Репозиторий для СУБД Postgres еще не реализован");
   }
