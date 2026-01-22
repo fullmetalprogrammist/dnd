@@ -1,4 +1,4 @@
-import { Scene } from "@/src/backend/context/viewer-room/entity/Scene";
+import { Scene } from "@/src/backend/core/entity/Scene";
 
 export interface ISceneRepository {
   getAllScenes(projectCode: string): Promise<Scene[]>;

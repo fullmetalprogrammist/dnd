@@ -1,7 +1,7 @@
 import { dataSourceConfig } from "@/src/backend/config/dataSourceConfig";
 import { MinioStorageService } from "@/src/backend/service/PictureStorageService/MinioStorageService";
-import { ISceneRepository } from "./ISceneRepository";
-import { JsonSceneRepository } from "./json/JsonSceneRepository";
+import { ISceneRepository } from "@/src/backend/core/repository/ISceneRepository";
+import { JsonSceneRepository } from "@/src/backend/infrastructure/repository/json/JsonSceneRepository";
 
 const storageService = new MinioStorageService("movies");
 

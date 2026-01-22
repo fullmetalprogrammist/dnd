@@ -24,7 +24,15 @@ export function CreateNewProject() {
 
   const onSubmit = async (data: FormType) => {
     reset();
-    // При успешной отправке редирект
+    const result = await fetch("/api/projects", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        code: data.projectCode
+      })
+    });
   };
 
   return (

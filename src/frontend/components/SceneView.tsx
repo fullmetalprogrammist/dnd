@@ -1,4 +1,4 @@
-import type { Line } from "@/src/backend/entity/Line";
+import type { Line } from "@/src/backend/core/entity/Line";
 
 type SceneViewProps = {
   url: string;
