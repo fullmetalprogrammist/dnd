@@ -3,6 +3,7 @@
 # Переменные окружения
 .env.development
 .env.production
+.env
 
 # dependencies
 /node_modules
@@ -43,3 +44,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/src/generated/prisma
+
+/src/generated/prisma

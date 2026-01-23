@@ -1,7 +1,0 @@
-/*
-id SERIAL PRIMARY KEY,
-    code VARCHAR(50) UNIQUE NOT NULL,
-    title VARCHAR(255) NOT NULL,
-    project_status VARCHAR(50) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-*/

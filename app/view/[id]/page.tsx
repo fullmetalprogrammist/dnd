@@ -1,5 +1,5 @@
 import { Screenplay } from "@/src/frontend/components/Screenplay";
-import { sceneRepository } from "@/src/backend/infrastructure/factory/sceneRepositoryFactory";
+import { sceneRepository } from "@/src/backend/factory/sceneRepositoryFactory";
 
 interface ViewerRoomProps {
   params: Promise<{

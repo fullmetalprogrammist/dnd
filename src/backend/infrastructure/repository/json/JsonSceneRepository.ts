@@ -1,4 +1,4 @@
-import type { ISceneRepository } from "@/src/backend/core/repository/ISceneRepository";
+import type { ISceneRepository } from "@/src/backend/repository/ISceneRepository";
 import { Scene } from "@/src/backend/core/entity/Scene";
 import { Line } from "@/src/backend/core/entity/Line";
 import { Character } from "@/src/backend/core/entity/Character";
