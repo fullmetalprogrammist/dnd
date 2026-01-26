@@ -1,3 +1,3 @@
-import { PostgresProjectRepository } from "../repository/PostgresProjectRepository";
+import { ProjectRepository } from "../repository/ProjectRepository";
 
-export const projectRepository = new PostgresProjectRepository();
+export const projectRepository = new ProjectRepository();

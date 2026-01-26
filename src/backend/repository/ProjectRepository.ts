@@ -4,7 +4,7 @@ import { prisma } from "@/src/backend/factory/prismaClient";
 import { Prisma } from '@/src/backend/generated/prisma/client';
 import { DuplicateEntityError } from "@/src/backend/errors/DuplicateEntityError";
 
-export class PostgresProjectRepository implements IProjectRepository {
+export class ProjectRepository implements IProjectRepository {
 
   async create(code: string, title: string): Promise<Project> {
     try {
@@ -23,6 +23,12 @@ export class PostgresProjectRepository implements IProjectRepository {
       }
       throw error;
     } 
+  }
+
+  async getByCode(code: string): Promise<Project | null> {
+    return await prisma.project.findUnique({
+      where: { code: code }
+    })
   }
 
 }
