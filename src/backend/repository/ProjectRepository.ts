@@ -1,8 +1,8 @@
 import { IProjectRepository } from "@/src/backend/repository/IProjectRepository";
 import { Project } from "@/src/backend/generated/prisma/client";
-import { prisma } from "@/src/backend/factory/prismaClient";
+import { prisma } from "@/src/backend/infrastructure/prisma/prismaClient";
 import { Prisma } from '@/src/backend/generated/prisma/client';
-import { DuplicateEntityError } from "@/src/backend/errors/DuplicateEntityError";
+import { DuplicateEntityError } from "@/src/backend/core/errors/DuplicateEntityError";
 
 export class ProjectRepository implements IProjectRepository {
 

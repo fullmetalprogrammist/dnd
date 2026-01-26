@@ -12,15 +12,17 @@ export default async function EditProject({ params }: EditProjectProps) {
   const { projectCode } = await params;
 
   const project = await projectRepository.getByCode(projectCode);
-  const lines = await lineRepository.getByProjectId(project!.id);
+  const line = await lineRepository.getById(1);
+  console.log(line)
   // const scenes = await scenesRepository.getByProjectId(project.id);
   // const characters = await charactersRepository.getByProjectId(project.id);
 
   // <EditRoom project={project} lines={lines} scenes={scenes} characters={characters} />
+  // <EditRoom project={project} lines={lines} /> 
 
   return (
     project 
-      ? <EditRoom project={project} lines={lines} /> 
+      ? <EditRoom /> 
       : <div>Проект с кодом {projectCode} не найден</div>
   );
 }

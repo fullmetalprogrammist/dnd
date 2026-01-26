@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { projectRepository } from "@/src/backend/factory/projectRepositoryFactory";
-import { DuplicateEntityError } from "@/src/backend/errors/DuplicateEntityError";
+import { DuplicateEntityError } from "@/src/backend/core/errors/DuplicateEntityError";
 
 // TODO: типизировать запрос \ ответ?
 export async function POST(request: NextRequest) {

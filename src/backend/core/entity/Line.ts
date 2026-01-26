@@ -1,7 +1,12 @@
-import type { Character } from "@/src/backend/context/viewer-room/entity/Character";
+import type { CharacterId } from "./Character";
+import type { ProjectId } from "./Project";
 
 export type Line = {
-  id: number;
+  id: LineId;
   text: string;
-  character: Character | null;
+  project: ProjectId;
+  inProjectOrder: number;
+  character: CharacterId | null;
 }
+
+export type LineId = number;

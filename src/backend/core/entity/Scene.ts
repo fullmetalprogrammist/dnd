@@ -1,7 +1,9 @@
-import { Line } from "./Line";
+import type { LineId } from "./Line";
 
 export type Scene = {
-  id: number;
-  pictureUrl: string;
-  lines: Line[];
+  id: SceneId;
+  picture: string;
+  lines: LineId[];
 }
+
+export type SceneId = number;
