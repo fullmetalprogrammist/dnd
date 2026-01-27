@@ -1,3 +1,3 @@
-import { LineRepository } from "../infrastructure/prisma/write/line/LineRepository";
+import { LineRepository } from "@/src/backend/infrastructure/prisma/write/line/LineRepository";
 
 export const lineRepository = new LineRepository();

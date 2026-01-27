@@ -1,4 +1,4 @@
-import { IProjectRepository } from "@/src/backend/repository/IProjectRepository";
+import { IProjectRepository } from "@/src/backend/application/interface/write/project/IProjectRepository";
 import { Project } from "@/src/backend/generated/prisma/client";
 import { prisma } from "@/src/backend/infrastructure/prisma/prismaClient";
 import { Prisma } from '@/src/backend/generated/prisma/client';

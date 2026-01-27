@@ -1,10 +1,10 @@
-import { ILineRepository } from "../../../../application/write/line/ILineRepository";
+import { ILineRepository } from "@/src/backend/application/interface/write/line/ILineRepository";
 import { Line as LineORM } from "@/src/backend/generated/prisma/client";
 import { prisma } from "@/src/backend/infrastructure/prisma/prismaClient";
 import { Line, LineId } from "@/src/backend/core/entity/Line";
 import { Prisma } from '@/src/backend/generated/prisma/client';
-import { NotExistEntityError } from "../../../../core/errors/NotExistEntityError";
-import { InvalidReferenceError } from "../../../../core/errors/InvalidReferenceError";
+import { NotExistEntityError } from "@/src/backend/core/errors/NotExistEntityError";
+import { InvalidReferenceError } from "@/src/backend/core/errors/InvalidReferenceError";
 
 export class LineRepository implements ILineRepository {
 
