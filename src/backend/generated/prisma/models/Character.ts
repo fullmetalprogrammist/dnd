@@ -187,7 +187,7 @@ export type CharacterGroupByOutputType = {
   id: number
   projectId: number
   fullName: string
-  shortName: string | null
+  shortName: string
   portraitFilename: string | null
   _count: CharacterCountAggregateOutputType | null
   _avg: CharacterAvgAggregateOutputType | null
@@ -218,7 +218,7 @@ export type CharacterWhereInput = {
   id?: Prisma.IntFilter<"Character"> | number
   projectId?: Prisma.IntFilter<"Character"> | number
   fullName?: Prisma.StringFilter<"Character"> | string
-  shortName?: Prisma.StringNullableFilter<"Character"> | string | null
+  shortName?: Prisma.StringFilter<"Character"> | string
   portraitFilename?: Prisma.StringNullableFilter<"Character"> | string | null
   project?: Prisma.XOR<Prisma.ProjectScalarRelationFilter, Prisma.ProjectWhereInput>
   lines?: Prisma.LineListRelationFilter
@@ -228,7 +228,7 @@ export type CharacterOrderByWithRelationInput = {
   id?: Prisma.SortOrder
   projectId?: Prisma.SortOrder
   fullName?: Prisma.SortOrder
-  shortName?: Prisma.SortOrderInput | Prisma.SortOrder
+  shortName?: Prisma.SortOrder
   portraitFilename?: Prisma.SortOrderInput | Prisma.SortOrder
   project?: Prisma.ProjectOrderByWithRelationInput
   lines?: Prisma.LineOrderByRelationAggregateInput
@@ -241,7 +241,7 @@ export type CharacterWhereUniqueInput = Prisma.AtLeast<{
   NOT?: Prisma.CharacterWhereInput | Prisma.CharacterWhereInput[]
   projectId?: Prisma.IntFilter<"Character"> | number
   fullName?: Prisma.StringFilter<"Character"> | string
-  shortName?: Prisma.StringNullableFilter<"Character"> | string | null
+  shortName?: Prisma.StringFilter<"Character"> | string
   portraitFilename?: Prisma.StringNullableFilter<"Character"> | string | null
   project?: Prisma.XOR<Prisma.ProjectScalarRelationFilter, Prisma.ProjectWhereInput>
   lines?: Prisma.LineListRelationFilter
@@ -251,7 +251,7 @@ export type CharacterOrderByWithAggregationInput = {
   id?: Prisma.SortOrder
   projectId?: Prisma.SortOrder
   fullName?: Prisma.SortOrder
-  shortName?: Prisma.SortOrderInput | Prisma.SortOrder
+  shortName?: Prisma.SortOrder
   portraitFilename?: Prisma.SortOrderInput | Prisma.SortOrder
   _count?: Prisma.CharacterCountOrderByAggregateInput
   _avg?: Prisma.CharacterAvgOrderByAggregateInput
@@ -267,13 +267,13 @@ export type CharacterScalarWhereWithAggregatesInput = {
   id?: Prisma.IntWithAggregatesFilter<"Character"> | number
   projectId?: Prisma.IntWithAggregatesFilter<"Character"> | number
   fullName?: Prisma.StringWithAggregatesFilter<"Character"> | string
-  shortName?: Prisma.StringNullableWithAggregatesFilter<"Character"> | string | null
+  shortName?: Prisma.StringWithAggregatesFilter<"Character"> | string
   portraitFilename?: Prisma.StringNullableWithAggregatesFilter<"Character"> | string | null
 }
 
 export type CharacterCreateInput = {
   fullName: string
-  shortName?: string | null
+  shortName: string
   portraitFilename?: string | null
   project: Prisma.ProjectCreateNestedOneWithoutCharactersInput
   lines?: Prisma.LineCreateNestedManyWithoutCharacterInput
@@ -283,14 +283,14 @@ export type CharacterUncheckedCreateInput = {
   id?: number
   projectId: number
   fullName: string
-  shortName?: string | null
+  shortName: string
   portraitFilename?: string | null
   lines?: Prisma.LineUncheckedCreateNestedManyWithoutCharacterInput
 }
 
 export type CharacterUpdateInput = {
   fullName?: Prisma.StringFieldUpdateOperationsInput | string
-  shortName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  shortName?: Prisma.StringFieldUpdateOperationsInput | string
   portraitFilename?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   project?: Prisma.ProjectUpdateOneRequiredWithoutCharactersNestedInput
   lines?: Prisma.LineUpdateManyWithoutCharacterNestedInput
@@ -300,7 +300,7 @@ export type CharacterUncheckedUpdateInput = {
   id?: Prisma.IntFieldUpdateOperationsInput | number
   projectId?: Prisma.IntFieldUpdateOperationsInput | number
   fullName?: Prisma.StringFieldUpdateOperationsInput | string
-  shortName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  shortName?: Prisma.StringFieldUpdateOperationsInput | string
   portraitFilename?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   lines?: Prisma.LineUncheckedUpdateManyWithoutCharacterNestedInput
 }
@@ -309,13 +309,13 @@ export type CharacterCreateManyInput = {
   id?: number
   projectId: number
   fullName: string
-  shortName?: string | null
+  shortName: string
   portraitFilename?: string | null
 }
 
 export type CharacterUpdateManyMutationInput = {
   fullName?: Prisma.StringFieldUpdateOperationsInput | string
-  shortName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  shortName?: Prisma.StringFieldUpdateOperationsInput | string
   portraitFilename?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
 }
 
@@ -323,7 +323,7 @@ export type CharacterUncheckedUpdateManyInput = {
   id?: Prisma.IntFieldUpdateOperationsInput | number
   projectId?: Prisma.IntFieldUpdateOperationsInput | number
   fullName?: Prisma.StringFieldUpdateOperationsInput | string
-  shortName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  shortName?: Prisma.StringFieldUpdateOperationsInput | string
   portraitFilename?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
 }
 
@@ -440,7 +440,7 @@ export type CharacterUpdateOneWithoutLinesNestedInput = {
 
 export type CharacterCreateWithoutProjectInput = {
   fullName: string
-  shortName?: string | null
+  shortName: string
   portraitFilename?: string | null
   lines?: Prisma.LineCreateNestedManyWithoutCharacterInput
 }
@@ -448,7 +448,7 @@ export type CharacterCreateWithoutProjectInput = {
 export type CharacterUncheckedCreateWithoutProjectInput = {
   id?: number
   fullName: string
-  shortName?: string | null
+  shortName: string
   portraitFilename?: string | null
   lines?: Prisma.LineUncheckedCreateNestedManyWithoutCharacterInput
 }
@@ -486,13 +486,13 @@ export type CharacterScalarWhereInput = {
   id?: Prisma.IntFilter<"Character"> | number
   projectId?: Prisma.IntFilter<"Character"> | number
   fullName?: Prisma.StringFilter<"Character"> | string
-  shortName?: Prisma.StringNullableFilter<"Character"> | string | null
+  shortName?: Prisma.StringFilter<"Character"> | string
   portraitFilename?: Prisma.StringNullableFilter<"Character"> | string | null
 }
 
 export type CharacterCreateWithoutLinesInput = {
   fullName: string
-  shortName?: string | null
+  shortName: string
   portraitFilename?: string | null
   project: Prisma.ProjectCreateNestedOneWithoutCharactersInput
 }
@@ -501,7 +501,7 @@ export type CharacterUncheckedCreateWithoutLinesInput = {
   id?: number
   projectId: number
   fullName: string
-  shortName?: string | null
+  shortName: string
   portraitFilename?: string | null
 }
 
@@ -523,7 +523,7 @@ export type CharacterUpdateToOneWithWhereWithoutLinesInput = {
 
 export type CharacterUpdateWithoutLinesInput = {
   fullName?: Prisma.StringFieldUpdateOperationsInput | string
-  shortName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  shortName?: Prisma.StringFieldUpdateOperationsInput | string
   portraitFilename?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   project?: Prisma.ProjectUpdateOneRequiredWithoutCharactersNestedInput
 }
@@ -532,20 +532,20 @@ export type CharacterUncheckedUpdateWithoutLinesInput = {
   id?: Prisma.IntFieldUpdateOperationsInput | number
   projectId?: Prisma.IntFieldUpdateOperationsInput | number
   fullName?: Prisma.StringFieldUpdateOperationsInput | string
-  shortName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  shortName?: Prisma.StringFieldUpdateOperationsInput | string
   portraitFilename?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
 }
 
 export type CharacterCreateManyProjectInput = {
   id?: number
   fullName: string
-  shortName?: string | null
+  shortName: string
   portraitFilename?: string | null
 }
 
 export type CharacterUpdateWithoutProjectInput = {
   fullName?: Prisma.StringFieldUpdateOperationsInput | string
-  shortName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  shortName?: Prisma.StringFieldUpdateOperationsInput | string
   portraitFilename?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   lines?: Prisma.LineUpdateManyWithoutCharacterNestedInput
 }
@@ -553,7 +553,7 @@ export type CharacterUpdateWithoutProjectInput = {
 export type CharacterUncheckedUpdateWithoutProjectInput = {
   id?: Prisma.IntFieldUpdateOperationsInput | number
   fullName?: Prisma.StringFieldUpdateOperationsInput | string
-  shortName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  shortName?: Prisma.StringFieldUpdateOperationsInput | string
   portraitFilename?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   lines?: Prisma.LineUncheckedUpdateManyWithoutCharacterNestedInput
 }
@@ -561,7 +561,7 @@ export type CharacterUncheckedUpdateWithoutProjectInput = {
 export type CharacterUncheckedUpdateManyWithoutProjectInput = {
   id?: Prisma.IntFieldUpdateOperationsInput | number
   fullName?: Prisma.StringFieldUpdateOperationsInput | string
-  shortName?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  shortName?: Prisma.StringFieldUpdateOperationsInput | string
   portraitFilename?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
 }
 
@@ -656,7 +656,7 @@ export type $CharacterPayload<ExtArgs extends runtime.Types.Extensions.InternalA
     id: number
     projectId: number
     fullName: string
-    shortName: string | null
+    shortName: string
     portraitFilename: string | null
   }, ExtArgs["result"]["character"]>
   composites: {}

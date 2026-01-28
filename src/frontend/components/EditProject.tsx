@@ -1,6 +1,6 @@
 "use client";
 
-export function EditRoom() {
+export function EditProject() {
   return (
     <div>
       <input type="file" />

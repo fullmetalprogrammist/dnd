@@ -1,8 +1,8 @@
-import { EditRoom } from "@/src/frontend/components/EditRoom";
+import { EditProject } from "@/src/frontend/components/EditProject";
 
 export default async function EditRoomPage() {
 
   return (
-    <EditRoom />
+    <EditProject />
   );
 }

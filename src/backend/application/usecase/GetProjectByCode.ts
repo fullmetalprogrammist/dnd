@@ -1,5 +1,5 @@
 import { PrismaClient } from '@/src/backend/generated/prisma/client';
-import { ILineListRepository } from '../interface/read/line/ILineListRepository';
+import { ILineListRepository } from '@/src/backend/application/query/line/ILineListRepository';
 
 export class GetProjectByCode {
 

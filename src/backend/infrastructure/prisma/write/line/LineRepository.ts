@@ -1,4 +1,4 @@
-import { ILineRepository } from "@/src/backend/application/interface/write/line/ILineRepository";
+import { ILineRepository } from "@/src/backend/application/command/line/ILineRepository";
 import { Line as LineORM } from "@/src/backend/generated/prisma/client";
 import { prisma } from "@/src/backend/infrastructure/prisma/prismaClient";
 import { Line, LineId } from "@/src/backend/core/entity/Line";

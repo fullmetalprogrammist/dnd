@@ -1,6 +1,6 @@
 import { ProjectId } from "@/src/backend/core/entity/Project";
-import { ILineListRepository } from "../interface/read/line/ILineListRepository";
-import { LineListItemDto } from "../readmodel/LineListItemDto";
+import { ILineListRepository } from "@/src/backend/application/query/line/ILineListRepository";
+import { LineListItemDto } from "@/src/backend/application/query/line/LineListItemDto";
 
 export class GetLinesByProjectId {
 

@@ -1,4 +1,4 @@
-import { LineListItemDto } from "@/src/backend/application/readmodel/LineListItemDto";
+import { LineListItemDto } from "@/src/backend/application/query/line/LineListItemDto";
 import { ILineListRepository } from "@/src/backend/application/interface/read/line/ILineListRepository";
 import { ProjectId } from "@/src/backend/core/entity/Project";
 // import { prisma } from "../../prismaClient";

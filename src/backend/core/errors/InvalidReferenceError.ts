@@ -1,5 +1,5 @@
-export class InvalidReferenceError extends Error {
-  constructor(message: string) {
-    super(message);
-  }
+import { ApplicationError } from "./ApplicationError";
+
+export class InvalidReferenceError extends ApplicationError {
+  name = "InvalidReferenceError";
 }
