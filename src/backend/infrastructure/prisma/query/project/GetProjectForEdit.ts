@@ -41,9 +41,11 @@ export class GetProjectForEdit implements IGetProjectForEdit {
       });
 
       return {
-        projectId: project.id,
-        projectCode: project.code,
-        projectTitle: project.title,
+        projectInfo:{
+          projectId: project.id,
+          projectCode: project.code,
+          projectTitle: project.title
+        },
         lines: lines.map(line => this.mapLineToDto(line)),
         characters: characters.map(character => this.mapCharacterToDto(character)),
         scenes: scenes.map(scene => this.mapSceneToDto(scene))

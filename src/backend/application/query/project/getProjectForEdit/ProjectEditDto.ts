@@ -1,10 +1,14 @@
 export type ProjectEditDto = {
-  projectId: number;
-  projectCode: string;
-  projectTitle: string;
+  projectInfo: ProjectEditProjectInfo;
   lines: ProjectEditLineDto[];
   characters: ProjectEditCharacterDto[];
   scenes: ProjectEditSceneDto[];
+}
+
+export type ProjectEditProjectInfo = {
+  projectId: number;
+  projectCode: string;
+  projectTitle: string;
 }
 
 export type ProjectEditLineDto = {
