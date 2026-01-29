@@ -1,10 +1,10 @@
 import { IGetProjectForEdit } from "@/src/backend/application/query/project/getProjectForEdit/IGetProjectForEdit";
 import { 
-  ProjectEditLineDto, 
-  ProjectEditDto, 
-  ProjectEditCharacterDto, 
-  ProjectEditSceneDto 
-} from "@/src/backend/application/query/project/getProjectForEdit/ProjectEditDto";
+  EditorLineDto, 
+  EditorDto, 
+  EditorCharacterDto, 
+  EditorSceneDto 
+} from "@/src/backend/application/query/project/getProjectForEdit/EditorDto";
 import { PrismaClient } from '@/src/backend/generated/prisma/client';
 import { runPrisma } from "@/src/backend/infrastructure/prisma/run";
 import { CharacterModel, LineModel, SceneModel } from "@/src/backend/generated/prisma/models";
@@ -14,7 +14,7 @@ export class GetProjectForEdit implements IGetProjectForEdit {
     private readonly prisma: PrismaClient,
   ) { }
 
-  async execute(projectCode: string): Promise<ProjectEditDto> {
+  async execute(projectCode: string): Promise<EditorDto> {
     return runPrisma(async () => {
       const project = await this.prisma.project.findUniqueOrThrow({
         where: {
@@ -41,10 +41,10 @@ export class GetProjectForEdit implements IGetProjectForEdit {
       });
 
       return {
-        projectInfo:{
-          projectId: project.id,
-          projectCode: project.code,
-          projectTitle: project.title
+        project:{
+          id: project.id,
+          code: project.code,
+          title: project.title
         },
         lines: lines.map(line => this.mapLineToDto(line)),
         characters: characters.map(character => this.mapCharacterToDto(character)),
@@ -53,7 +53,7 @@ export class GetProjectForEdit implements IGetProjectForEdit {
     });
   }
 
-  private mapLineToDto(line: LineModel): ProjectEditLineDto {
+  private mapLineToDto(line: LineModel): EditorLineDto {
     return {
       id: line.id,
       text: line.lineText,
@@ -64,7 +64,7 @@ export class GetProjectForEdit implements IGetProjectForEdit {
     }
   }
 
-  private mapCharacterToDto(character: CharacterModel): ProjectEditCharacterDto {
+  private mapCharacterToDto(character: CharacterModel): EditorCharacterDto {
     return {
       id: character.id,
       fullname: character.fullName,
@@ -73,7 +73,7 @@ export class GetProjectForEdit implements IGetProjectForEdit {
     }
   }
 
-  private mapSceneToDto(scene: SceneModel): ProjectEditSceneDto {
+  private mapSceneToDto(scene: SceneModel): EditorSceneDto {
     return {
       id: scene.id,
       pictureUrl: "temp-url"

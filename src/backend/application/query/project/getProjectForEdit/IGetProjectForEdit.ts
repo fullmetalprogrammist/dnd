@@ -1,5 +1,5 @@
-import { ProjectEditDto } from "./ProjectEditDto";
+import { EditorDto } from "./EditorDto";
 
 export interface IGetProjectForEdit {
-  execute(projectCode: string):Promise<ProjectEditDto>;
+  execute(projectCode: string):Promise<EditorDto>;
 }

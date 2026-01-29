@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
-import { ProjectEditor } from "@/src/frontend/features/project-editor/ProjectEditor";
+import { Editor } from "@/src/frontend/features/editor/Editor";
 import { getProjectForEdit } from "@/src/backend/factory/factory";
 import { NotExistEntityError } from "@/src/backend/core/errors/NotExistEntityError";
+import { mapToEditorState } from "@/src/backend/application/query/project/getProjectForEdit/EditorState";
 
 interface EditProjectProps {
   params: Promise<{
@@ -13,7 +14,8 @@ export default async function EditProjectPage({ params }: EditProjectProps) {
   const { projectCode } = await params;
   try {
     const project = await getProjectForEdit.execute(projectCode);
-    return <ProjectEditor projectInit={project} />
+    const state = mapToEditorState(project);
+    return <Editor projectInit={state} />
   } catch (error) {
     if (error instanceof NotExistEntityError) {
       notFound();
