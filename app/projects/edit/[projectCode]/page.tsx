@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { ProjectEditor } from "@/src/frontend/components/ProjectEditor";
+import { ProjectEditor } from "@/src/frontend/features/project-editor/ProjectEditor";
 import { getProjectForEdit } from "@/src/backend/factory/factory";
 import { NotExistEntityError } from "@/src/backend/core/errors/NotExistEntityError";
 
