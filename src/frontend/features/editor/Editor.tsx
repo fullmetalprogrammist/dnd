@@ -2,12 +2,12 @@
 
 import { useState } from "react";
 import {
-  EditorState,
-  EditorStateProject,
-  EditorStateLine,
-  EditorStateCharacter,
-  EditorStateScene
-} from "@/src/backend/application/query/project/getProjectForEdit/EditorState";
+  EditorData,
+  EditorDataProject,
+  EditorDataLine,
+  EditorDataCharacter,
+  EditorDataScene
+} from "@/src/frontend/features/editor/EditorData";
 import { SOURCE_TYPES, SourceTypes } from "./types";
 import { SourcePanel } from "./source-panel/SourcePanel";
 import { SourcePanelProps } from "./source-panel/SourcePanel";
@@ -15,11 +15,11 @@ import { WorkPanel } from "./work-panel/WorkPanel";
 import { createContext, useContext } from "react";
 
 type EditorProps = {
-  projectInit: EditorState;
+  projectInit: EditorData;
 }
 
 export type EditorContextValue = {
-  lines: EditorStateLine[];
+  lines: EditorDataLine[];
   importLinesFromText: (text: string) => void;
   addCharacter: () => void;
   addScene: () => void;
@@ -29,7 +29,7 @@ export type EditorContextValue = {
 
 export type ActiveItem = {
   mode: SourceTypes;
-  entity: EditorStateLine | EditorStateCharacter | EditorStateScene;
+  entity: EditorDataLine | EditorDataCharacter | EditorDataScene;
 }
 
 export const EditorContext = createContext<EditorContextValue | null>(null);
@@ -43,10 +43,10 @@ export function useEditor() {
 }
 
 export function Editor({ projectInit }: EditorProps) {
-  const [project, setProject] = useState<EditorStateProject>(projectInit.project);
-  const [lines, setLines] = useState<EditorStateLine[]>(projectInit.lines);
-  const [characters, setCharacters] = useState<EditorStateCharacter[]>(projectInit.characters);
-  const [scenes, setScenes] = useState<EditorStateScene[]>(projectInit.scenes);
+  const [project, setProject] = useState<EditorDataProject>(projectInit.project);
+  const [lines, setLines] = useState<EditorDataLine[]>(projectInit.lines);
+  const [characters, setCharacters] = useState<EditorDataCharacter[]>(projectInit.characters);
+  const [scenes, setScenes] = useState<EditorDataScene[]>(projectInit.scenes);
   const [leftMode, setLeftMode] = useState<SourceTypes>("lines");
   const [rightMode, setRightMode] = useState<SourceTypes>("characters");
   const [activeItem, setActiveItem] = useState<ActiveItem | null>(null);
@@ -147,9 +147,9 @@ export function Editor({ projectInit }: EditorProps) {
 function getSourcePanelProps(
   mode: SourceTypes,
   data: {
-    lines: EditorStateLine[];
-    characters: EditorStateCharacter[];
-    scenes: EditorStateScene[];
+    lines: EditorDataLine[];
+    characters: EditorDataCharacter[];
+    scenes: EditorDataScene[];
   },
   onModeChange: (mode: SourceTypes) => void
 ): SourcePanelProps {

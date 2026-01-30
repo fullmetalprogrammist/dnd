@@ -3,21 +3,21 @@ import { EditorDto } from "@/src/backend/application/query/project/getProjectFor
 // bid - backend id
 // fid - frontend id
 
-export type EditorState = {
-  project: EditorStateProject;
-  lines: EditorStateLine[];
-  characters: EditorStateCharacter[];
-  scenes: EditorStateScene[];
+export type EditorData = {
+  project: EditorDataProject;
+  lines: EditorDataLine[];
+  characters: EditorDataCharacter[];
+  scenes: EditorDataScene[];
 }
 
-export type EditorStateProject = {
+export type EditorDataProject = {
   bid: number | null;
   fid: string;
   code: string;
   title: string;
 }
 
-export type EditorStateLine = {
+export type EditorDataLine = {
   bid: number | null;
   fid: string;
   text: string | null;
@@ -27,7 +27,7 @@ export type EditorStateLine = {
   inSceneOrder: number | null;
 }
 
-export type EditorStateCharacter = {
+export type EditorDataCharacter = {
   bid: number | null;
   fid: string;
   fullname: string | null;
@@ -35,13 +35,13 @@ export type EditorStateCharacter = {
   portraitUrl: string | null;
 }
 
-export type EditorStateScene = {
+export type EditorDataScene = {
   bid: number | null;
   fid: string;
   pictureUrl: string | null;
 }
 
-export function mapToEditorState(dto: EditorDto): EditorState {
+export function mapToEditorState(dto: EditorDto): EditorData {
   const charactersMap = new Map<number, string>();
 
   const characters = dto.characters.map(character => {

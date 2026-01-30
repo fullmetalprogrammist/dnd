@@ -1,5 +1,5 @@
-import { EditorStateScene } from "@/src/backend/application/query/project/getProjectForEdit/EditorState"
+import { EditorDataScene } from "@/src/frontend/features/editor/EditorData"
 
-export function ScenesList({ scenes }: { scenes: EditorStateScene[]}) {
+export function ScenesList({ scenes }: { scenes: EditorDataScene[]}) {
   return <div>temp</div>
 }

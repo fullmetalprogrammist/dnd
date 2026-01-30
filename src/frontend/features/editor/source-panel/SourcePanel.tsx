@@ -1,8 +1,8 @@
 import {
-  EditorStateLine,
-  EditorStateCharacter,
-  EditorStateScene
-} from "@/src/backend/application/query/project/getProjectForEdit/EditorState";
+  EditorDataLine,
+  EditorDataCharacter,
+  EditorDataScene
+} from "@/src/frontend/features/editor/EditorData";
 import { SourceTypes, SOURCE_TYPES } from "../types";
 import { SourceSwitcher } from "./SourceSwitcher";
 import { EntityAddButton } from "./EntityAddButton";
@@ -15,17 +15,17 @@ import { ScenesList } from "./lists/ScenesList";
 export type SourcePanelProps =
   | {
       mode: "lines";
-      items: EditorStateLine[];
+      items: EditorDataLine[];
       onModeChange: (mode: SourceTypes) => void;
     }
   | {
       mode: "characters";
-      items: EditorStateCharacter[];
+      items: EditorDataCharacter[];
       onModeChange: (mode: SourceTypes) => void;
     }
   | {
       mode: "scenes";
-      items: EditorStateScene[];
+      items: EditorDataScene[];
       onModeChange: (mode: SourceTypes) => void;
     };
 

@@ -1,6 +1,6 @@
-import { EditorStateCharacter } from "@/src/backend/application/query/project/getProjectForEdit/EditorState"
+import { EditorDataCharacter } from "@/src/frontend/features/editor/EditorData"
 
-export function CharactersList({ characters }: { characters: EditorStateCharacter[]}) {
+export function CharactersList({ characters }: { characters: EditorDataCharacter[]}) {
   return characters.map(char => 
     <div key={char.fid}>
       {char.shortname ?? "Новый персонаж"}

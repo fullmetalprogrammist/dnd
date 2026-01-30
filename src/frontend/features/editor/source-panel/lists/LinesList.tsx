@@ -1,6 +1,6 @@
-import { EditorStateLine } from "@/src/backend/application/query/project/getProjectForEdit/EditorState"
+import { EditorDataLine } from "@/src/frontend/features/editor/EditorData"
 
-export function LinesList({ lines }: { lines: EditorStateLine[]}) {
+export function LinesList({ lines }: { lines: EditorDataLine[]}) {
   return lines.map(line => 
     <div 
       key={line.fid} 
