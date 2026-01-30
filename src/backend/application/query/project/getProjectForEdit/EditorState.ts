@@ -20,7 +20,7 @@ export type EditorStateProject = {
 export type EditorStateLine = {
   bid: number | null;
   fid: string;
-  text: string;
+  text: string | null;
   characterFid: string | null;
   inProjectOrder: number;
   sceneFid: string | null;
@@ -30,15 +30,15 @@ export type EditorStateLine = {
 export type EditorStateCharacter = {
   bid: number | null;
   fid: string;
-  fullname: string;
-  shortname: string;
+  fullname: string | null;
+  shortname: string | null;
   portraitUrl: string | null;
 }
 
 export type EditorStateScene = {
   bid: number | null;
   fid: string;
-  pictureUrl: string;
+  pictureUrl: string | null;
 }
 
 export function mapToEditorState(dto: EditorDto): EditorState {
