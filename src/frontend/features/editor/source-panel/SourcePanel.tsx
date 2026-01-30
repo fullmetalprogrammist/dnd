@@ -11,6 +11,8 @@ import { useEditor } from "../Editor";
 import { LinesList } from "./lists/LinesList";
 import { CharactersList } from "./lists/CharactersList";
 import { ScenesList } from "./lists/ScenesList";
+import { useDispatch } from "react-redux";
+import { addLine } from "@/src/frontend/store/editor/slice";
 
 export type SourcePanelProps =
   | {
@@ -32,11 +34,12 @@ export type SourcePanelProps =
 export function SourcePanel(props: SourcePanelProps) {
   const showDropZone = props.mode === "lines" && props.items.length === 0;
   const ctx = useEditor();
+  const dispatch = useDispatch();
 
   const addEntity = (() => {
     switch (props.mode) {
       case "lines":
-        return ctx.addLine;
+        return () => dispatch(addLine());
       case "characters":
         return ctx.addCharacter;
       case "scenes":
@@ -58,7 +61,7 @@ export function SourcePanel(props: SourcePanelProps) {
         { showDropZone 
           ? <DropZone /> 
           : <div className="flex flex-col gap-1 p-1">
-            {props.mode === "lines" && <LinesList lines={props.items} /> }
+            {props.mode === "lines" && <LinesList /> }
             {props.mode === "characters" && <CharactersList characters={props.items} /> }
             {props.mode === "scenes" && <ScenesList scenes={props.items} /> }
             </div>

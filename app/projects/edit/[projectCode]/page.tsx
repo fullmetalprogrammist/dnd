@@ -15,7 +15,7 @@ export default async function EditProjectPage({ params }: EditProjectProps) {
   try {
     const project = await getProjectForEdit.execute(projectCode);
     const data = mapToEditorState(project);
-    return <Editor projectInit={data} />
+    return <Editor data={data} />
   } catch (error) {
     if (error instanceof NotExistEntityError) {
       notFound();

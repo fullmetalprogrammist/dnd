@@ -33,12 +33,25 @@ export const editorSlice = createSlice({
         portraitUrl: null
       })
     },
+
+    addLine(state) {
+      state.data?.lines.push({
+        fid: crypto.randomUUID(),
+        bid: null,
+        text: "hello",
+        characterFid: null,
+        inProjectOrder: 2,
+        inSceneOrder: null,
+        sceneFid: null
+      })
+    }
   },
 });
 
 export const { 
   initEditor, 
   setActiveItem, 
-  addCharacter 
+  addCharacter,
+  addLine
 } = editorSlice.actions;
 export const editorReducer = editorSlice.reducer;

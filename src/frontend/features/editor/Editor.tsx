@@ -13,9 +13,12 @@ import { SourcePanel } from "./source-panel/SourcePanel";
 import { SourcePanelProps } from "./source-panel/SourcePanel";
 import { WorkPanel } from "./work-panel/WorkPanel";
 import { createContext, useContext } from "react";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { initEditor } from "@/src/frontend/store/editor/slice";
 
 type EditorProps = {
-  projectInit: EditorData;
+  data: EditorData;
 }
 
 export type EditorContextValue = {
@@ -42,11 +45,17 @@ export function useEditor() {
   return ctx;
 }
 
-export function Editor({ projectInit }: EditorProps) {
-  const [project, setProject] = useState<EditorDataProject>(projectInit.project);
-  const [lines, setLines] = useState<EditorDataLine[]>(projectInit.lines);
-  const [characters, setCharacters] = useState<EditorDataCharacter[]>(projectInit.characters);
-  const [scenes, setScenes] = useState<EditorDataScene[]>(projectInit.scenes);
+export function Editor({ data }: EditorProps) {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(initEditor(data));
+  }, [data, dispatch]);
+
+  const [project, setProject] = useState<EditorDataProject>(data.project);
+  const [lines, setLines] = useState<EditorDataLine[]>(data.lines);
+  const [characters, setCharacters] = useState<EditorDataCharacter[]>(data.characters);
+  const [scenes, setScenes] = useState<EditorDataScene[]>(data.scenes);
   const [leftMode, setLeftMode] = useState<SourceTypes>("lines");
   const [rightMode, setRightMode] = useState<SourceTypes>("characters");
   const [activeItem, setActiveItem] = useState<ActiveItem | null>(null);
