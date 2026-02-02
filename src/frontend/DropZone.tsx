@@ -1,13 +1,15 @@
 import { useRef } from "react";
-// import { useEditor } from "./features/editor/Editor";
 
-export function DropZone() {
+type DropZoneProps = {
+  action: (file: File) => void;
+}
+
+export function DropZone({ action }: DropZoneProps) {
   const inputRef = useRef<HTMLInputElement | null>(null);
-  const importLinesFromText = () => {};
 
   function handleFile(file: File | null | undefined) {
     if (!file) return;
-    file.text().then(importLinesFromText);
+    action(file);
   }
 
   return (

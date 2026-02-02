@@ -1,8 +1,3 @@
-import {
-  EditorDataLine,
-  EditorDataCharacter,
-  EditorDataScene
-} from "@/src/frontend/features/editor/EditorData";
 import { SourceTypes, SOURCE_TYPES } from "../types";
 import { SourceSwitcher } from "./SourceSwitcher";
 import { EntityAddButton } from "./EntityAddButton";
@@ -16,8 +11,10 @@ import {
   addLine, 
   addScene, 
   setLeftMode, 
-  setRightMode 
+  setRightMode,
+  importLines
 } from "@/src/frontend/store/editor/slice";
+import { InsertPosition } from "@/src/frontend/store/editor/types/InsertPosition";
 import { RootState } from "@/src/frontend/store/editor";
 
 type PanelSide = "left" | "right";
@@ -45,16 +42,27 @@ export function SourcePanel({ side }: SourcePanelProps) {
 
     return (state.editor.data?.lines.length ?? 0) === 0;
   })
+
   const dispatch = useDispatch();
+
+  const importLinesFromFile = (file: File) => {
+    file.text().then(t => dispatch(
+      importLines(t
+        .split("\n")
+        .map(t => t.trim())
+        .filter(Boolean)
+      )
+    ));
+  }
 
   const addEntity = (() => {
     switch (mode) {
       case "lines":
-        return () => dispatch(addLine());
+        return (pos: InsertPosition) => dispatch(addLine(pos));
       case "characters":
-        return () => dispatch(addCharacter());
+        return (pos: InsertPosition) => dispatch(addCharacter(pos));
       case "scenes":
-        return () => dispatch(addScene());
+        return (pos: InsertPosition) => dispatch(addScene(pos));
       default:
         return () => {};  // TODO: мб throw?
     }
@@ -72,10 +80,10 @@ export function SourcePanel({ side }: SourcePanelProps) {
         allModes={SOURCE_TYPES}
         onChange={selectMode}
       />
-      <EntityAddButton addEntity={addEntity} />
+      <EntityAddButton addEntity={() => addEntity("start")} />
       <div className="flex-1 overflow-auto">
         { showDropZone 
-          ? <DropZone /> 
+          ? <DropZone action={importLinesFromFile} /> 
           : <div className="flex flex-col gap-1 p-1">
               {mode === "lines" && <LinesList /> }
               {mode === "characters" && <CharactersList /> }
@@ -83,7 +91,7 @@ export function SourcePanel({ side }: SourcePanelProps) {
             </div>
         }
       </div>
-      {/* <EntityAddButton /> */}
+      <EntityAddButton addEntity={() => addEntity("end")} />
     </div>
   )
 }

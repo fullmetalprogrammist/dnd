@@ -1,7 +1,6 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 import { EditorState } from "./EditorState";
-import { EditorData } from "../../features/editor/EditorData";
-import { SourceTypes } from "../../features/editor/types";
+import * as reducers from "./reducers";
 
 const initialState: EditorState = {
   data: null,
@@ -13,57 +12,7 @@ const initialState: EditorState = {
 export const editorSlice = createSlice({
   name: "editor",
   initialState,
-  reducers: {
-    initEditor(state, action: PayloadAction<EditorData>) {
-      state.data = action.payload;
-      state.activeItem = null;
-    },
-
-    setActiveItem(
-      state,
-      action: PayloadAction<{ itemType: SourceTypes; fid: string } | null>
-    ) {
-      state.activeItem = action.payload;
-    },
-
-    addCharacter(state) {
-      state.data?.characters.push({
-        bid: null,
-        fid: crypto.randomUUID(),
-        fullname: null,
-        shortname: null,
-        portraitUrl: null
-      })
-    },
-
-    addLine(state) {
-      state.data?.lines.push({
-        fid: crypto.randomUUID(),
-        bid: null,
-        text: "hello",
-        characterFid: null,
-        inProjectOrder: 2,
-        inSceneOrder: null,
-        sceneFid: null
-      })
-    },
-
-    addScene(state) {
-      state.data?.scenes.push({
-        fid: crypto.randomUUID(),
-        bid: null,
-        pictureUrl: null
-      })
-    },
-
-    setLeftMode(state, action: PayloadAction<SourceTypes>) {
-      state.leftMode = action.payload;
-    },
-
-    setRightMode(state, action: PayloadAction<SourceTypes>) {
-      state.rightMode = action.payload;
-    }
-  },
+  reducers
 });
 
 export const { 
@@ -74,5 +23,7 @@ export const {
   addScene,
   setLeftMode,
   setRightMode,
+  importLines,
 } = editorSlice.actions;
+
 export const editorReducer = editorSlice.reducer;
