@@ -1,9 +1,9 @@
 import { useRef } from "react";
-import { useEditor } from "./features/editor/Editor";
+// import { useEditor } from "./features/editor/Editor";
 
 export function DropZone() {
   const inputRef = useRef<HTMLInputElement | null>(null);
-  const { importLinesFromText } = useEditor();
+  const importLinesFromText = () => {};
 
   function handleFile(file: File | null | undefined) {
     if (!file) return;

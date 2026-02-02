@@ -7,63 +7,79 @@ import { SourceTypes, SOURCE_TYPES } from "../types";
 import { SourceSwitcher } from "./SourceSwitcher";
 import { EntityAddButton } from "./EntityAddButton";
 import { DropZone } from "@/src/frontend/DropZone";
-import { useEditor } from "../Editor";
 import { LinesList } from "./lists/LinesList";
 import { CharactersList } from "./lists/CharactersList";
 import { ScenesList } from "./lists/ScenesList";
-import { useDispatch } from "react-redux";
-import { addLine } from "@/src/frontend/store/editor/slice";
+import { useDispatch, useSelector } from "react-redux";
+import { 
+  addCharacter, 
+  addLine, 
+  addScene, 
+  setLeftMode, 
+  setRightMode 
+} from "@/src/frontend/store/editor/slice";
+import { RootState } from "@/src/frontend/store/editor";
 
-export type SourcePanelProps =
-  | {
-      mode: "lines";
-      items: EditorDataLine[];
-      onModeChange: (mode: SourceTypes) => void;
-    }
-  | {
-      mode: "characters";
-      items: EditorDataCharacter[];
-      onModeChange: (mode: SourceTypes) => void;
-    }
-  | {
-      mode: "scenes";
-      items: EditorDataScene[];
-      onModeChange: (mode: SourceTypes) => void;
-    };
+type PanelSide = "left" | "right";
 
-export function SourcePanel(props: SourcePanelProps) {
-  const showDropZone = props.mode === "lines" && props.items.length === 0;
-  const ctx = useEditor();
+export type SourcePanelProps = {
+  side: PanelSide;
+}
+
+export function SourcePanel({ side }: SourcePanelProps) {
+  const mode = useSelector((state: RootState) => 
+    side === "left" 
+      ? state.editor.leftMode 
+      : state.editor.rightMode
+  );
+
+  // dispatch вызывает пересчет всех колбэков из всех useSelector. если результат колбэка после пересчета отличается от предыдущего результата, редакс тригерит ререндер компонента, в котором использовался этот колбэк.
+  // переиспользовать mode из строки выше нельзя, базовое правило - колбэк в useSelector должен опираться только на store-значения. иначе, если использовать mode из пред строки, то его значение замкнется и пересчет будет кривой, ненадежный.
+  const showDropZone = useSelector((state: RootState) => {
+    const mode = side === "left" 
+      ? state.editor.leftMode 
+      : state.editor.rightMode;
+
+    if (mode !== "lines")
+      return false;
+
+    return (state.editor.data?.lines.length ?? 0) === 0;
+  })
   const dispatch = useDispatch();
 
   const addEntity = (() => {
-    switch (props.mode) {
+    switch (mode) {
       case "lines":
         return () => dispatch(addLine());
       case "characters":
-        return ctx.addCharacter;
+        return () => dispatch(addCharacter());
       case "scenes":
-        return ctx.addScene;
+        return () => dispatch(addScene());
       default:
-        return () => {};
+        return () => {};  // TODO: мб throw?
     }
   })();
+
+  const selectMode = 
+    side === "left"
+      ? (mode: SourceTypes) => dispatch(setLeftMode(mode))
+      : (mode: SourceTypes) => dispatch(setRightMode(mode));
 
   return (
     <div className="flex flex-col h-full">
       <SourceSwitcher
-        currentMode={props.mode}
+        currentMode={mode}
         allModes={SOURCE_TYPES}
-        onChange={props.onModeChange}
+        onChange={selectMode}
       />
       <EntityAddButton addEntity={addEntity} />
       <div className="flex-1 overflow-auto">
         { showDropZone 
           ? <DropZone /> 
           : <div className="flex flex-col gap-1 p-1">
-            {props.mode === "lines" && <LinesList /> }
-            {props.mode === "characters" && <CharactersList characters={props.items} /> }
-            {props.mode === "scenes" && <ScenesList scenes={props.items} /> }
+              {mode === "lines" && <LinesList /> }
+              {mode === "characters" && <CharactersList /> }
+              {mode === "scenes" && <ScenesList /> }
             </div>
         }
       </div>

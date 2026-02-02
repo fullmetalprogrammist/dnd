@@ -5,7 +5,9 @@ import { SourceTypes } from "../../features/editor/types";
 
 const initialState: EditorState = {
   data: null,
-  activeItem: null
+  leftMode: "lines",
+  rightMode: "characters",
+  activeItem: null,
 };
 
 export const editorSlice = createSlice({
@@ -44,6 +46,22 @@ export const editorSlice = createSlice({
         inSceneOrder: null,
         sceneFid: null
       })
+    },
+
+    addScene(state) {
+      state.data?.scenes.push({
+        fid: crypto.randomUUID(),
+        bid: null,
+        pictureUrl: null
+      })
+    },
+
+    setLeftMode(state, action: PayloadAction<SourceTypes>) {
+      state.leftMode = action.payload;
+    },
+
+    setRightMode(state, action: PayloadAction<SourceTypes>) {
+      state.rightMode = action.payload;
     }
   },
 });
@@ -52,6 +70,9 @@ export const {
   initEditor, 
   setActiveItem, 
   addCharacter,
-  addLine
+  addLine,
+  addScene,
+  setLeftMode,
+  setRightMode,
 } = editorSlice.actions;
 export const editorReducer = editorSlice.reducer;

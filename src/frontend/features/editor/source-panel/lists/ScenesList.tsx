@@ -1,5 +1,5 @@
 import { EditorDataScene } from "@/src/frontend/features/editor/EditorData"
 
-export function ScenesList({ scenes }: { scenes: EditorDataScene[]}) {
+export function ScenesList() {
   return <div>temp</div>
 }

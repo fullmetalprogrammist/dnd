@@ -35,16 +35,6 @@ export type ActiveItem = {
   entity: EditorDataLine | EditorDataCharacter | EditorDataScene;
 }
 
-export const EditorContext = createContext<EditorContextValue | null>(null);
-
-export function useEditor() {
-  const ctx = useContext(EditorContext);
-  if (!ctx) {
-    throw new Error("useEditor must be used inside EditorProvider");
-  }
-  return ctx;
-}
-
 export function Editor({ data }: EditorProps) {
   const dispatch = useDispatch();
 
@@ -52,122 +42,56 @@ export function Editor({ data }: EditorProps) {
     dispatch(initEditor(data));
   }, [data, dispatch]);
 
-  const [project, setProject] = useState<EditorDataProject>(data.project);
-  const [lines, setLines] = useState<EditorDataLine[]>(data.lines);
-  const [characters, setCharacters] = useState<EditorDataCharacter[]>(data.characters);
-  const [scenes, setScenes] = useState<EditorDataScene[]>(data.scenes);
   const [leftMode, setLeftMode] = useState<SourceTypes>("lines");
   const [rightMode, setRightMode] = useState<SourceTypes>("characters");
   const [activeItem, setActiveItem] = useState<ActiveItem | null>(null);
 
-  const importLinesFromText = (text: string) => {
-    const parsed = text
-      .split("\n")
-      .map(t => t.trim())
-      .filter(Boolean)
-      .map((text, index) => ({
-        bid: null,
-        fid: crypto.randomUUID(),
-        text,
-        inProjectOrder: index,
-        characterFid: null,
-        sceneFid: null,
-        inSceneOrder: null
-      }));
+  // const importLinesFromText = (text: string) => {
+  //   const parsed = text
+  //     .split("\n")
+  //     .map(t => t.trim())
+  //     .filter(Boolean)
+  //     .map((text, index) => ({
+  //       bid: null,
+  //       fid: crypto.randomUUID(),
+  //       text,
+  //       inProjectOrder: index,
+  //       characterFid: null,
+  //       sceneFid: null,
+  //       inSceneOrder: null
+  //     }));
 
-    setLines(parsed);
-  }
+  //   setLines(parsed);
+  // }
 
-  const addCharacter = () => {
-    setCharacters(chars => [
-      ...chars, 
-      {
-        bid: null,
-        fid: crypto.randomUUID(),
-        fullname: null,
-        shortname: null,
-        portraitUrl: null
-      }
-    ]);
-  }
+  // const selectItem = (mode: SourceTypes, fid: string) => {
+  //   const entity = (() => {
+  //     switch (mode) {
+  //       case "lines": return lines.find(line => line.fid === fid);
+  //       case "characters": return characters.find(char => char.fid === fid);
+  //       case "scenes": return characters.find(scene => scene.fid === fid);
+  //     }
+  //   })();
 
-  const addScene = () => {
-    alert("Сцена добавлена");
-  }
+  //   if (!entity) return;
 
-  const addLine = () => {
-    alert("Реплика добавлена");
-  }
+  //   setActiveItem({
+  //     mode,
+  //     entity
+  //   })
+  // }
 
-  const selectItem = (mode: SourceTypes, fid: string) => {
-    const entity = (() => {
-      switch (mode) {
-        case "lines": return lines.find(line => line.fid === fid);
-        case "characters": return characters.find(char => char.fid === fid);
-        case "scenes": return characters.find(scene => scene.fid === fid);
-      }
-    })();
-
-    if (!entity) return;
-
-    setActiveItem({
-      mode,
-      entity
-    })
-  }
-
-  const leftPanelProps = getSourcePanelProps(
-    leftMode,
-    { lines, characters, scenes },
-    setLeftMode
-  );
-
-  const rightPanelProps = getSourcePanelProps(
-    rightMode,
-    { lines, characters, scenes },
-    setRightMode
-  );
   return (
-    <EditorContext.Provider
-      value={{
-        lines,
-        importLinesFromText,
-        addCharacter,
-        addScene,
-        addLine,
-        selectItem
-      }}
-    >
-      <div className="flex flex-row h-full w-full">
-        <div className="w-1/4 bg-amber-100">
-          <SourcePanel  {...leftPanelProps} />
-        </div>
-        <div className="w-1/2 bg-green-200">
-          <WorkPanel item={activeItem} />
-        </div>
-        <div className="w-1/4 bg-amber-100">
-          <SourcePanel  {...rightPanelProps} />
-        </div>
+    <div className="flex flex-row h-full w-full">
+      <div className="w-1/4 bg-amber-100">
+        <SourcePanel side="left" />
       </div>
-    </EditorContext.Provider>
+      <div className="w-1/2 bg-green-200">
+        <WorkPanel item={activeItem} />
+      </div>
+      <div className="w-1/4 bg-amber-100">
+        <SourcePanel side="right" />
+      </div>
+    </div>
   )
-}
-
-function getSourcePanelProps(
-  mode: SourceTypes,
-  data: {
-    lines: EditorDataLine[];
-    characters: EditorDataCharacter[];
-    scenes: EditorDataScene[];
-  },
-  onModeChange: (mode: SourceTypes) => void
-): SourcePanelProps {
-  switch (mode) {
-    case "lines":
-      return { mode, items: data.lines, onModeChange };
-    case "characters":
-      return { mode, items: data.characters, onModeChange };
-    case "scenes":
-      return { mode, items: data.scenes, onModeChange };
-  }
 }
