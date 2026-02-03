@@ -34,6 +34,8 @@ export type ActiveItem = {
 }
 
 export function Editor({ data }: EditorProps) {
+  const [leftMode, setLeftMode] = useState<SourceTypes>("lines");
+  const [rightMode, setRightMode] = useState<SourceTypes>("characters");
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -43,13 +45,13 @@ export function Editor({ data }: EditorProps) {
   return (
     <div className="flex flex-row h-full w-full">
       <div className="w-1/4 bg-amber-100">
-        <SourcePanel side="left" />
+        <SourcePanel mode={leftMode} setMode={setLeftMode} />
       </div>
       <div className="w-1/2 bg-green-200">
         <Workbench />
       </div>
       <div className="w-1/4 bg-amber-100">
-        <SourcePanel side="right" />
+        <SourcePanel mode={rightMode} setMode={setRightMode} />
       </div>
     </div>
   )

@@ -21,7 +21,7 @@ export function CharactersList() {
       onClick={() => selectCharacter(character.fid)}
       className="outline p-1"
     >
-      {character.fid}
+      {character.fullname ?? "Новый персонаж"}
     </div>
   )
 }

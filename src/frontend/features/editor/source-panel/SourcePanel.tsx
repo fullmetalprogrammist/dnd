@@ -10,33 +10,20 @@ import {
   addCharacter, 
   addLine, 
   addScene, 
-  setLeftMode, 
-  setRightMode,
   importLines
 } from "@/src/frontend/store/editor/slice";
 import { InsertPosition } from "@/src/frontend/store/editor/types/InsertPosition";
 import { RootState } from "@/src/frontend/store/editor";
 
-type PanelSide = "left" | "right";
-
 export type SourcePanelProps = {
-  side: PanelSide;
+  mode: SourceTypes,
+  setMode: (mode: SourceTypes) => void;
 }
 
-export function SourcePanel({ side }: SourcePanelProps) {
-  const mode = useSelector((state: RootState) => 
-    side === "left" 
-      ? state.editor.leftMode 
-      : state.editor.rightMode
-  );
-
+export function SourcePanel({ mode, setMode }: SourcePanelProps) {
   // dispatch вызывает пересчет всех колбэков из всех useSelector. если результат колбэка после пересчета отличается от предыдущего результата, редакс тригерит ререндер компонента, в котором использовался этот колбэк.
   // переиспользовать mode из строки выше нельзя, базовое правило - колбэк в useSelector должен опираться только на store-значения. иначе, если использовать mode из пред строки, то его значение замкнется и пересчет будет кривой, ненадежный.
   const showDropZone = useSelector((state: RootState) => {
-    const mode = side === "left" 
-      ? state.editor.leftMode 
-      : state.editor.rightMode;
-
     if (mode !== "lines")
       return false;
 
@@ -68,17 +55,12 @@ export function SourcePanel({ side }: SourcePanelProps) {
     }
   })();
 
-  const selectMode = 
-    side === "left"
-      ? (mode: SourceTypes) => dispatch(setLeftMode(mode))
-      : (mode: SourceTypes) => dispatch(setRightMode(mode));
-
   return (
     <div className="flex flex-col h-full">
       <SourceSwitcher
         currentMode={mode}
         allModes={SOURCE_TYPES}
-        onChange={selectMode}
+        onChange={setMode}
       />
       <EntityAddButton addEntity={() => addEntity("start")} />
       <div className="flex-1 overflow-auto">

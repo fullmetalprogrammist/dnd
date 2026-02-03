@@ -1,11 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { EditorState } from "./EditorState";
+import { EditorState } from "./types/EditorState";
 import * as reducers from "./reducers";
 
 const initialState: EditorState = {
   data: null,
-  leftMode: "lines",
-  rightMode: "characters",
   activeItem: null,
 };
 
@@ -19,10 +17,9 @@ export const {
   initEditor, 
   setActiveItem, 
   addCharacter,
+  updateCharacter,
   addLine,
   addScene,
-  setLeftMode,
-  setRightMode,
   importLines,
 } = editorSlice.actions;
 

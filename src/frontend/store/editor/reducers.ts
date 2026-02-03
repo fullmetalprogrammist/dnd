@@ -1,8 +1,12 @@
-import { EditorData } from "../../features/editor/EditorData";
+import { 
+  EditorData,
+  EditorDataCharacter
+} from "../../features/editor/EditorData";
 import { SourceTypes } from "../../features/editor/types";
-import { EditorState } from "./EditorState";
+import { EditorState } from "./types/EditorState";
 import { PayloadAction } from "@reduxjs/toolkit";
 import { InsertPosition } from "./types/InsertPosition";
+import { UpdateCharacterPayload } from "./types/UpdateCharacterPayload";
 
 export function initEditor(
   state: EditorState, 
@@ -30,6 +34,19 @@ export function addCharacter(
   );
 }
 
+export function updateCharacter(
+  state: EditorState, 
+  action: PayloadAction<UpdateCharacterPayload>
+) {
+  const char = state.data?.characters.find(
+    char => char.fid === action.payload.fid
+  );
+  if (!char) return;
+
+  char.fullname = action.payload.fullname;
+  char.shortname = action.payload.shortname;
+}
+
 export function addLine(
   state: EditorState, 
   action: PayloadAction<InsertPosition>
@@ -50,20 +67,6 @@ export function addScene(
     createNewScene(), 
     action.payload
   );
-}
-
-export function setLeftMode(
-  state: EditorState,
-  action: PayloadAction<SourceTypes>
-) {
-  state.leftMode = action.payload;
-}
-
-export function setRightMode(
-  state: EditorState,
-  action: PayloadAction<SourceTypes>
-) {
-  state.rightMode = action.payload;
 }
 
 export function importLines(
