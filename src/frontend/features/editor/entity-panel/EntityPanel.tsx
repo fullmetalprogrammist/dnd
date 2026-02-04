@@ -1,26 +1,22 @@
-import { SourceTypes, SOURCE_TYPES } from "../types";
-import { SourceSwitcher } from "./SourceSwitcher";
-import { EntityAddButton } from "./EntityAddButton";
-import { DropZone } from "@/src/frontend/DropZone";
+import { EntityTypes, ENTITIES } from "./types/EntityTypes";
+import { EntityTypeSwitcher } from "./EntityTypeSwitcher";
+import { AddEntityButton } from "./AddEntityButton";
+import { DropZone } from "@/src/frontend/common/ui/drop-zone/DropZone";
 import { LinesList } from "./lists/LinesList";
 import { CharactersList } from "./lists/CharactersList";
 import { ScenesList } from "./lists/ScenesList";
 import { useDispatch, useSelector } from "react-redux";
-import { 
-  addCharacter, 
-  addLine, 
-  addScene, 
-  importLines
-} from "@/src/frontend/store/editor/slice";
-import { InsertPosition } from "@/src/frontend/store/editor/types/InsertPosition";
-import { RootState } from "@/src/frontend/store/editor";
+import { editorActions } from "@/src/frontend/store/editor";
+import { InsertPosition } from "@/src/frontend/store/editor/reducers/helpers/insertByPosition";
+import { RootState } from "@/src/frontend/store";
+import { LinesImportDropZone } from "@/src/frontend/common/ui/drop-zone/LinesImportDropZone";
 
 export type SourcePanelProps = {
-  mode: SourceTypes,
-  setMode: (mode: SourceTypes) => void;
+  mode: EntityTypes,
+  setMode: (mode: EntityTypes) => void;
 }
 
-export function SourcePanel({ mode, setMode }: SourcePanelProps) {
+export function EntityPanel({ mode, setMode }: SourcePanelProps) {
   // dispatch вызывает пересчет всех колбэков из всех useSelector. если результат колбэка после пересчета отличается от предыдущего результата, редакс тригерит ререндер компонента, в котором использовался этот колбэк.
   // переиспользовать mode из строки выше нельзя, базовое правило - колбэк в useSelector должен опираться только на store-значения. иначе, если использовать mode из пред строки, то его значение замкнется и пересчет будет кривой, ненадежный.
   const showDropZone = useSelector((state: RootState) => {
@@ -32,24 +28,25 @@ export function SourcePanel({ mode, setMode }: SourcePanelProps) {
 
   const dispatch = useDispatch();
 
-  const importLinesFromFile = (file: File) => {
-    file.text().then(t => dispatch(
-      importLines(t
-        .split("\n")
-        .map(t => t.trim())
-        .filter(Boolean)
-      )
-    ));
-  }
+  // const importLinesFromFile = async (file: File) => {
+  //   const text = await file.text();
+  //   dispatch(
+  //     editorActions.importLines(text
+  //       .split("\n")
+  //       .map(t => t.trim())
+  //       .filter(Boolean)
+  //     )
+  //   );
+  // }
 
   const addEntity = (() => {
     switch (mode) {
       case "lines":
-        return (pos: InsertPosition) => dispatch(addLine(pos));
+        return (pos: InsertPosition) => dispatch(editorActions.addLine(pos));
       case "characters":
-        return (pos: InsertPosition) => dispatch(addCharacter(pos));
+        return (pos: InsertPosition) => dispatch(editorActions.addCharacter(pos));
       case "scenes":
-        return (pos: InsertPosition) => dispatch(addScene(pos));
+        return (pos: InsertPosition) => dispatch(editorActions.addScene(pos));
       default:
         return () => {};  // TODO: мб throw?
     }
@@ -57,15 +54,16 @@ export function SourcePanel({ mode, setMode }: SourcePanelProps) {
 
   return (
     <div className="flex flex-col h-full">
-      <SourceSwitcher
+      <EntityTypeSwitcher
         currentMode={mode}
-        allModes={SOURCE_TYPES}
+        allModes={ENTITIES}
         onChange={setMode}
       />
-      <EntityAddButton addEntity={() => addEntity("start")} />
+      <AddEntityButton addEntity={() => addEntity("start")} />
       <div className="flex-1 overflow-auto">
         { showDropZone 
-          ? <DropZone action={importLinesFromFile} /> 
+          // ? <DropZone action={importLinesFromFile} accept=".txt" text="Выберите или перетащите txt-файл с репликами сюда" /> 
+          ? <LinesImportDropZone />
           : <div className="flex flex-col gap-1 p-1">
               {mode === "lines" && <LinesList /> }
               {mode === "characters" && <CharactersList /> }
@@ -73,7 +71,7 @@ export function SourcePanel({ mode, setMode }: SourcePanelProps) {
             </div>
         }
       </div>
-      <EntityAddButton addEntity={() => addEntity("end")} />
+      <AddEntityButton addEntity={() => addEntity("end")} />
     </div>
   )
 }

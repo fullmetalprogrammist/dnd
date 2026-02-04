@@ -1,11 +1,18 @@
-import { configureStore } from "@reduxjs/toolkit";
-import { editorReducer} from "./slice";
+import { createSlice } from "@reduxjs/toolkit";
+import { EditorState } from "./types/EditorState";
+import * as reducers from "./reducers";
 
-export const store = configureStore({
-  reducer: {
-    editor: editorReducer,
-  },
+const initialState: EditorState = {
+  data: null,
+  activeItem: null,
+};
+
+export const editorSlice = createSlice({
+  name: "editor",
+  initialState,
+  reducers
 });
 
-export type RootState = ReturnType<typeof store.getState>;
-export type AppDispatch = typeof store.dispatch;
+export const editorActions = editorSlice.actions;
+
+export const editorReducer = editorSlice.reducer;

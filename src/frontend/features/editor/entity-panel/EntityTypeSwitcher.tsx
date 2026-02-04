@@ -1,12 +1,12 @@
-import { SourceTypes } from "../types";
+import { EntityTypes } from "./types/EntityTypes";
 
 type SourceSwitcherProps = {
-  currentMode: SourceTypes;
-  allModes: readonly SourceTypes[];
-  onChange: (mode: SourceTypes) => void;
+  currentMode: EntityTypes;
+  allModes: readonly EntityTypes[];
+  onChange: (mode: EntityTypes) => void;
 };
 
-export function SourceSwitcher({currentMode, allModes, onChange}: SourceSwitcherProps) {
+export function EntityTypeSwitcher({currentMode, allModes, onChange}: SourceSwitcherProps) {
   return (
     <div className="flex gap-2 border-b p-2">
       {allModes.map(mode => (

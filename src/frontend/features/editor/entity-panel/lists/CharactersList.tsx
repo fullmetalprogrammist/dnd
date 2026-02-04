@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
-import { RootState } from "@/src/frontend/store/editor";
-import { setActiveItem } from "@/src/frontend/store/editor/slice";
+import { RootState } from "@/src/frontend/store";
+import { editorActions } from "@/src/frontend/store/editor";
 
 export function CharactersList() {
   const characters = useSelector(
@@ -9,7 +9,7 @@ export function CharactersList() {
 
   const dispatch = useDispatch();
   const selectCharacter = (fid: string) => dispatch(
-    setActiveItem({ 
+    editorActions.setActiveItem({ 
       itemType: "characters", 
       fid 
     })
@@ -20,6 +20,14 @@ export function CharactersList() {
       key={character.fid} 
       onClick={() => selectCharacter(character.fid)}
       className="outline p-1"
+      draggable
+      onDragStart={(e) => {
+        e.dataTransfer.setData(
+          "application/character-fid",
+          character.fid
+        );
+        console.log(character.fid)
+      }}
     >
       {character.fullname ?? "Новый персонаж"}
     </div>

@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { Editor } from "@/src/frontend/features/editor/Editor";
 import { getProjectForEdit } from "@/src/backend/factory/factory";
 import { NotExistEntityError } from "@/src/backend/core/errors/NotExistEntityError";
-import { mapToEditorState } from "@/src/frontend/features/editor/EditorData";
+import { mapToEditorState } from "@/src/frontend/features/editor/types/EditorData";
 
 interface EditProjectProps {
   params: Promise<{

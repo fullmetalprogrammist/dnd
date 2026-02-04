@@ -1,7 +1,8 @@
 import { useSelector, useDispatch } from "react-redux";
-import { RootState } from "@/src/frontend/store/editor";
-import { useState } from "react";
-import { updateCharacter } from "@/src/frontend/store/editor/slice";
+import { RootState } from "@/src/frontend/store";
+import { useState, useEffect } from "react";
+import { editorActions } from "@/src/frontend/store/editor";
+import { CharacterPortraitDropZone } from "@/src/frontend/common/ui/drop-zone/PortraitDropZone";
 
 export function CharacterOnBench() {
   const dispatch = useDispatch();
@@ -12,13 +13,14 @@ export function CharacterOnBench() {
 
   const [fullname, setFullname] = useState(character?.fullname ?? "");
   const [shortname, setShortname] = useState(character?.shortname ?? "");
+  const [portraitFile, setPortraitFile] = useState<File | null>(null);
 
   if (!character)
     return null;
 
   const apply = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    dispatch(updateCharacter({
+    dispatch(editorActions.updateCharacter({
       fid: character.fid,
       fullname,
       shortname,
@@ -50,6 +52,9 @@ export function CharacterOnBench() {
           className="border rounded px-2 py-1 outline-none focus:ring-1 focus:ring-blue-400"
         />
       </div>
+
+      <CharacterPortraitDropZone onSelect={setPortraitFile} />
+
       <div className="flex justify-end">
         <button type="submit" className="bg-blue-600 text-white px-4 py-1">
           Применить

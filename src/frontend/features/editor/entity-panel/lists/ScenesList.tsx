@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
-import { RootState } from "@/src/frontend/store/editor";
-import { setActiveItem } from "@/src/frontend/store/editor/slice";
+import { RootState } from "@/src/frontend/store";
+import { editorActions } from "@/src/frontend/store/editor";
 
 export function ScenesList() {
    const scenes = useSelector(
@@ -9,7 +9,7 @@ export function ScenesList() {
 
   const dispatch = useDispatch();
   const selectScene = (fid: string) => dispatch(
-    setActiveItem({
+    editorActions.setActiveItem({
       itemType: "scenes",
       fid
     })
