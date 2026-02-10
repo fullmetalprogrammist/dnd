@@ -1,15 +1,16 @@
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import { RootState } from "@/src/frontend/store";
-import { editorActions } from "@/src/frontend/store/editor";
+import { editorThunks } from "@/src/frontend/store/editor";
+import { useAppDispatch } from "@/src/frontend/store";
 
 export function ScenesList() {
    const scenes = useSelector(
     (state: RootState) => state.editor.data?.scenes
   );
 
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
   const selectScene = (fid: string) => dispatch(
-    editorActions.setActiveItem({
+    editorThunks.changeActiveItem({
       itemType: "scenes",
       fid
     })

@@ -1,6 +1,6 @@
 import { EditorState } from "@/src/frontend/store/editor/types/EditorState"
 import { PayloadAction } from "@reduxjs/toolkit";
-import { InsertPosition, insertToPosition } from "../helpers/insertByPosition";
+import { InsertPosition, insertToPosition } from "../../helpers/insertByPosition";
 import { createNewLine } from "./helpers/createNewLine";
 
 export function addLine(

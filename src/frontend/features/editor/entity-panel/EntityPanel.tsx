@@ -1,7 +1,6 @@
 import { EntityTypes, ENTITIES } from "./types/EntityTypes";
 import { EntityTypeSwitcher } from "./EntityTypeSwitcher";
 import { AddEntityButton } from "./AddEntityButton";
-import { DropZone } from "@/src/frontend/common/ui/drop-zone/DropZone";
 import { LinesList } from "./lists/LinesList";
 import { CharactersList } from "./lists/CharactersList";
 import { ScenesList } from "./lists/ScenesList";
@@ -28,17 +27,6 @@ export function EntityPanel({ mode, setMode }: SourcePanelProps) {
 
   const dispatch = useDispatch();
 
-  // const importLinesFromFile = async (file: File) => {
-  //   const text = await file.text();
-  //   dispatch(
-  //     editorActions.importLines(text
-  //       .split("\n")
-  //       .map(t => t.trim())
-  //       .filter(Boolean)
-  //     )
-  //   );
-  // }
-
   const addEntity = (() => {
     switch (mode) {
       case "lines":
@@ -62,7 +50,6 @@ export function EntityPanel({ mode, setMode }: SourcePanelProps) {
       <AddEntityButton addEntity={() => addEntity("start")} />
       <div className="flex-1 overflow-auto">
         { showDropZone 
-          // ? <DropZone action={importLinesFromFile} accept=".txt" text="Выберите или перетащите txt-файл с репликами сюда" /> 
           ? <LinesImportDropZone />
           : <div className="flex flex-col gap-1 p-1">
               {mode === "lines" && <LinesList /> }

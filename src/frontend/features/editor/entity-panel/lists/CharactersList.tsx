@@ -1,15 +1,16 @@
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import { RootState } from "@/src/frontend/store";
-import { editorActions } from "@/src/frontend/store/editor";
+import { editorThunks } from "@/src/frontend/store/editor";
+import { useAppDispatch } from "@/src/frontend/store";
 
 export function CharactersList() {
   const characters = useSelector(
     (state: RootState) => state.editor.data?.characters
   );
 
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
   const selectCharacter = (fid: string) => dispatch(
-    editorActions.setActiveItem({ 
+    editorThunks.changeActiveItem({ 
       itemType: "characters", 
       fid 
     })

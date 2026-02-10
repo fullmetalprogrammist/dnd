@@ -1,4 +1,4 @@
-import { EditorState } from "../../types/EditorState";
+import { EditorState } from "../../../types/EditorState";
 import { PayloadAction } from "@reduxjs/toolkit";
 
 export type UpdateCharacterPayload = {

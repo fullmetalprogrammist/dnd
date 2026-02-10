@@ -1,15 +1,16 @@
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import { RootState } from "@/src/frontend/store";
-import { editorActions } from "@/src/frontend/store/editor";
+import { editorThunks } from "@/src/frontend/store/editor";
+import { useAppDispatch } from "@/src/frontend/store";
 
 export function LinesList() {
   const lines = useSelector(
     (state: RootState) => state.editor.data?.lines
   );
 
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
   const selectLine = (fid: string) => dispatch(
-    editorActions.setActiveItem({
+    editorThunks.changeActiveItem({
       itemType: "lines",
       fid
     })

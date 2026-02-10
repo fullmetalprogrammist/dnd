@@ -1,5 +1,6 @@
 export { addCharacter } from "./character/addCharacter";
 export { updateCharacter } from "./character/updateCharacter";
+export { deleteCharacter } from "./character/deleteCharacter";
 
 export { importLines } from "./line/importLines";
 export { addLine } from "./line/addLine";

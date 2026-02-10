@@ -1,7 +1,7 @@
-import { EditorState } from "../../types/EditorState";
+import { EditorState } from "@/src/frontend/store/editor/types/EditorState";
 import { PayloadAction } from "@reduxjs/toolkit";
-import { insertToPosition } from "../helpers/insertByPosition";
-import { InsertPosition } from "../helpers/InsertPosition";
+import { insertToPosition } from "@/src/frontend/store/editor/reducers/helpers/insertByPosition";
+import { InsertPosition } from "@/src/frontend/store/editor/reducers/helpers/insertByPosition";
 
 export function addScene(
   state: EditorState, 
